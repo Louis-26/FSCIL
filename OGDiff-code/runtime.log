@@ -1,0 +1,4743 @@
+eval time21.641037225723267
+epoch runtime:22.962916612625122
+
+
+set state 0.009273767471313477
+generate condition vector runtime0.011487483978271484
+train diffusion runtime:0.08314633369445801
+generate condition vector runtime0.01775527000427246
+train diffusion runtime:0.09095621109008789
+generate condition vector runtime0.042093515396118164
+train diffusion runtime:0.2112562656402588
+epoch runtime:1.1430628299713135
+
+
+set state 0.008658409118652344
+generate condition vector runtime0.022504091262817383
+train diffusion runtime:0.17058753967285156
+generate condition vector runtime0.018007993698120117
+train diffusion runtime:0.10199570655822754
+generate condition vector runtime0.022804975509643555
+train diffusion runtime:0.1362924575805664
+epoch runtime:1.1399548053741455
+
+
+set state 0.005659341812133789
+generate condition vector runtime0.02040863037109375
+train diffusion runtime:0.09832000732421875
+generate condition vector runtime0.020963191986083984
+train diffusion runtime:0.1860339641571045
+generate condition vector runtime0.02154707908630371
+train diffusion runtime:0.2512176036834717
+before eval 1.1333892345428467
+eval time19.91819667816162
+epoch runtime:21.053096532821655
+
+
+set state 0.014732837677001953
+generate condition vector runtime0.03858184814453125
+train diffusion runtime:0.2533881664276123
+generate condition vector runtime0.0375216007232666
+train diffusion runtime:0.26287341117858887
+generate condition vector runtime0.023627758026123047
+train diffusion runtime:0.2386646270751953
+epoch runtime:1.6061081886291504
+
+
+set state 0.008240461349487305
+generate condition vector runtime0.029551982879638672
+train diffusion runtime:0.222747802734375
+generate condition vector runtime0.009874820709228516
+train diffusion runtime:0.07700204849243164
+generate condition vector runtime0.02190423011779785
+train diffusion runtime:0.17555737495422363
+epoch runtime:1.123913288116455
+
+
+set state 0.008916616439819336
+generate condition vector runtime0.018591642379760742
+train diffusion runtime:0.258195161819458
+generate condition vector runtime0.01912689208984375
+train diffusion runtime:0.19702458381652832
+generate condition vector runtime0.02074575424194336
+train diffusion runtime:0.17379117012023926
+before eval 1.294663429260254
+eval time20.299504280090332
+epoch runtime:21.59531569480896
+
+
+set state 0.008066654205322266
+generate condition vector runtime0.03383970260620117
+train diffusion runtime:0.1989727020263672
+generate condition vector runtime0.05834507942199707
+train diffusion runtime:0.221449613571167
+generate condition vector runtime0.04336977005004883
+train diffusion runtime:0.2313065528869629
+epoch runtime:1.4478399753570557
+
+
+set state 0.009180068969726562
+generate condition vector runtime0.02762889862060547
+train diffusion runtime:0.18832802772521973
+generate condition vector runtime0.036243438720703125
+train diffusion runtime:0.25698137283325195
+generate condition vector runtime0.02794671058654785
+train diffusion runtime:0.22084975242614746
+epoch runtime:1.526728868484497
+
+
+set state 0.007981538772583008
+generate condition vector runtime0.02030181884765625
+train diffusion runtime:0.1807560920715332
+generate condition vector runtime0.025490522384643555
+train diffusion runtime:0.19362711906433105
+generate condition vector runtime0.033934831619262695
+train diffusion runtime:0.1628861427307129
+before eval 1.3335509300231934
+eval time22.09845471382141
+epoch runtime:23.43692421913147
+
+
+set state 0.009482622146606445
+generate condition vector runtime0.04729795455932617
+train diffusion runtime:0.29379868507385254
+generate condition vector runtime0.03377652168273926
+train diffusion runtime:0.20962905883789062
+generate condition vector runtime0.02308487892150879
+train diffusion runtime:0.22257280349731445
+epoch runtime:1.5676777362823486
+
+
+set state 0.0045049190521240234
+generate condition vector runtime0.023967981338500977
+train diffusion runtime:0.21913623809814453
+generate condition vector runtime0.03983664512634277
+train diffusion runtime:0.1781175136566162
+generate condition vector runtime0.039011478424072266
+train diffusion runtime:0.16794419288635254
+epoch runtime:1.3890719413757324
+
+
+set state 0.006701469421386719
+generate condition vector runtime0.024028301239013672
+train diffusion runtime:0.19330215454101562
+generate condition vector runtime0.02461695671081543
+train diffusion runtime:0.19798064231872559
+generate condition vector runtime0.03837847709655762
+train diffusion runtime:0.23125839233398438
+before eval 1.3267529010772705
+eval time20.60439705848694
+epoch runtime:21.931835651397705
+
+
+set state 0.013189077377319336
+generate condition vector runtime0.028902769088745117
+train diffusion runtime:0.21622347831726074
+generate condition vector runtime0.03657841682434082
+train diffusion runtime:0.19390869140625
+generate condition vector runtime0.03430604934692383
+train diffusion runtime:0.2503945827484131
+epoch runtime:2.220855712890625
+
+
+set state 0.011502504348754883
+generate condition vector runtime0.0339202880859375
+train diffusion runtime:0.22654938697814941
+generate condition vector runtime0.01713418960571289
+train diffusion runtime:0.12526297569274902
+generate condition vector runtime0.029526948928833008
+train diffusion runtime:0.17928767204284668
+epoch runtime:1.361297845840454
+
+
+set state 0.009414434432983398
+generate condition vector runtime0.04023265838623047
+train diffusion runtime:0.1883258819580078
+generate condition vector runtime0.03249979019165039
+train diffusion runtime:0.17141509056091309
+generate condition vector runtime0.030464649200439453
+train diffusion runtime:0.21288847923278809
+before eval 1.4296813011169434
+eval time21.04511284828186
+epoch runtime:22.47921109199524
+
+
+set state 0.01279902458190918
+generate condition vector runtime0.018641948699951172
+train diffusion runtime:0.13013458251953125
+generate condition vector runtime0.04453086853027344
+train diffusion runtime:0.240675687789917
+generate condition vector runtime0.04107666015625
+train diffusion runtime:0.26285386085510254
+epoch runtime:1.508439302444458
+
+
+set state 0.007241487503051758
+generate condition vector runtime0.011219024658203125
+train diffusion runtime:0.0966036319732666
+generate condition vector runtime0.011595964431762695
+train diffusion runtime:0.16373991966247559
+generate condition vector runtime0.011902332305908203
+train diffusion runtime:0.1024327278137207
+epoch runtime:0.9974191188812256
+
+
+set state 0.004977703094482422
+generate condition vector runtime0.01708388328552246
+train diffusion runtime:0.18708515167236328
+generate condition vector runtime0.02205491065979004
+train diffusion runtime:0.16901230812072754
+generate condition vector runtime0.02885150909423828
+train diffusion runtime:0.27305054664611816
+before eval 3.2286839485168457
+eval time19.69447088241577
+epoch runtime:22.931145668029785
+
+
+set state 0.016636371612548828
+generate condition vector runtime0.019041061401367188
+train diffusion runtime:0.24441790580749512
+generate condition vector runtime0.024320363998413086
+train diffusion runtime:0.20815777778625488
+generate condition vector runtime0.022232770919799805
+train diffusion runtime:0.17982888221740723
+epoch runtime:2.102149724960327
+
+
+set state 0.008165836334228516
+generate condition vector runtime0.04454946517944336
+train diffusion runtime:0.21572208404541016
+generate condition vector runtime0.010173797607421875
+train diffusion runtime:0.1894698143005371
+generate condition vector runtime0.026906490325927734
+train diffusion runtime:0.1853787899017334
+epoch runtime:2.894620180130005
+
+
+set state 0.009517908096313477
+generate condition vector runtime0.027009963989257812
+train diffusion runtime:0.15219545364379883
+generate condition vector runtime0.034989356994628906
+train diffusion runtime:0.1637554168701172
+generate condition vector runtime0.010345697402954102
+train diffusion runtime:0.22741079330444336
+before eval 1.3156728744506836
+eval time20.29503345489502
+epoch runtime:21.611484050750732
+
+
+set state 0.0050852298736572266
+generate condition vector runtime0.041022300720214844
+train diffusion runtime:0.29246068000793457
+generate condition vector runtime0.019391536712646484
+train diffusion runtime:0.10135078430175781
+generate condition vector runtime0.03034687042236328
+train diffusion runtime:0.18619847297668457
+epoch runtime:1.4918632507324219
+
+
+set state 0.008253335952758789
+generate condition vector runtime0.02324700355529785
+train diffusion runtime:0.21084380149841309
+generate condition vector runtime0.030108213424682617
+train diffusion runtime:0.17160916328430176
+generate condition vector runtime0.02652430534362793
+train diffusion runtime:0.10209345817565918
+epoch runtime:1.1665349006652832
+
+
+set state 0.004198789596557617
+generate condition vector runtime0.017624616622924805
+train diffusion runtime:0.15680527687072754
+generate condition vector runtime0.016306161880493164
+train diffusion runtime:0.10387992858886719
+generate condition vector runtime0.022103548049926758
+train diffusion runtime:0.10073733329772949
+before eval 1.0687370300292969
+eval time21.490308046340942
+epoch runtime:22.56662917137146
+
+
+set state 0.0070188045501708984
+generate condition vector runtime0.04246711730957031
+train diffusion runtime:0.21999835968017578
+generate condition vector runtime0.019419193267822266
+train diffusion runtime:0.16121387481689453
+generate condition vector runtime0.0277249813079834
+train diffusion runtime:0.18911147117614746
+epoch runtime:1.3681094646453857
+
+
+set state 0.004240274429321289
+generate condition vector runtime0.07774806022644043
+train diffusion runtime:0.17157530784606934
+generate condition vector runtime0.03297853469848633
+train diffusion runtime:0.20164227485656738
+generate condition vector runtime0.03133988380432129
+train diffusion runtime:0.17506623268127441
+epoch runtime:1.8819172382354736
+
+
+set state 0.006623983383178711
+generate condition vector runtime0.03668475151062012
+train diffusion runtime:0.20107030868530273
+generate condition vector runtime0.023971080780029297
+train diffusion runtime:0.18290495872497559
+generate condition vector runtime0.028907060623168945
+train diffusion runtime:0.09829139709472656
+before eval 1.1609652042388916
+eval time21.252756595611572
+epoch runtime:22.414368629455566
+
+
+set state 0.01354217529296875
+generate condition vector runtime0.0374453067779541
+train diffusion runtime:0.29259562492370605
+generate condition vector runtime0.035495758056640625
+train diffusion runtime:0.2011582851409912
+generate condition vector runtime0.029659748077392578
+train diffusion runtime:0.24210262298583984
+epoch runtime:2.2589330673217773
+
+
+set state 0.011915445327758789
+generate condition vector runtime0.05302023887634277
+train diffusion runtime:0.29344773292541504
+generate condition vector runtime0.03905940055847168
+train diffusion runtime:0.20376348495483398
+generate condition vector runtime0.038344621658325195
+train diffusion runtime:0.22619080543518066
+epoch runtime:2.3972811698913574
+
+
+set state 0.007407188415527344
+generate condition vector runtime0.07838702201843262
+train diffusion runtime:0.2543678283691406
+generate condition vector runtime0.04124116897583008
+train diffusion runtime:0.24763798713684082
+generate condition vector runtime0.029949426651000977
+train diffusion runtime:0.1970047950744629
+before eval 2.898772954940796
+eval time20.14895272254944
+epoch runtime:23.051152229309082
+
+
+set state 0.010439872741699219
+generate condition vector runtime0.058393001556396484
+train diffusion runtime:0.34050631523132324
+generate condition vector runtime0.05020332336425781
+train diffusion runtime:0.24948787689208984
+generate condition vector runtime0.026278018951416016
+train diffusion runtime:0.21453285217285156
+epoch runtime:2.416546106338501
+
+
+set state 0.01370382308959961
+generate condition vector runtime0.05579423904418945
+train diffusion runtime:0.342771053314209
+generate condition vector runtime0.025112628936767578
+train diffusion runtime:0.260561466217041
+generate condition vector runtime0.018861055374145508
+train diffusion runtime:0.26366543769836426
+epoch runtime:1.718008041381836
+
+
+set state 0.011900186538696289
+generate condition vector runtime0.02439594268798828
+train diffusion runtime:0.20209407806396484
+generate condition vector runtime0.0451509952545166
+train diffusion runtime:0.25695347785949707
+generate condition vector runtime0.009076356887817383
+train diffusion runtime:0.0836937427520752
+before eval 1.2353053092956543
+cuda
+9
+set state 0.005926847457885742
+generate condition vector runtime1.2815845012664795
+train diffusion runtime:1.7251319885253906
+generate condition vector runtime0.034288883209228516
+train diffusion runtime:0.1951158046722412
+generate condition vector runtime0.028458356857299805
+train diffusion runtime:0.17155146598815918
+epoch runtime:4.298579216003418
+
+
+set state 0.0024499893188476562
+generate condition vector runtime0.01694631576538086
+train diffusion runtime:0.1412339210510254
+generate condition vector runtime0.01819634437561035
+train diffusion runtime:0.20271706581115723
+generate condition vector runtime0.021412134170532227
+train diffusion runtime:0.1755373477935791
+epoch runtime:1.2144384384155273
+
+
+set state 0.007299661636352539
+generate condition vector runtime0.022410869598388672
+train diffusion runtime:0.14375615119934082
+generate condition vector runtime0.02210235595703125
+train diffusion runtime:0.17827963829040527
+generate condition vector runtime0.03910660743713379
+train diffusion runtime:0.17932820320129395
+before eval 1.2325429916381836
+generate weight runtime 2.276343822479248
+val runtime 15.488275527954102
+test runtime 3.337860107421875e-06
+eval time17.765161991119385
+epoch runtime:19.0014865398407
+
+
+set state 0.003077268600463867
+cuda
+9
+set state 0.01634693145751953
+generate condition vector runtime1.7987730503082275
+train diffusion runtime:2.199455976486206
+generate condition vector runtime0.04703927040100098
+train diffusion runtime:0.1946887969970703
+generate condition vector runtime0.03465008735656738
+train diffusion runtime:0.286545991897583
+epoch runtime:5.464680194854736
+
+
+set state 0.011075735092163086
+generate condition vector runtime0.0330197811126709
+train diffusion runtime:0.2602400779724121
+generate condition vector runtime0.03463625907897949
+train diffusion runtime:0.23636293411254883
+generate condition vector runtime0.04600095748901367
+train diffusion runtime:0.22960472106933594
+epoch runtime:1.5449278354644775
+
+
+set state 0.005774259567260742
+generate condition vector runtime0.010740518569946289
+train diffusion runtime:0.1992945671081543
+generate condition vector runtime0.028460979461669922
+train diffusion runtime:0.2528567314147949
+generate condition vector runtime0.035472869873046875
+train diffusion runtime:0.2540130615234375
+before eval 1.4670002460479736
+eval time26.74502944946289
+epoch runtime:28.215529441833496
+
+
+set state 0.010788679122924805
+generate condition vector runtime0.038397789001464844
+train diffusion runtime:0.28967714309692383
+generate condition vector runtime0.03599286079406738
+train diffusion runtime:0.2420966625213623
+generate condition vector runtime0.037222862243652344
+train diffusion runtime:0.2285006046295166
+epoch runtime:1.6258234977722168
+
+
+set state 0.008116006851196289
+generate condition vector runtime0.02471137046813965
+train diffusion runtime:0.23960161209106445
+generate condition vector runtime0.02277064323425293
+train diffusion runtime:0.1872718334197998
+generate condition vector runtime0.02195286750793457
+train diffusion runtime:0.20247721672058105
+epoch runtime:1.4063031673431396
+
+
+set state 0.005128145217895508
+generate condition vector runtime0.04458260536193848
+train diffusion runtime:0.28119659423828125
+generate condition vector runtime0.034216880798339844
+train diffusion runtime:0.259552001953125
+generate condition vector runtime0.02202582359313965
+train diffusion runtime:0.16148829460144043
+before eval 1.5543649196624756
+eval time23.673249006271362
+epoch runtime:25.228342056274414
+
+
+set state 0.02293848991394043
+generate condition vector runtime0.04845690727233887
+train diffusion runtime:0.33780884742736816
+generate condition vector runtime0.03900885581970215
+train diffusion runtime:0.30558323860168457
+generate condition vector runtime0.031212806701660156
+train diffusion runtime:0.20719003677368164
+epoch runtime:1.7197339534759521
+
+
+set state 0.006305217742919922
+generate condition vector runtime0.05008101463317871
+train diffusion runtime:0.42354321479797363
+generate condition vector runtime0.04355430603027344
+train diffusion runtime:0.22048616409301758
+generate condition vector runtime0.03331136703491211
+train diffusion runtime:0.2945864200592041
+epoch runtime:1.7554931640625
+
+
+set state 0.010977029800415039
+generate condition vector runtime0.05872344970703125
+train diffusion runtime:0.2990293502807617
+generate condition vector runtime0.03597593307495117
+train diffusion runtime:0.3450741767883301
+generate condition vector runtime0.02719736099243164
+train diffusion runtime:0.2817649841308594
+before eval 1.940889596939087
+eval time23.92773175239563
+epoch runtime:25.870215892791748
+
+
+set state 0.011124372482299805
+generate condition vector runtime0.014187812805175781
+train diffusion runtime:0.12283778190612793
+generate condition vector runtime0.04872584342956543
+train diffusion runtime:0.26038432121276855
+generate condition vector runtime0.044164180755615234
+train diffusion runtime:0.3408684730529785
+epoch runtime:1.5963737964630127
+
+
+set state 0.00964975357055664
+generate condition vector runtime0.03923940658569336
+train diffusion runtime:0.18758893013000488
+generate condition vector runtime0.05647563934326172
+train diffusion runtime:0.3056180477142334
+generate condition vector runtime0.02466273307800293
+train diffusion runtime:0.3417654037475586
+epoch runtime:1.8379511833190918
+
+
+set state 0.015593767166137695
+generate condition vector runtime0.03200507164001465
+train diffusion runtime:0.20312738418579102
+generate condition vector runtime0.038316965103149414
+train diffusion runtime:0.3077688217163086
+generate condition vector runtime0.04761672019958496
+train diffusion runtime:0.3465297222137451
+before eval 1.8211355209350586
+eval time21.27112627029419
+epoch runtime:23.09254479408264
+
+
+set state 0.017300128936767578
+generate condition vector runtime0.05637717247009277
+train diffusion runtime:0.2557027339935303
+generate condition vector runtime0.05913543701171875
+train diffusion runtime:0.39368581771850586
+generate condition vector runtime0.051635026931762695
+train diffusion runtime:0.328014612197876
+epoch runtime:2.123171329498291
+
+
+set state 0.022443532943725586
+generate condition vector runtime0.05039191246032715
+train diffusion runtime:0.31350135803222656
+generate condition vector runtime0.016051054000854492
+train diffusion runtime:0.14882802963256836
+generate condition vector runtime0.016957759857177734
+train diffusion runtime:0.17508578300476074
+epoch runtime:1.5805091857910156
+
+
+set state 0.024636507034301758
+generate condition vector runtime0.013373374938964844
+train diffusion runtime:0.1859438419342041
+generate condition vector runtime0.01950216293334961
+train diffusion runtime:0.17381906509399414
+generate condition vector runtime0.038599491119384766
+train diffusion runtime:0.32599377632141113
+before eval 1.4445066452026367
+eval time21.178839683532715
+epoch runtime:22.623693704605103
+
+
+set state 0.017258405685424805
+generate condition vector runtime0.0294339656829834
+train diffusion runtime:0.27135157585144043
+generate condition vector runtime0.018177032470703125
+train diffusion runtime:0.1959373950958252
+generate condition vector runtime0.07242846488952637
+train diffusion runtime:0.272355318069458
+epoch runtime:2.2911388874053955
+
+
+set state 0.009039878845214844
+generate condition vector runtime0.026103973388671875
+train diffusion runtime:0.20615482330322266
+generate condition vector runtime0.061649322509765625
+train diffusion runtime:0.2036113739013672
+generate condition vector runtime0.020126819610595703
+train diffusion runtime:0.15610742568969727
+epoch runtime:1.4423725605010986
+
+
+set state 0.011717796325683594
+generate condition vector runtime0.012930631637573242
+train diffusion runtime:0.11343240737915039
+generate condition vector runtime0.07429337501525879
+train diffusion runtime:0.28722667694091797
+generate condition vector runtime0.02397775650024414
+train diffusion runtime:0.1277155876159668
+before eval 1.3702812194824219
+eval time20.46210813522339
+epoch runtime:21.833035707473755
+
+
+set state 0.005503654479980469
+generate condition vector runtime0.04374289512634277
+train diffusion runtime:0.31907224655151367
+generate condition vector runtime0.03898310661315918
+train diffusion runtime:0.33305931091308594
+generate condition vector runtime0.06605911254882812
+train diffusion runtime:0.33602237701416016
+epoch runtime:1.9776904582977295
+
+
+set state 0.00800776481628418
+generate condition vector runtime0.036804914474487305
+train diffusion runtime:0.19609594345092773
+generate condition vector runtime0.028154611587524414
+train diffusion runtime:0.23505282402038574
+generate condition vector runtime0.07510852813720703
+train diffusion runtime:0.26273584365844727
+epoch runtime:1.4593055248260498
+
+
+set state 0.005450248718261719
+generate condition vector runtime0.03562021255493164
+train diffusion runtime:0.2298870086669922
+generate condition vector runtime0.03345012664794922
+train diffusion runtime:0.13227367401123047
+generate condition vector runtime0.04633283615112305
+train diffusion runtime:0.1706092357635498
+before eval 3.4505867958068848
+eval time20.18137550354004
+epoch runtime:23.635310173034668
+
+
+set state 0.012240409851074219
+generate condition vector runtime0.027195453643798828
+train diffusion runtime:0.2639436721801758
+generate condition vector runtime0.024257659912109375
+train diffusion runtime:0.2516312599182129
+generate condition vector runtime0.018214941024780273
+train diffusion runtime:0.21221280097961426
+epoch runtime:2.008488178253174
+
+
+set state 0.0047075748443603516
+generate condition vector runtime0.05048656463623047
+train diffusion runtime:0.2936277389526367
+generate condition vector runtime0.05712151527404785
+train diffusion runtime:0.25203371047973633
+generate condition vector runtime0.026118993759155273
+train diffusion runtime:0.22835850715637207
+epoch runtime:3.510901927947998
+
+
+set state 0.016524314880371094
+generate condition vector runtime0.025469303131103516
+train diffusion runtime:0.17872405052185059
+generate condition vector runtime0.026752948760986328
+train diffusion runtime:0.2095015048980713
+generate condition vector runtime0.018796682357788086
+train diffusion runtime:0.16712307929992676
+before eval 1.1706745624542236
+eval time19.108569145202637
+epoch runtime:20.283684253692627
+
+
+set state 0.011999368667602539
+generate condition vector runtime0.03979635238647461
+train diffusion runtime:0.17819547653198242
+generate condition vector runtime0.034339189529418945
+train diffusion runtime:0.1595923900604248
+generate condition vector runtime0.022950410842895508
+train diffusion runtime:0.16434574127197266
+epoch runtime:1.2673349380493164
+
+
+set state 0.005869865417480469
+generate condition vector runtime0.01805877685546875
+train diffusion runtime:0.10937023162841797
+generate condition vector runtime0.012294530868530273
+train diffusion runtime:0.09531760215759277
+generate condition vector runtime0.020453691482543945
+train diffusion runtime:0.16555070877075195
+epoch runtime:0.9993298053741455
+
+
+set state 0.004535675048828125
+generate condition vector runtime0.0213162899017334
+train diffusion runtime:0.15900325775146484
+generate condition vector runtime0.01393437385559082
+train diffusion runtime:0.15317201614379883
+generate condition vector runtime0.009245634078979492
+train diffusion runtime:0.09109902381896973
+before eval 0.9226171970367432
+eval time20.49452233314514
+epoch runtime:21.417752742767334
+
+
+set state 0.010460615158081055
+generate condition vector runtime0.0411379337310791
+train diffusion runtime:0.3297085762023926
+generate condition vector runtime0.03956413269042969
+train diffusion runtime:0.35346174240112305
+generate condition vector runtime0.06485700607299805
+train diffusion runtime:0.26615166664123535
+epoch runtime:1.7198059558868408
+
+
+set state 0.012342453002929688
+generate condition vector runtime0.013041973114013672
+train diffusion runtime:0.24052166938781738
+generate condition vector runtime0.037525177001953125
+train diffusion runtime:0.2538158893585205
+generate condition vector runtime0.014713525772094727
+train diffusion runtime:0.11214160919189453
+epoch runtime:2.450930118560791
+
+
+set state 0.004708766937255859
+generate condition vector runtime0.029451370239257812
+train diffusion runtime:0.17736291885375977
+generate condition vector runtime0.028346776962280273
+train diffusion runtime:0.23015904426574707
+generate condition vector runtime0.024069786071777344
+train diffusion runtime:0.24055767059326172
+before eval 1.3816125392913818
+eval time21.00150752067566
+epoch runtime:22.3835289478302
+
+
+set state 0.010609149932861328
+generate condition vector runtime0.04068112373352051
+train diffusion runtime:0.37189388275146484
+generate condition vector runtime0.08792614936828613
+train diffusion runtime:0.23204827308654785
+generate condition vector runtime0.055173635482788086
+train diffusion runtime:0.360443115234375
+epoch runtime:2.654076337814331
+
+
+set state 0.016477108001708984
+generate condition vector runtime0.03711962699890137
+train diffusion runtime:0.1959996223449707
+generate condition vector runtime0.02638077735900879
+train diffusion runtime:0.26815009117126465
+generate condition vector runtime0.02386760711669922
+train diffusion runtime:0.2602818012237549
+epoch runtime:2.535738945007324
+
+
+set state 0.023468017578125
+generate condition vector runtime0.046587228775024414
+train diffusion runtime:0.28635406494140625
+generate condition vector runtime0.04017138481140137
+train diffusion runtime:0.2508118152618408
+generate condition vector runtime0.017310142517089844
+train diffusion runtime:0.21585774421691895
+before eval 3.1495893001556396
+eval time22.120232343673706
+epoch runtime:25.270179986953735
+
+
+set state 0.01446390151977539
+generate condition vector runtime0.04886293411254883
+train diffusion runtime:0.3046746253967285
+generate condition vector runtime0.023905277252197266
+train diffusion runtime:0.11482977867126465
+generate condition vector runtime0.06912636756896973
+train diffusion runtime:0.18604230880737305
+epoch runtime:2.35781192779541
+
+
+set state 0.008438825607299805
+generate condition vector runtime0.02150249481201172
+train diffusion runtime:0.18224859237670898
+generate condition vector runtime0.02842426300048828
+train diffusion runtime:0.17489910125732422
+generate condition vector runtime0.024045228958129883
+train diffusion runtime:0.16707158088684082
+epoch runtime:1.2497892379760742
+
+
+set state 0.008412599563598633
+generate condition vector runtime0.025564193725585938
+train diffusion runtime:0.19794940948486328
+generate condition vector runtime0.022721052169799805
+train diffusion runtime:0.22079968452453613
+generate condition vector runtime0.05793595314025879
+train diffusion runtime:0.2283024787902832
+before eval 1.3711071014404297
+eval time22.0130558013916
+epoch runtime:23.38856291770935
+
+
+set state 0.0094146728515625
+generate condition vector runtime0.023645401000976562
+train diffusion runtime:0.16528797149658203
+generate condition vector runtime0.03533482551574707
+train diffusion runtime:0.24372005462646484
+generate condition vector runtime0.05212593078613281
+train diffusion runtime:0.2649223804473877
+epoch runtime:2.1767094135284424
+
+
+set state 0.01184225082397461
+generate condition vector runtime0.026944637298583984
+train diffusion runtime:0.23952126502990723
+generate condition vector runtime0.02940654754638672
+train diffusion runtime:0.24486160278320312
+generate condition vector runtime0.023462295532226562
+train diffusion runtime:0.2927894592285156
+epoch runtime:1.4509990215301514
+
+
+set state 0.0186767578125
+generate condition vector runtime0.05863142013549805
+train diffusion runtime:0.29203057289123535
+generate condition vector runtime0.032056570053100586
+train diffusion runtime:0.27864623069763184
+generate condition vector runtime0.02856922149658203
+train diffusion runtime:0.16925621032714844
+before eval 2.28755521774292
+eval time24.815971612930298
+epoch runtime:27.10395121574402
+
+
+set state 0.01788806915283203
+generate condition vector runtime0.055495262145996094
+train diffusion runtime:0.22303009033203125
+generate condition vector runtime0.03425288200378418
+train diffusion runtime:0.2501821517944336
+generate condition vector runtime0.02364969253540039
+train diffusion runtime:0.17617440223693848
+epoch runtime:1.655151605606079
+
+
+set state 0.0052149295806884766
+generate condition vector runtime0.05051612854003906
+train diffusion runtime:0.23836779594421387
+generate condition vector runtime0.02290654182434082
+train diffusion runtime:0.20453667640686035
+generate condition vector runtime0.03500008583068848
+train diffusion runtime:0.26386046409606934
+epoch runtime:3.9845142364501953
+
+
+set state 0.005013227462768555
+generate condition vector runtime0.042272090911865234
+train diffusion runtime:0.22787809371948242
+generate condition vector runtime0.023534774780273438
+train diffusion runtime:0.2837107181549072
+generate condition vector runtime0.04492950439453125
+train diffusion runtime:0.23236489295959473
+before eval 1.6132526397705078
+eval time23.71500873565674
+epoch runtime:25.32896590232849
+
+
+set state 0.012723684310913086
+generate condition vector runtime0.050217390060424805
+train diffusion runtime:0.21796464920043945
+generate condition vector runtime0.05054426193237305
+train diffusion runtime:0.23931026458740234
+generate condition vector runtime0.019176006317138672
+train diffusion runtime:0.11528539657592773
+epoch runtime:3.080113649368286
+
+
+set state 0.005219936370849609
+generate condition vector runtime0.022316694259643555
+train diffusion runtime:0.17647385597229004
+generate condition vector runtime0.04685711860656738
+train diffusion runtime:0.2849771976470947
+generate condition vector runtime0.028068065643310547
+train diffusion runtime:0.16902971267700195
+epoch runtime:2.0045723915100098
+
+
+set state 0.007793903350830078
+generate condition vector runtime0.07357931137084961
+train diffusion runtime:0.18673944473266602
+generate condition vector runtime0.05075502395629883
+train diffusion runtime:0.2092456817626953
+generate condition vector runtime0.0383303165435791
+train diffusion runtime:0.22069334983825684
+before eval 3.9777400493621826
+cuda
+9
+set state 0.005642890930175781
+generate condition vector runtime2.082646608352661
+train diffusion runtime:1.8133885860443115
+cuda
+9
+set state 0.002527475357055664
+generate condition vector runtime1.084411859512329
+train diffusion runtime:1.4722728729248047
+generate condition vector runtime0.04710531234741211
+train diffusion runtime:0.0725862979888916
+generate condition vector runtime0.04664969444274902
+train diffusion runtime:0.14088773727416992
+epoch runtime:3.6808502674102783
+
+
+set state 0.00642085075378418
+generate condition vector runtime0.02226400375366211
+train diffusion runtime:0.17734217643737793
+generate condition vector runtime0.029185056686401367
+train diffusion runtime:0.17942523956298828
+generate condition vector runtime0.009784221649169922
+train diffusion runtime:0.1119086742401123
+epoch runtime:1.1829161643981934
+
+
+set state 0.0024902820587158203
+generate condition vector runtime0.026870012283325195
+train diffusion runtime:0.14726734161376953
+generate condition vector runtime0.0249941349029541
+train diffusion runtime:0.18472647666931152
+generate condition vector runtime0.0207974910736084
+train diffusion runtime:0.16369104385375977
+before eval 1.2029180526733398
+eval time15.593874216079712
+epoch runtime:16.79694628715515
+
+
+set state 0.013011932373046875
+generate condition vector runtime0.017475128173828125
+train diffusion runtime:0.14830660820007324
+generate condition vector runtime0.02078390121459961
+train diffusion runtime:0.10689473152160645
+generate condition vector runtime0.024826526641845703
+train diffusion runtime:0.19125890731811523
+epoch runtime:1.2240965366363525
+
+
+set state 0.0024039745330810547
+generate condition vector runtime0.01225900650024414
+train diffusion runtime:0.13154339790344238
+generate condition vector runtime0.0243990421295166
+train diffusion runtime:0.10254526138305664
+generate condition vector runtime0.033361196517944336
+train diffusion runtime:0.16083717346191406
+epoch runtime:1.1100409030914307
+
+
+set state 0.009706497192382812
+generate condition vector runtime0.010187864303588867
+train diffusion runtime:0.11808586120605469
+generate condition vector runtime0.019892215728759766
+train diffusion runtime:0.12727022171020508
+generate condition vector runtime0.017194509506225586
+train diffusion runtime:0.19217252731323242
+before eval 1.1321415901184082
+eval time16.01695489883423
+epoch runtime:17.1493980884552
+
+
+set state 0.007920265197753906
+generate condition vector runtime0.019562721252441406
+train diffusion runtime:0.11626863479614258
+generate condition vector runtime0.019917011260986328
+train diffusion runtime:0.11256551742553711
+generate condition vector runtime0.015738725662231445
+train diffusion runtime:0.10708737373352051
+epoch runtime:1.078552484512329
+
+
+set state 0.002340078353881836
+generate condition vector runtime0.014390230178833008
+train diffusion runtime:0.05658292770385742
+generate condition vector runtime0.0208590030670166
+train diffusion runtime:0.14192605018615723
+generate condition vector runtime0.021436214447021484
+train diffusion runtime:0.13304758071899414
+epoch runtime:0.9979696273803711
+
+
+set state 0.009448766708374023
+generate condition vector runtime0.014863967895507812
+train diffusion runtime:0.11617279052734375
+generate condition vector runtime0.019070148468017578
+train diffusion runtime:0.048989295959472656
+generate condition vector runtime0.02234363555908203
+train diffusion runtime:0.08833718299865723
+before eval 0.9749960899353027
+eval time16.301002025604248
+epoch runtime:17.27943181991577
+
+
+set state 0.003021240234375
+generate condition vector runtime0.023136615753173828
+train diffusion runtime:0.1070559024810791
+generate condition vector runtime0.014475584030151367
+train diffusion runtime:0.11165714263916016
+generate condition vector runtime0.026450395584106445
+train diffusion runtime:0.09347081184387207
+epoch runtime:1.0761957168579102
+
+
+set state 0.010380744934082031
+generate condition vector runtime0.04663205146789551
+train diffusion runtime:0.2166128158569336
+generate condition vector runtime0.022533655166625977
+train diffusion runtime:0.11141300201416016
+generate condition vector runtime0.02156662940979004
+train diffusion runtime:0.1496903896331787
+epoch runtime:1.2379584312438965
+
+
+set state 0.006142377853393555
+generate condition vector runtime0.01986384391784668
+train diffusion runtime:0.09804821014404297
+generate condition vector runtime0.028475284576416016
+train diffusion runtime:0.1221461296081543
+generate condition vector runtime0.02170538902282715
+train diffusion runtime:0.1346595287322998
+before eval 1.1477699279785156
+eval time15.105928659439087
+epoch runtime:16.253894805908203
+
+
+set state 0.004487276077270508
+generate condition vector runtime0.010510444641113281
+train diffusion runtime:0.13671088218688965
+generate condition vector runtime0.01608419418334961
+train diffusion runtime:0.138777494430542
+generate condition vector runtime0.016202926635742188
+train diffusion runtime:0.13511013984680176
+epoch runtime:1.1446988582611084
+
+
+set state 0.005450248718261719
+generate condition vector runtime0.0593571662902832
+train diffusion runtime:0.11655497550964355
+generate condition vector runtime0.02429938316345215
+train diffusion runtime:0.16634368896484375
+generate condition vector runtime0.04150390625
+train diffusion runtime:0.14596176147460938
+epoch runtime:1.1667473316192627
+
+
+set state 0.002701997756958008
+generate condition vector runtime0.02808690071105957
+train diffusion runtime:0.11045956611633301
+generate condition vector runtime0.021735429763793945
+train diffusion runtime:0.11711978912353516
+generate condition vector runtime0.016947269439697266
+train diffusion runtime:0.17041707038879395
+before eval 1.0306346416473389
+eval time14.756258249282837
+epoch runtime:15.790423393249512
+
+
+set state 0.003013134002685547
+generate condition vector runtime0.02314448356628418
+train diffusion runtime:0.07308149337768555
+generate condition vector runtime0.03226423263549805
+train diffusion runtime:0.14510035514831543
+generate condition vector runtime0.025163888931274414
+train diffusion runtime:0.10873889923095703
+epoch runtime:1.5197649002075195
+
+
+set state 0.0024662017822265625
+generate condition vector runtime0.013833284378051758
+train diffusion runtime:0.0742955207824707
+generate condition vector runtime0.008156538009643555
+train diffusion runtime:0.13132643699645996
+generate condition vector runtime0.020867347717285156
+train diffusion runtime:0.13541173934936523
+epoch runtime:0.8793506622314453
+
+
+set state 0.006438732147216797
+generate condition vector runtime0.014096498489379883
+train diffusion runtime:0.13875222206115723
+generate condition vector runtime0.014252662658691406
+train diffusion runtime:0.14373445510864258
+generate condition vector runtime0.012999534606933594
+train diffusion runtime:0.05747580528259277
+before eval 0.9440662860870361
+eval time15.455524921417236
+epoch runtime:16.399864673614502
+
+
+set state 0.01017141342163086
+generate condition vector runtime0.02726125717163086
+train diffusion runtime:0.15570664405822754
+generate condition vector runtime0.02085590362548828
+train diffusion runtime:0.1460404396057129
+generate condition vector runtime0.021311521530151367
+train diffusion runtime:0.1077427864074707
+epoch runtime:1.1586644649505615
+
+
+set state 0.006478548049926758
+generate condition vector runtime0.022962093353271484
+train diffusion runtime:0.10895466804504395
+generate condition vector runtime0.022510290145874023
+train diffusion runtime:0.13782644271850586
+generate condition vector runtime0.02087569236755371
+train diffusion runtime:0.1650562286376953
+epoch runtime:1.051619529724121
+
+
+set state 0.0024514198303222656
+generate condition vector runtime0.022188901901245117
+train diffusion runtime:0.16171646118164062
+generate condition vector runtime0.02931046485900879
+train diffusion runtime:0.13566017150878906
+generate condition vector runtime0.017765283584594727
+train diffusion runtime:0.15759062767028809
+before eval 2.855910062789917
+cuda
+9
+set state 0.008315086364746094
+generate condition vector runtime0.9587266445159912
+train diffusion runtime:2.2582855224609375
+generate condition vector runtime0.05407285690307617
+train diffusion runtime:0.2656121253967285
+generate condition vector runtime0.07505273818969727
+train diffusion runtime:0.246002197265625
+epoch runtime:6.0053040981292725
+
+
+set state 0.0071294307708740234
+generate condition vector runtime0.09752321243286133
+train diffusion runtime:0.4173014163970947
+generate condition vector runtime0.1058349609375
+train diffusion runtime:0.2685666084289551
+generate condition vector runtime0.09617328643798828
+train diffusion runtime:0.22118020057678223
+epoch runtime:3.4545540809631348
+
+
+set state 0.004513978958129883
+generate condition vector runtime0.06893515586853027
+train diffusion runtime:0.20751643180847168
+generate condition vector runtime0.07587289810180664
+train diffusion runtime:0.2904202938079834
+generate condition vector runtime0.04552006721496582
+train diffusion runtime:0.24962115287780762
+before eval 3.0625884532928467
+eval time23.023709535598755
+epoch runtime:26.086618661880493
+
+
+set state 0.009219884872436523
+generate condition vector runtime0.05579686164855957
+train diffusion runtime:0.24083685874938965
+generate condition vector runtime0.049004554748535156
+train diffusion runtime:0.24604082107543945
+generate condition vector runtime0.04417586326599121
+train diffusion runtime:0.277712345123291
+epoch runtime:4.280909299850464
+
+
+set state 0.010997533798217773
+generate condition vector runtime0.052542924880981445
+train diffusion runtime:0.17749547958374023
+generate condition vector runtime0.05097174644470215
+train diffusion runtime:0.2514793872833252
+generate condition vector runtime0.051313161849975586
+train diffusion runtime:0.24840760231018066
+epoch runtime:3.140004873275757
+
+
+set state 0.011464118957519531
+generate condition vector runtime0.08731484413146973
+train diffusion runtime:0.3221471309661865
+generate condition vector runtime0.03573107719421387
+train diffusion runtime:0.23976683616638184
+generate condition vector runtime0.0661766529083252
+train diffusion runtime:0.2522246837615967
+before eval 15.86170220375061
+eval time22.5435209274292
+epoch runtime:38.40552496910095
+
+
+set state 0.009190082550048828
+generate condition vector runtime0.05311298370361328
+train diffusion runtime:0.30486011505126953
+generate condition vector runtime0.052550554275512695
+train diffusion runtime:0.22741985321044922
+generate condition vector runtime0.06306791305541992
+train diffusion runtime:0.24496030807495117
+epoch runtime:4.6689066886901855
+
+
+set state 0.011698722839355469
+generate condition vector runtime0.04920530319213867
+train diffusion runtime:0.3216731548309326
+generate condition vector runtime0.049463748931884766
+train diffusion runtime:0.2356889247894287
+generate condition vector runtime0.11194944381713867
+train diffusion runtime:0.28565239906311035
+epoch runtime:6.1202392578125
+
+
+set state 0.014791727066040039
+generate condition vector runtime0.09947919845581055
+train diffusion runtime:0.3346259593963623
+generate condition vector runtime0.08173155784606934
+train diffusion runtime:0.3900291919708252
+generate condition vector runtime0.050029754638671875
+train diffusion runtime:0.29028820991516113
+before eval 9.087944507598877
+eval time24.425421953201294
+epoch runtime:33.51378560066223
+
+
+set state 0.010246992111206055
+generate condition vector runtime0.04971456527709961
+train diffusion runtime:0.34971165657043457
+generate condition vector runtime0.054483890533447266
+train diffusion runtime:0.3231186866760254
+generate condition vector runtime0.062392473220825195
+train diffusion runtime:0.38019466400146484
+epoch runtime:7.935702562332153
+
+
+set state 0.004230499267578125
+generate condition vector runtime0.04626631736755371
+train diffusion runtime:0.22615814208984375
+generate condition vector runtime0.06508493423461914
+train diffusion runtime:0.3027064800262451
+generate condition vector runtime0.03703188896179199
+train diffusion runtime:0.20971989631652832
+epoch runtime:19.51290202140808
+
+
+set state 0.007886171340942383
+generate condition vector runtime0.04707193374633789
+train diffusion runtime:0.30469465255737305
+generate condition vector runtime0.08585929870605469
+train diffusion runtime:0.3938026428222656
+generate condition vector runtime0.07473278045654297
+train diffusion runtime:0.2316300868988037
+before eval 5.401837110519409
+eval time22.548117876052856
+epoch runtime:27.950294971466064
+
+
+set state 0.011016368865966797
+generate condition vector runtime0.03431439399719238
+train diffusion runtime:0.2663397789001465
+generate condition vector runtime0.04877662658691406
+train diffusion runtime:0.2648937702178955
+generate condition vector runtime0.06380343437194824
+train diffusion runtime:0.23903822898864746
+epoch runtime:9.206430196762085
+
+
+set state 0.008107662200927734
+generate condition vector runtime0.05723762512207031
+train diffusion runtime:0.2974069118499756
+generate condition vector runtime0.0880730152130127
+train diffusion runtime:0.2479257583618164
+generate condition vector runtime0.06293249130249023
+train diffusion runtime:0.20975708961486816
+epoch runtime:3.2967944145202637
+
+
+set state 0.01482844352722168
+generate condition vector runtime0.08293604850769043
+train diffusion runtime:0.2532236576080322
+generate condition vector runtime0.03301739692687988
+train diffusion runtime:0.20171546936035156
+generate condition vector runtime0.06368207931518555
+train diffusion runtime:0.24908447265625
+before eval 6.133245468139648
+eval time22.503588438034058
+epoch runtime:28.640623092651367
+
+
+set state 0.02115774154663086
+generate condition vector runtime0.04995894432067871
+train diffusion runtime:0.16353654861450195
+cuda
+9
+set state 0.01079106330871582
+generate condition vector runtime1.6060140132904053
+train diffusion runtime:1.8583006858825684
+generate condition vector runtime0.06766271591186523
+train diffusion runtime:0.3972017765045166
+generate condition vector runtime0.05965924263000488
+train diffusion runtime:0.2550034523010254
+epoch runtime:6.856702089309692
+
+
+set state 0.01250600814819336
+generate condition vector runtime0.07626175880432129
+train diffusion runtime:0.2722609043121338
+generate condition vector runtime0.08312582969665527
+train diffusion runtime:0.3021054267883301
+generate condition vector runtime0.05773019790649414
+train diffusion runtime:0.22786426544189453
+epoch runtime:3.7320125102996826
+
+
+set state 0.008218050003051758
+generate condition vector runtime0.09441399574279785
+train diffusion runtime:0.20283722877502441
+generate condition vector runtime0.048102378845214844
+train diffusion runtime:0.28152990341186523
+generate condition vector runtime0.04530191421508789
+train diffusion runtime:0.2234334945678711
+before eval 3.2277016639709473
+eval time25.479976177215576
+epoch runtime:28.70803213119507
+
+
+set state 0.008507966995239258
+generate condition vector runtime0.058846235275268555
+train diffusion runtime:0.3971695899963379
+generate condition vector runtime0.0598454475402832
+train diffusion runtime:0.2276301383972168
+generate condition vector runtime0.11679553985595703
+train diffusion runtime:0.3980851173400879
+epoch runtime:5.371237277984619
+
+
+set state 0.010750770568847656
+generate condition vector runtime0.10438132286071777
+train diffusion runtime:0.19368624687194824
+generate condition vector runtime0.03501415252685547
+train diffusion runtime:0.29579615592956543
+generate condition vector runtime0.07082080841064453
+train diffusion runtime:0.19116783142089844
+epoch runtime:3.3611371517181396
+
+
+set state 0.010665178298950195
+generate condition vector runtime0.06874585151672363
+train diffusion runtime:0.24313735961914062
+generate condition vector runtime0.04744434356689453
+train diffusion runtime:0.20899748802185059
+generate condition vector runtime0.057672739028930664
+train diffusion runtime:0.4048166275024414
+before eval 16.621087312698364
+eval time25.991719722747803
+epoch runtime:42.6131796836853
+
+
+set state 0.005027294158935547
+generate condition vector runtime0.044721126556396484
+train diffusion runtime:0.24868464469909668
+generate condition vector runtime0.05372023582458496
+train diffusion runtime:0.2619802951812744
+generate condition vector runtime0.05809283256530762
+train diffusion runtime:0.3119957447052002
+epoch runtime:5.252922773361206
+
+
+set state 0.012079000473022461
+generate condition vector runtime0.03934621810913086
+train diffusion runtime:0.2565445899963379
+generate condition vector runtime0.05620765686035156
+train diffusion runtime:0.21268796920776367
+generate condition vector runtime0.03451037406921387
+train diffusion runtime:0.22553229331970215
+epoch runtime:6.824387073516846
+
+
+set state 0.008000850677490234
+generate condition vector runtime0.04487013816833496
+train diffusion runtime:0.23285508155822754
+generate condition vector runtime0.06818318367004395
+train diffusion runtime:0.3302931785583496
+generate condition vector runtime0.07098555564880371
+train diffusion runtime:0.32425713539123535
+before eval 8.172480344772339
+cuda
+9
+set state 0.007417917251586914
+generate condition vector runtime1.8708465099334717
+train diffusion runtime:2.188999652862549
+generate condition vector runtime0.06363773345947266
+train diffusion runtime:0.41638898849487305
+generate condition vector runtime0.07619261741638184
+train diffusion runtime:0.33306336402893066
+epoch runtime:7.431762218475342
+
+
+set state 0.01114511489868164
+generate condition vector runtime0.048027992248535156
+train diffusion runtime:0.30580711364746094
+generate condition vector runtime0.05339217185974121
+train diffusion runtime:0.30895090103149414
+generate condition vector runtime0.06434202194213867
+train diffusion runtime:0.3866543769836426
+epoch runtime:3.8732712268829346
+
+
+set state 0.011699199676513672
+generate condition vector runtime0.05953836441040039
+train diffusion runtime:0.3811016082763672
+generate condition vector runtime0.06904864311218262
+train diffusion runtime:0.3366432189941406
+generate condition vector runtime0.04437518119812012
+train diffusion runtime:0.237701416015625
+before eval 3.881060838699341
+eval time26.425999402999878
+epoch runtime:30.312980890274048
+
+
+set state 0.011719703674316406
+generate condition vector runtime0.06389474868774414
+train diffusion runtime:0.355055570602417
+generate condition vector runtime0.050078630447387695
+train diffusion runtime:0.23912954330444336
+generate condition vector runtime0.06362223625183105
+train diffusion runtime:0.309612512588501
+epoch runtime:5.479161500930786
+
+
+set state 0.011524677276611328
+generate condition vector runtime0.03331899642944336
+train diffusion runtime:0.10465812683105469
+generate condition vector runtime0.03383040428161621
+train diffusion runtime:0.10248327255249023
+generate condition vector runtime0.07773280143737793
+train diffusion runtime:0.09829568862915039
+epoch runtime:2.753544807434082
+
+
+set state 0.004082202911376953
+generate condition vector runtime0.06774616241455078
+train diffusion runtime:0.35782623291015625
+generate condition vector runtime0.05678725242614746
+train diffusion runtime:0.23984122276306152
+generate condition vector runtime0.0533602237701416
+train diffusion runtime:0.20330548286437988
+before eval 16.016850233078003
+cuda
+9
+set state 0.005901336669921875
+generate condition vector runtime1.2746877670288086
+train diffusion runtime:1.794266939163208
+generate condition vector runtime0.05395650863647461
+train diffusion runtime:0.28982114791870117
+generate condition vector runtime0.07414841651916504
+train diffusion runtime:0.290802001953125
+epoch runtime:6.383745431900024
+
+
+set state 0.014355182647705078
+generate condition vector runtime0.07352852821350098
+train diffusion runtime:0.354722261428833
+generate condition vector runtime0.05250120162963867
+train diffusion runtime:0.4030876159667969
+generate condition vector runtime0.050003767013549805
+train diffusion runtime:0.43467187881469727
+epoch runtime:3.9717957973480225
+
+
+set state 0.008153676986694336
+generate condition vector runtime0.06295466423034668
+train diffusion runtime:0.1776280403137207
+generate condition vector runtime0.050194740295410156
+train diffusion runtime:0.15237903594970703
+generate condition vector runtime0.05043387413024902
+train diffusion runtime:0.3186638355255127
+before eval 3.462415933609009
+eval time26.273777723312378
+epoch runtime:29.7364981174469
+
+
+set state 0.01932048797607422
+generate condition vector runtime0.09539508819580078
+train diffusion runtime:0.37361979484558105
+generate condition vector runtime0.060968637466430664
+train diffusion runtime:0.2519242763519287
+generate condition vector runtime0.06469416618347168
+train diffusion runtime:0.3366720676422119
+epoch runtime:5.511964559555054
+
+
+set state 0.014599800109863281
+generate condition vector runtime0.06043529510498047
+train diffusion runtime:0.2760739326477051
+generate condition vector runtime0.0724949836730957
+train diffusion runtime:0.3030991554260254
+generate condition vector runtime0.06632304191589355
+train diffusion runtime:0.23411321640014648
+epoch runtime:3.404589891433716
+
+
+set state 0.004538297653198242
+generate condition vector runtime0.05259394645690918
+train diffusion runtime:0.23402714729309082
+generate condition vector runtime0.06022500991821289
+train diffusion runtime:0.30083656311035156
+generate condition vector runtime0.07355380058288574
+train diffusion runtime:0.3990042209625244
+before eval 16.112252473831177
+eval time24.540006637573242
+epoch runtime:40.65741729736328
+
+
+set state 0.01591014862060547
+generate condition vector runtime0.046103477478027344
+train diffusion runtime:0.31119418144226074
+generate condition vector runtime0.04676318168640137
+train diffusion runtime:0.3257617950439453
+generate condition vector runtime0.08206892013549805
+train diffusion runtime:0.3308227062225342
+epoch runtime:5.4652814865112305
+
+
+set state 0.013802289962768555
+generate condition vector runtime0.03681135177612305
+train diffusion runtime:0.2561521530151367
+generate condition vector runtime0.06502819061279297
+train diffusion runtime:0.3073151111602783
+generate condition vector runtime0.05900311470031738
+train diffusion runtime:0.35222506523132324
+epoch runtime:7.658254384994507
+
+
+set state 0.012381792068481445
+generate condition vector runtime0.0513608455657959
+train diffusion runtime:0.19977164268493652
+generate condition vector runtime0.05072498321533203
+train diffusion runtime:0.20506000518798828
+generate condition vector runtime0.1073455810546875
+train diffusion runtime:0.24451756477355957
+before eval 8.088615417480469
+eval time26.03745412826538
+epoch runtime:34.12648010253906
+
+
+set state 0.010994672775268555
+generate condition vector runtime0.05445122718811035
+train diffusion runtime:0.3531937599182129
+generate condition vector runtime0.0839087963104248
+train diffusion runtime:0.27936387062072754
+cuda
+9
+set state 0.008745670318603516
+generate condition vector runtime0.9026408195495605
+train diffusion runtime:1.2834668159484863
+generate condition vector runtime0.057790517807006836
+train diffusion runtime:0.3142521381378174
+generate condition vector runtime0.04465603828430176
+train diffusion runtime:0.2350006103515625
+epoch runtime:5.183355808258057
+
+
+set state 0.014475822448730469
+generate condition vector runtime0.07019472122192383
+train diffusion runtime:0.271038293838501
+generate condition vector runtime0.12712883949279785
+train diffusion runtime:0.2397317886352539
+generate condition vector runtime0.10638618469238281
+train diffusion runtime:0.25326085090637207
+epoch runtime:3.3345017433166504
+
+
+set state 0.008530378341674805
+generate condition vector runtime0.05036211013793945
+train diffusion runtime:0.3254530429840088
+generate condition vector runtime0.044901132583618164
+train diffusion runtime:0.2916066646575928
+generate condition vector runtime0.04615139961242676
+train diffusion runtime:0.2478923797607422
+before eval 3.3169970512390137
+eval time23.00675368309021
+epoch runtime:26.32845401763916
+
+
+set state 0.009108543395996094
+generate condition vector runtime0.046143531799316406
+train diffusion runtime:0.41553330421447754
+generate condition vector runtime0.054868221282958984
+train diffusion runtime:0.28571629524230957
+generate condition vector runtime0.05336618423461914
+train diffusion runtime:0.2993888854980469
+epoch runtime:5.238153696060181
+
+
+set state 0.01265406608581543
+generate condition vector runtime0.049587249755859375
+train diffusion runtime:0.35906100273132324
+generate condition vector runtime0.0721883773803711
+train diffusion runtime:0.2213144302368164
+generate condition vector runtime0.04620242118835449
+train diffusion runtime:0.13016390800476074
+epoch runtime:3.587855815887451
+
+
+set state 0.005290985107421875
+generate condition vector runtime0.08269739151000977
+train diffusion runtime:0.2944059371948242
+cuda
+9
+set state 0.006399393081665039
+generate condition vector runtime1.5906567573547363
+train diffusion runtime:2.482640504837036
+generate condition vector runtime0.05737423896789551
+train diffusion runtime:0.32762980461120605
+generate condition vector runtime0.05269265174865723
+train diffusion runtime:0.26494646072387695
+epoch runtime:7.555216073989868
+
+
+set state 0.01118159294128418
+generate condition vector runtime0.0883340835571289
+train diffusion runtime:0.18686437606811523
+generate condition vector runtime0.05211925506591797
+train diffusion runtime:0.31693315505981445
+generate condition vector runtime0.03796887397766113
+train diffusion runtime:0.35955047607421875
+epoch runtime:3.4221763610839844
+
+
+set state 0.011199712753295898
+generate condition vector runtime0.08111858367919922
+train diffusion runtime:0.2811167240142822
+generate condition vector runtime0.057273149490356445
+train diffusion runtime:0.29533886909484863
+generate condition vector runtime0.0633082389831543
+train diffusion runtime:0.2537081241607666
+before eval 3.773528575897217
+eval time28.238014221191406
+epoch runtime:32.01196789741516
+
+
+set state 0.022645950317382812
+generate condition vector runtime0.05922961235046387
+train diffusion runtime:0.16591978073120117
+generate condition vector runtime0.06398129463195801
+train diffusion runtime:0.29178619384765625
+generate condition vector runtime0.10336756706237793
+train diffusion runtime:0.3298182487487793
+epoch runtime:4.935415744781494
+
+
+set state 0.01611948013305664
+generate condition vector runtime0.050585269927978516
+train diffusion runtime:0.30327534675598145
+generate condition vector runtime0.07561326026916504
+train diffusion runtime:0.2589848041534424
+generate condition vector runtime0.044049739837646484
+train diffusion runtime:0.18929123878479004
+epoch runtime:3.5502591133117676
+
+
+set state 0.0075531005859375
+generate condition vector runtime0.06612205505371094
+train diffusion runtime:0.296978235244751
+generate condition vector runtime0.0553889274597168
+train diffusion runtime:0.4140055179595947
+generate condition vector runtime0.0848836898803711
+train diffusion runtime:0.40033674240112305
+before eval 18.4682354927063
+eval time28.48631715774536
+epoch runtime:46.95499563217163
+
+
+set state 0.007542133331298828
+generate condition vector runtime0.04138374328613281
+train diffusion runtime:0.3219261169433594
+generate condition vector runtime0.05741429328918457
+train diffusion runtime:0.34909963607788086
+generate condition vector runtime0.0833594799041748
+train diffusion runtime:0.3499307632446289
+epoch runtime:5.6310436725616455
+
+
+set state 0.011214494705200195
+generate condition vector runtime0.07709026336669922
+train diffusion runtime:0.3367776870727539
+generate condition vector runtime0.053849220275878906
+train diffusion runtime:0.20960545539855957
+generate condition vector runtime0.06666016578674316
+train diffusion runtime:0.3372499942779541
+epoch runtime:7.826381683349609
+
+
+set state 0.017782211303710938
+generate condition vector runtime0.06055641174316406
+train diffusion runtime:0.33275532722473145
+generate condition vector runtime0.09574699401855469
+train diffusion runtime:0.42289304733276367
+generate condition vector runtime0.054160356521606445
+train diffusion runtime:0.3347666263580322
+before eval 10.363537788391113
+cuda
+9
+set state 0.008551597595214844
+generate condition vector runtime1.8422541618347168
+train diffusion runtime:2.090505838394165
+generate condition vector runtime0.0695333480834961
+train diffusion runtime:0.34267640113830566
+generate condition vector runtime0.06583619117736816
+train diffusion runtime:0.27892565727233887
+epoch runtime:7.404561758041382
+
+
+set state 0.017572402954101562
+generate condition vector runtime0.0560917854309082
+train diffusion runtime:0.26253342628479004
+generate condition vector runtime0.05304718017578125
+train diffusion runtime:0.283306360244751
+generate condition vector runtime0.0453183650970459
+train diffusion runtime:0.23560786247253418
+epoch runtime:3.8477632999420166
+
+
+set state 0.02276611328125
+generate condition vector runtime0.057698965072631836
+train diffusion runtime:0.387134313583374
+generate condition vector runtime0.06496620178222656
+train diffusion runtime:0.32114195823669434
+generate condition vector runtime0.0532841682434082
+train diffusion runtime:0.21590471267700195
+before eval 4.093141317367554
+eval time27.550539255142212
+epoch runtime:31.644123077392578
+
+
+set state 0.011094808578491211
+generate condition vector runtime0.0453951358795166
+train diffusion runtime:0.291384220123291
+generate condition vector runtime0.03712797164916992
+train diffusion runtime:0.2849545478820801
+generate condition vector runtime0.04085993766784668
+train diffusion runtime:0.2689802646636963
+epoch runtime:5.505896806716919
+
+
+set state 0.006235599517822266
+generate condition vector runtime0.03701424598693848
+train diffusion runtime:0.20435357093811035
+generate condition vector runtime0.03728318214416504
+train diffusion runtime:0.25835108757019043
+generate condition vector runtime0.05179953575134277
+train diffusion runtime:0.23628687858581543
+epoch runtime:3.415994882583618
+
+
+set state 0.00946187973022461
+generate condition vector runtime0.0845937728881836
+train diffusion runtime:0.3120574951171875
+generate condition vector runtime0.07346963882446289
+train diffusion runtime:0.3741719722747803
+generate condition vector runtime0.05673098564147949
+train diffusion runtime:0.19706010818481445
+before eval 17.703032970428467
+eval time27.33198094367981
+epoch runtime:45.03537654876709
+
+
+set state 0.00589752197265625
+generate condition vector runtime0.07801651954650879
+train diffusion runtime:0.43950724601745605
+generate condition vector runtime0.05334138870239258
+train diffusion runtime:0.19960236549377441
+generate condition vector runtime0.05410647392272949
+train diffusion runtime:0.33581042289733887
+epoch runtime:5.952689170837402
+
+
+set state 0.01861858367919922
+generate condition vector runtime0.037372589111328125
+train diffusion runtime:0.16896700859069824
+generate condition vector runtime0.053734540939331055
+train diffusion runtime:0.32634568214416504
+generate condition vector runtime0.03720998764038086
+train diffusion runtime:0.2144327163696289
+epoch runtime:7.156571626663208
+
+
+set state 0.00845646858215332
+generate condition vector runtime0.03780817985534668
+train diffusion runtime:0.2572352886199951
+generate condition vector runtime0.0701744556427002
+train diffusion runtime:0.2879321575164795
+generate condition vector runtime0.0770406723022461
+train diffusion runtime:0.41573238372802734
+before eval 9.653401136398315
+eval time25.150787115097046
+epoch runtime:34.810823917388916
+
+
+set state 0.020538806915283203
+generate condition vector runtime0.06166505813598633
+train diffusion runtime:0.2876777648925781
+generate condition vector runtime0.034708499908447266
+train diffusion runtime:0.22937989234924316
+generate condition vector runtime0.04961514472961426
+train diffusion runtime:0.31392621994018555
+epoch runtime:9.074804782867432
+
+
+set state 0.01659560203552246
+generate condition vector runtime0.06605219841003418
+train diffusion runtime:0.3160269260406494
+generate condition vector runtime0.06691932678222656
+train diffusion runtime:0.2837862968444824
+generate condition vector runtime0.045067787170410156
+train diffusion runtime:0.25034093856811523
+epoch runtime:21.404972791671753
+
+
+set state 0.0047032833099365234
+generate condition vector runtime0.05517172813415527
+train diffusion runtime:0.31707048416137695
+generate condition vector runtime0.06415939331054688
+train diffusion runtime:0.32981348037719727
+generate condition vector runtime0.05345559120178223
+train diffusion runtime:0.277925968170166
+before eval 5.48445463180542
+eval time26.591819286346436
+epoch runtime:32.080055475234985
+
+
+set state 0.010428428649902344
+generate condition vector runtime0.07189369201660156
+train diffusion runtime:0.3391549587249756
+generate condition vector runtime0.06282377243041992
+train diffusion runtime:0.32597827911376953
+generate condition vector runtime0.05592226982116699
+train diffusion runtime:0.35036778450012207
+epoch runtime:11.089556217193604
+
+
+set state 0.008625984191894531
+generate condition vector runtime0.08972501754760742
+train diffusion runtime:0.31505846977233887
+generate condition vector runtime0.06076812744140625
+train diffusion runtime:0.2806820869445801
+generate condition vector runtime0.062403202056884766
+train diffusion runtime:0.1500101089477539
+epoch runtime:3.477548360824585
+
+
+set state 0.004542112350463867
+generate condition vector runtime0.056433916091918945
+train diffusion runtime:0.3443136215209961
+generate condition vector runtime0.045639753341674805
+train diffusion runtime:0.29740071296691895
+generate condition vector runtime0.06760406494140625
+train diffusion runtime:0.23836112022399902
+before eval 6.7179176807403564
+eval time24.07566213607788
+epoch runtime:30.797813892364502
+
+
+set state 0.007718563079833984
+generate condition vector runtime0.04598689079284668
+train diffusion runtime:0.2490544319152832
+generate condition vector runtime0.0702364444732666
+train diffusion runtime:0.2969999313354492
+generate condition vector runtime0.04010629653930664
+train diffusion runtime:0.20473670959472656
+epoch runtime:16.23573112487793
+
+
+set state 0.0045893192291259766
+generate condition vector runtime0.041107177734375
+train diffusion runtime:0.2081136703491211
+generate condition vector runtime0.06317424774169922
+train diffusion runtime:0.33944034576416016
+generate condition vector runtime0.043256282806396484
+train diffusion runtime:0.21931743621826172
+epoch runtime:8.269245386123657
+
+
+set state 0.00589752197265625
+generate condition vector runtime0.037776947021484375
+train diffusion runtime:0.25028252601623535
+generate condition vector runtime0.05421733856201172
+train diffusion runtime:0.2529776096343994
+generate condition vector runtime0.06653118133544922
+train diffusion runtime:0.21184730529785156
+before eval 3.0649356842041016
+eval time20.62082529067993
+epoch runtime:23.68613314628601
+
+
+set state 0.008554697036743164
+generate condition vector runtime0.04472851753234863
+train diffusion runtime:0.11819124221801758
+generate condition vector runtime0.05238938331604004
+train diffusion runtime:0.12377452850341797
+generate condition vector runtime0.05034160614013672
+train diffusion runtime:0.2356281280517578
+epoch runtime:7.307673215866089
+
+
+set state 0.004625558853149414
+generate condition vector runtime0.046319007873535156
+train diffusion runtime:0.19135427474975586
+generate condition vector runtime0.0499119758605957
+train diffusion runtime:0.2834901809692383
+generate condition vector runtime0.0626678466796875
+train diffusion runtime:0.2907853126525879
+epoch runtime:2.7331020832061768
+
+
+set state 0.0043566226959228516
+generate condition vector runtime0.041628360748291016
+train diffusion runtime:0.23360323905944824
+generate condition vector runtime0.05686211585998535
+train diffusion runtime:0.26455163955688477
+generate condition vector runtime0.04704427719116211
+train diffusion runtime:0.27960872650146484
+before eval 17.380984783172607
+eval time22.27354121208191
+epoch runtime:39.654977560043335
+
+
+set state 0.009635686874389648
+generate condition vector runtime0.04163241386413574
+train diffusion runtime:0.2289752960205078
+generate condition vector runtime0.04623985290527344
+train diffusion runtime:0.2517971992492676
+generate condition vector runtime0.06930065155029297
+train diffusion runtime:0.27855539321899414
+epoch runtime:7.734015941619873
+
+
+set state 0.011011123657226562
+generate condition vector runtime0.03460121154785156
+train diffusion runtime:0.20014023780822754
+generate condition vector runtime0.04392886161804199
+train diffusion runtime:0.220994234085083
+generate condition vector runtime0.06938958168029785
+train diffusion runtime:0.36345362663269043
+epoch runtime:4.247597694396973
+
+
+set state 0.010720491409301758
+generate condition vector runtime0.048157691955566406
+train diffusion runtime:0.17424702644348145
+generate condition vector runtime0.034098148345947266
+train diffusion runtime:0.1511847972869873
+generate condition vector runtime0.058104753494262695
+train diffusion runtime:0.2597217559814453
+before eval 2.686838150024414
+eval time23.521649599075317
+epoch runtime:26.20877766609192
+
+
+set state 0.011725664138793945
+generate condition vector runtime0.045856475830078125
+train diffusion runtime:0.16147994995117188
+generate condition vector runtime0.05227851867675781
+train diffusion runtime:0.2684214115142822
+generate condition vector runtime0.06289434432983398
+train diffusion runtime:0.32753920555114746
+epoch runtime:14.650674104690552
+
+
+set state 0.007839441299438477
+generate condition vector runtime0.08391666412353516
+train diffusion runtime:0.4100818634033203
+generate condition vector runtime0.05863595008850098
+train diffusion runtime:0.22611379623413086
+generate condition vector runtime0.0700380802154541
+train diffusion runtime:0.2465064525604248
+epoch runtime:17.13572883605957
+
+
+set state 0.00643157958984375
+generate condition vector runtime0.06415510177612305
+train diffusion runtime:0.28397059440612793
+generate condition vector runtime0.05442619323730469
+train diffusion runtime:0.30995941162109375
+generate condition vector runtime0.035207271575927734
+train diffusion runtime:0.14698410034179688
+before eval 3.3977930545806885
+eval time26.743009328842163
+epoch runtime:30.141345262527466
+
+
+set state 0.009112358093261719
+generate condition vector runtime0.03988337516784668
+train diffusion runtime:0.11755585670471191
+generate condition vector runtime0.0570676326751709
+train diffusion runtime:0.2924942970275879
+generate condition vector runtime0.05373716354370117
+train diffusion runtime:0.2542409896850586
+epoch runtime:7.59110689163208
+
+
+set state 0.007972002029418945
+generate condition vector runtime0.09176015853881836
+train diffusion runtime:0.4547452926635742
+generate condition vector runtime0.05161118507385254
+train diffusion runtime:0.23611116409301758
+generate condition vector runtime0.05054330825805664
+train diffusion runtime:0.28922390937805176
+epoch runtime:7.295292139053345
+
+
+set state 0.00908517837524414
+generate condition vector runtime0.0444035530090332
+train diffusion runtime:0.34108853340148926
+generate condition vector runtime0.06852889060974121
+train diffusion runtime:0.34052562713623047
+generate condition vector runtime0.06110215187072754
+train diffusion runtime:0.25019025802612305
+before eval 3.6028409004211426
+eval time23.75412607192993
+epoch runtime:27.36198329925537
+
+
+set state 0.0115509033203125
+generate condition vector runtime0.06346392631530762
+train diffusion runtime:0.36571478843688965
+generate condition vector runtime0.11495757102966309
+train diffusion runtime:0.5103983879089355
+generate condition vector runtime0.07852697372436523
+train diffusion runtime:0.36951661109924316
+epoch runtime:27.539923429489136
+
+
+set state 0.01587510108947754
+generate condition vector runtime0.07045435905456543
+train diffusion runtime:0.32144856452941895
+generate condition vector runtime0.034397125244140625
+train diffusion runtime:0.1557464599609375
+generate condition vector runtime0.046518564224243164
+train diffusion runtime:0.2049403190612793
+epoch runtime:3.1941769123077393
+
+
+set state 0.011903524398803711
+generate condition vector runtime0.07467937469482422
+train diffusion runtime:0.3469250202178955
+generate condition vector runtime0.04425477981567383
+train diffusion runtime:0.27886533737182617
+generate condition vector runtime0.05393624305725098
+train diffusion runtime:0.3545494079589844
+before eval 10.609355926513672
+eval time22.11341691017151
+epoch runtime:32.7235541343689
+
+
+set state 0.012012243270874023
+generate condition vector runtime0.04616594314575195
+train diffusion runtime:0.2503085136413574
+generate condition vector runtime0.05922889709472656
+train diffusion runtime:0.27907299995422363
+generate condition vector runtime0.05871224403381348
+train diffusion runtime:0.23948955535888672
+epoch runtime:5.715959310531616
+
+
+set state 0.008157968521118164
+generate condition vector runtime0.06385111808776855
+train diffusion runtime:0.32098841667175293
+generate condition vector runtime0.03354477882385254
+train diffusion runtime:0.19916892051696777
+generate condition vector runtime0.06103825569152832
+train diffusion runtime:0.31407761573791504
+epoch runtime:2.913283348083496
+
+
+set state 0.00426483154296875
+generate condition vector runtime0.05778932571411133
+train diffusion runtime:0.2906208038330078
+generate condition vector runtime0.05172872543334961
+train diffusion runtime:0.17511820793151855
+generate condition vector runtime0.0374605655670166
+train diffusion runtime:0.42414283752441406
+before eval 23.567149877548218
+eval time29.260476112365723
+epoch runtime:52.83519458770752
+
+
+set state 0.02080368995666504
+generate condition vector runtime0.057236433029174805
+train diffusion runtime:0.2785491943359375
+generate condition vector runtime0.03871941566467285
+train diffusion runtime:0.18585443496704102
+generate condition vector runtime0.04899907112121582
+train diffusion runtime:0.23409557342529297
+epoch runtime:12.746461153030396
+
+
+set state 0.007456302642822266
+generate condition vector runtime0.06473541259765625
+train diffusion runtime:0.1651628017425537
+generate condition vector runtime0.10091352462768555
+train diffusion runtime:0.23867535591125488
+generate condition vector runtime0.0387728214263916
+train diffusion runtime:0.2747378349304199
+epoch runtime:3.37142014503479
+
+
+set state 0.007839441299438477
+generate condition vector runtime0.06411075592041016
+train diffusion runtime:0.19672083854675293
+generate condition vector runtime0.0423130989074707
+train diffusion runtime:0.1723623275756836
+generate condition vector runtime0.0463261604309082
+train diffusion runtime:0.21885371208190918
+before eval 2.7671382427215576
+eval time22.58462381362915
+epoch runtime:25.35230851173401
+
+
+set state 0.02067255973815918
+generate condition vector runtime0.050870656967163086
+train diffusion runtime:0.14866423606872559
+generate condition vector runtime0.03316807746887207
+train diffusion runtime:0.2149360179901123
+generate condition vector runtime0.0836327075958252
+train diffusion runtime:0.4884068965911865
+epoch runtime:5.134076118469238
+
+
+set state 0.013155460357666016
+generate condition vector runtime0.07224035263061523
+train diffusion runtime:0.28565263748168945
+generate condition vector runtime0.056876420974731445
+train diffusion runtime:0.231858491897583
+generate condition vector runtime0.10303235054016113
+train diffusion runtime:0.323378324508667
+epoch runtime:25.995041608810425
+
+
+set state 0.011086225509643555
+generate condition vector runtime0.04161190986633301
+train diffusion runtime:0.29114413261413574
+generate condition vector runtime0.05896902084350586
+train diffusion runtime:0.19995403289794922
+generate condition vector runtime0.04161715507507324
+train diffusion runtime:0.23493242263793945
+before eval 3.6793875694274902
+eval time24.626935720443726
+epoch runtime:28.306535243988037
+
+
+set state 0.014600992202758789
+generate condition vector runtime0.07166242599487305
+train diffusion runtime:0.2570765018463135
+generate condition vector runtime0.07309913635253906
+train diffusion runtime:0.41762256622314453
+generate condition vector runtime0.055171966552734375
+train diffusion runtime:0.311342716217041
+epoch runtime:9.212863445281982
+
+
+set state 0.008869171142578125
+generate condition vector runtime0.04867053031921387
+train diffusion runtime:0.1833336353302002
+generate condition vector runtime0.036374568939208984
+train diffusion runtime:0.2651333808898926
+generate condition vector runtime0.03595471382141113
+train diffusion runtime:0.14167451858520508
+epoch runtime:3.023355722427368
+
+
+set state 0.010610103607177734
+generate condition vector runtime0.06423521041870117
+train diffusion runtime:0.2986016273498535
+generate condition vector runtime0.044953107833862305
+train diffusion runtime:0.10158991813659668
+generate condition vector runtime0.05620551109313965
+train diffusion runtime:0.2523338794708252
+before eval 4.741238594055176
+eval time26.667529821395874
+epoch runtime:31.412949323654175
+
+
+set state 0.006630897521972656
+generate condition vector runtime0.04936790466308594
+train diffusion runtime:0.3448207378387451
+generate condition vector runtime0.056977033615112305
+train diffusion runtime:0.3395073413848877
+generate condition vector runtime0.06013751029968262
+train diffusion runtime:0.28107166290283203
+epoch runtime:19.562986373901367
+
+
+set state 0.00792694091796875
+generate condition vector runtime0.05344557762145996
+train diffusion runtime:0.3563504219055176
+generate condition vector runtime0.046482086181640625
+train diffusion runtime:0.2617795467376709
+generate condition vector runtime0.03694415092468262
+train diffusion runtime:0.10548973083496094
+epoch runtime:3.5578503608703613
+
+
+set state 0.0041658878326416016
+generate condition vector runtime0.06672930717468262
+train diffusion runtime:0.3839550018310547
+generate condition vector runtime0.06745719909667969
+train diffusion runtime:0.35350513458251953
+generate condition vector runtime0.046538352966308594
+train diffusion runtime:0.28839612007141113
+before eval 3.756544828414917
+eval time23.70523738861084
+epoch runtime:27.46201515197754
+
+
+set state 0.013073921203613281
+generate condition vector runtime0.049820899963378906
+train diffusion runtime:0.26239800453186035
+generate condition vector runtime0.06494402885437012
+train diffusion runtime:0.26530909538269043
+generate condition vector runtime0.05986499786376953
+train diffusion runtime:0.3463306427001953
+epoch runtime:16.12699604034424
+
+
+set state 0.003947734832763672
+generate condition vector runtime0.055603981018066406
+train diffusion runtime:0.2795391082763672
+generate condition vector runtime0.047027587890625
+train diffusion runtime:0.2617921829223633
+generate condition vector runtime0.051462650299072266
+train diffusion runtime:0.2614469528198242
+epoch runtime:7.570678234100342
+
+
+set state 0.014745235443115234
+generate condition vector runtime0.06022357940673828
+train diffusion runtime:0.34282541275024414
+generate condition vector runtime0.06253266334533691
+train diffusion runtime:0.3974292278289795
+generate condition vector runtime0.03764653205871582
+train diffusion runtime:0.12099719047546387
+before eval 20.141085147857666
+eval time23.39170479774475
+epoch runtime:43.53705716133118
+
+
+set state 0.013840436935424805
+generate condition vector runtime0.06685972213745117
+train diffusion runtime:0.3147752285003662
+generate condition vector runtime0.035369157791137695
+train diffusion runtime:0.18088245391845703
+generate condition vector runtime0.06570124626159668
+train diffusion runtime:0.4161198139190674
+epoch runtime:5.268623113632202
+
+
+set state 0.01835322380065918
+generate condition vector runtime0.06002998352050781
+train diffusion runtime:0.3047597408294678
+generate condition vector runtime0.03573274612426758
+train diffusion runtime:0.2584233283996582
+generate condition vector runtime0.0520932674407959
+train diffusion runtime:0.3274998664855957
+epoch runtime:3.4057633876800537
+
+
+set state 0.008902549743652344
+generate condition vector runtime0.04859614372253418
+train diffusion runtime:0.30918312072753906
+generate condition vector runtime0.08416557312011719
+train diffusion runtime:0.2721278667449951
+generate condition vector runtime0.07210636138916016
+train diffusion runtime:0.2475907802581787
+before eval 3.274129629135132
+eval time25.2711124420166
+epoch runtime:28.549485683441162
+
+
+set state 0.02776360511779785
+generate condition vector runtime0.04778933525085449
+train diffusion runtime:0.32361412048339844
+generate condition vector runtime0.0576024055480957
+train diffusion runtime:0.21176767349243164
+generate condition vector runtime0.07385587692260742
+train diffusion runtime:0.36097121238708496
+epoch runtime:8.47755217552185
+
+
+set state 0.02832198143005371
+generate condition vector runtime0.06461167335510254
+train diffusion runtime:0.3246455192565918
+generate condition vector runtime0.12536191940307617
+train diffusion runtime:0.14418697357177734
+generate condition vector runtime0.047524452209472656
+train diffusion runtime:0.2526054382324219
+epoch runtime:17.581928253173828
+
+
+set state 0.004216432571411133
+generate condition vector runtime0.06467914581298828
+train diffusion runtime:0.2711293697357178
+generate condition vector runtime0.05255460739135742
+train diffusion runtime:0.24853968620300293
+generate condition vector runtime0.036409616470336914
+train diffusion runtime:0.21258258819580078
+before eval 12.353563070297241
+eval time26.475032806396484
+epoch runtime:38.83227825164795
+
+
+set state 0.011610031127929688
+generate condition vector runtime0.04642748832702637
+train diffusion runtime:0.285398006439209
+generate condition vector runtime0.05151987075805664
+train diffusion runtime:0.32920289039611816
+generate condition vector runtime0.08083510398864746
+train diffusion runtime:0.3995342254638672
+epoch runtime:5.865910530090332
+
+
+set state 0.012229442596435547
+generate condition vector runtime0.061087608337402344
+train diffusion runtime:0.3323349952697754
+generate condition vector runtime0.03675389289855957
+train diffusion runtime:0.14390349388122559
+generate condition vector runtime0.05468177795410156
+train diffusion runtime:0.3096659183502197
+epoch runtime:3.282539129257202
+
+
+set state 0.008411645889282227
+generate condition vector runtime0.045929670333862305
+train diffusion runtime:0.1661825180053711
+generate condition vector runtime0.035025835037231445
+train diffusion runtime:0.10814023017883301
+generate condition vector runtime0.04401040077209473
+train diffusion runtime:0.23144245147705078
+before eval 3.075972080230713
+eval time26.266148567199707
+epoch runtime:29.34628701210022
+
+
+set state 0.009131431579589844
+cuda
+9
+set state 0.005698442459106445
+generate condition vector runtime1.355534553527832
+train diffusion runtime:2.257478713989258
+generate condition vector runtime0.06281399726867676
+train diffusion runtime:0.2931478023529053
+generate condition vector runtime0.05330824851989746
+train diffusion runtime:0.20434308052062988
+epoch runtime:6.310600280761719
+
+
+set state 0.0058596134185791016
+generate condition vector runtime0.0992426872253418
+train diffusion runtime:0.3674459457397461
+generate condition vector runtime0.04805588722229004
+train diffusion runtime:0.18146085739135742
+generate condition vector runtime0.048277854919433594
+train diffusion runtime:0.24347186088562012
+epoch runtime:3.303597927093506
+
+
+set state 0.004186391830444336
+generate condition vector runtime0.03451275825500488
+train diffusion runtime:0.20695185661315918
+generate condition vector runtime0.0420379638671875
+train diffusion runtime:0.24070143699645996
+generate condition vector runtime0.05428814888000488
+train diffusion runtime:0.23000717163085938
+before eval 2.920767068862915
+eval time22.62848734855652
+epoch runtime:25.55343461036682
+
+
+set state 0.014342784881591797
+generate condition vector runtime0.04379773139953613
+train diffusion runtime:0.2182753086090088
+generate condition vector runtime0.06068563461303711
+train diffusion runtime:0.24164772033691406
+generate condition vector runtime0.04100966453552246
+train diffusion runtime:0.268291711807251
+epoch runtime:4.605790138244629
+
+
+set state 0.012747049331665039
+generate condition vector runtime0.04649019241333008
+train diffusion runtime:0.2647686004638672
+generate condition vector runtime0.04500460624694824
+train diffusion runtime:0.217301607131958
+generate condition vector runtime0.048792362213134766
+train diffusion runtime:0.2596549987792969
+epoch runtime:3.135075092315674
+
+
+set state 0.008650064468383789
+generate condition vector runtime0.04979372024536133
+train diffusion runtime:0.18106436729431152
+generate condition vector runtime0.04964613914489746
+train diffusion runtime:0.29749631881713867
+generate condition vector runtime0.055727243423461914
+train diffusion runtime:0.2503354549407959
+before eval 15.068557739257812
+eval time22.66449737548828
+epoch runtime:37.733421087265015
+
+
+set state 0.015370845794677734
+generate condition vector runtime0.06401705741882324
+train diffusion runtime:0.2484455108642578
+generate condition vector runtime0.08856892585754395
+train diffusion runtime:0.5228288173675537
+generate condition vector runtime0.05599522590637207
+train diffusion runtime:0.1475391387939453
+epoch runtime:5.646033763885498
+
+
+set state 0.00536656379699707
+generate condition vector runtime0.07579374313354492
+train diffusion runtime:0.1907801628112793
+generate condition vector runtime0.049616098403930664
+train diffusion runtime:0.24608492851257324
+generate condition vector runtime0.08708310127258301
+train diffusion runtime:0.36751389503479004
+epoch runtime:6.254230737686157
+
+
+set state 0.005162477493286133
+generate condition vector runtime0.04055476188659668
+train diffusion runtime:0.2553863525390625
+generate condition vector runtime0.04564642906188965
+train diffusion runtime:0.1335442066192627
+generate condition vector runtime0.05338883399963379
+train diffusion runtime:0.2337484359741211
+before eval 8.11282229423523
+eval time25.2077214717865
+epoch runtime:33.32526159286499
+
+
+set state 0.014954090118408203
+generate condition vector runtime0.04723978042602539
+train diffusion runtime:0.24627351760864258
+generate condition vector runtime0.038187503814697266
+train diffusion runtime:0.23343229293823242
+generate condition vector runtime0.054800987243652344
+train diffusion runtime:0.21258544921875
+epoch runtime:7.320928335189819
+
+
+set state 0.006746053695678711
+generate condition vector runtime0.05328655242919922
+train diffusion runtime:0.23650026321411133
+generate condition vector runtime0.05642437934875488
+train diffusion runtime:0.3572423458099365
+generate condition vector runtime0.0569615364074707
+train diffusion runtime:0.2669951915740967
+epoch runtime:18.800477743148804
+
+
+set state 0.014553070068359375
+generate condition vector runtime0.05635952949523926
+train diffusion runtime:0.25571203231811523
+generate condition vector runtime0.06333684921264648
+train diffusion runtime:0.29559850692749023
+generate condition vector runtime0.06403255462646484
+train diffusion runtime:0.3511073589324951
+before eval 5.457730770111084
+eval time23.691146850585938
+epoch runtime:29.155739545822144
+
+
+set state 0.020397663116455078
+generate condition vector runtime0.04480552673339844
+train diffusion runtime:0.2688155174255371
+generate condition vector runtime0.08291196823120117
+train diffusion runtime:0.38524627685546875
+generate condition vector runtime0.07462430000305176
+train diffusion runtime:0.37964701652526855
+epoch runtime:10.282639741897583
+
+
+set state 0.014843940734863281
+generate condition vector runtime0.04973959922790527
+train diffusion runtime:0.36547398567199707
+generate condition vector runtime0.0765981674194336
+train diffusion runtime:0.25955820083618164
+generate condition vector runtime0.0674443244934082
+train diffusion runtime:0.31133222579956055
+epoch runtime:3.8178815841674805
+
+
+set state 0.018700122833251953
+generate condition vector runtime0.07552790641784668
+train diffusion runtime:0.4276280403137207
+generate condition vector runtime0.08364510536193848
+train diffusion runtime:0.4192934036254883
+generate condition vector runtime0.0666506290435791
+train diffusion runtime:0.26543545722961426
+before eval 8.314722061157227
+eval time23.479801893234253
+epoch runtime:31.79825472831726
+
+
+set state 0.015240669250488281
+generate condition vector runtime0.07556009292602539
+train diffusion runtime:0.3351602554321289
+generate condition vector runtime0.058066606521606445
+train diffusion runtime:0.24775290489196777
+generate condition vector runtime0.08257794380187988
+train diffusion runtime:0.30564308166503906
+epoch runtime:18.973137140274048
+
+
+set state 0.002516508102416992
+generate condition vector runtime0.05520796775817871
+train diffusion runtime:0.46247148513793945
+generate condition vector runtime0.0957183837890625
+train diffusion runtime:0.3548271656036377
+generate condition vector runtime0.07222747802734375
+train diffusion runtime:0.34937071800231934
+epoch runtime:10.413919925689697
+
+
+set state 0.009899139404296875
+generate condition vector runtime0.044014930725097656
+train diffusion runtime:0.2818467617034912
+generate condition vector runtime0.05169034004211426
+train diffusion runtime:0.23819470405578613
+generate condition vector runtime0.056142330169677734
+train diffusion runtime:0.33971071243286133
+before eval 3.5518715381622314
+eval time23.75272560119629
+epoch runtime:27.308748245239258
+
+
+set state 0.019658565521240234
+generate condition vector runtime0.061767578125
+train diffusion runtime:0.32219886779785156
+generate condition vector runtime0.055937767028808594
+train diffusion runtime:0.3410017490386963
+generate condition vector runtime0.06616973876953125
+train diffusion runtime:0.28275513648986816
+epoch runtime:8.472030639648438
+
+
+set state 0.006520986557006836
+generate condition vector runtime0.05202174186706543
+train diffusion runtime:0.25241923332214355
+generate condition vector runtime0.0410006046295166
+train diffusion runtime:0.20049047470092773
+generate condition vector runtime0.05533862113952637
+train diffusion runtime:0.24175119400024414
+epoch runtime:3.129011631011963
+
+
+set state 0.004746675491333008
+generate condition vector runtime0.06845474243164062
+train diffusion runtime:0.27876853942871094
+generate condition vector runtime0.07000255584716797
+train diffusion runtime:0.2899954319000244
+generate condition vector runtime0.055567026138305664
+train diffusion runtime:0.32271552085876465
+before eval 19.09384298324585
+eval time23.334092378616333
+epoch runtime:42.42831802368164
+
+
+set state 0.017375946044921875
+generate condition vector runtime0.04520869255065918
+train diffusion runtime:0.15669584274291992
+generate condition vector runtime0.06377053260803223
+train diffusion runtime:0.22122907638549805
+generate condition vector runtime0.05712294578552246
+train diffusion runtime:0.38230204582214355
+epoch runtime:8.447308778762817
+
+
+set state 0.008155107498168945
+generate condition vector runtime0.03437042236328125
+train diffusion runtime:0.21832942962646484
+generate condition vector runtime0.06937956809997559
+train diffusion runtime:0.25229978561401367
+generate condition vector runtime0.04668426513671875
+train diffusion runtime:0.26331567764282227
+epoch runtime:4.921560764312744
+
+
+set state 0.004841804504394531
+generate condition vector runtime0.061977386474609375
+train diffusion runtime:0.40941834449768066
+generate condition vector runtime0.05473947525024414
+train diffusion runtime:0.3177943229675293
+generate condition vector runtime0.057086944580078125
+train diffusion runtime:0.19678521156311035
+before eval 3.465461254119873
+eval time22.2434983253479
+epoch runtime:25.709251403808594
+
+
+set state 0.013556480407714844
+generate condition vector runtime0.04909229278564453
+train diffusion runtime:0.3435802459716797
+generate condition vector runtime0.04216122627258301
+train diffusion runtime:0.27165794372558594
+generate condition vector runtime0.0714869499206543
+train diffusion runtime:0.2868638038635254
+epoch runtime:16.93102741241455
+
+
+set state 0.004807710647583008
+generate condition vector runtime0.05186200141906738
+train diffusion runtime:0.3311786651611328
+generate condition vector runtime0.08329415321350098
+train diffusion runtime:0.3550710678100586
+generate condition vector runtime0.054872989654541016
+train diffusion runtime:0.2655038833618164
+epoch runtime:16.959586143493652
+
+
+set state 0.009469985961914062
+generate condition vector runtime0.05313706398010254
+train diffusion runtime:0.2987205982208252
+generate condition vector runtime0.043703556060791016
+train diffusion runtime:0.261932373046875
+generate condition vector runtime0.05135822296142578
+train diffusion runtime:0.23351407051086426
+before eval 3.8949034214019775
+eval time28.56632089614868
+epoch runtime:32.468642473220825
+
+
+set state 0.009290218353271484
+generate condition vector runtime0.055304765701293945
+train diffusion runtime:0.24558711051940918
+generate condition vector runtime0.055307865142822266
+train diffusion runtime:0.3453993797302246
+generate condition vector runtime0.06706523895263672
+train diffusion runtime:0.17368626594543457
+epoch runtime:10.744210720062256
+
+
+set state 0.012483358383178711
+generate condition vector runtime0.03840136528015137
+train diffusion runtime:0.31150317192077637
+generate condition vector runtime0.06623411178588867
+train diffusion runtime:0.3534586429595947
+generate condition vector runtime0.07192564010620117
+train diffusion runtime:0.2870306968688965
+epoch runtime:9.209559679031372
+
+
+set state 0.00844430923461914
+generate condition vector runtime0.045446157455444336
+train diffusion runtime:0.366544246673584
+generate condition vector runtime0.06697559356689453
+train diffusion runtime:0.3382563591003418
+generate condition vector runtime0.04415106773376465
+train diffusion runtime:0.12223315238952637
+before eval 3.6792140007019043
+eval time31.508602142333984
+epoch runtime:35.19156622886658
+
+
+set state 0.020064830780029297
+generate condition vector runtime0.04554486274719238
+train diffusion runtime:0.3182179927825928
+generate condition vector runtime0.06793951988220215
+train diffusion runtime:0.3203003406524658
+generate condition vector runtime0.07343935966491699
+train diffusion runtime:0.3400430679321289
+epoch runtime:30.480316638946533
+
+
+set state 0.004433631896972656
+generate condition vector runtime0.039311885833740234
+train diffusion runtime:0.2227480411529541
+generate condition vector runtime0.0661017894744873
+train diffusion runtime:0.2563152313232422
+generate condition vector runtime0.06021928787231445
+train diffusion runtime:0.3157787322998047
+epoch runtime:3.8354415893554688
+
+
+set state 0.008594036102294922
+generate condition vector runtime0.055229902267456055
+train diffusion runtime:0.29216718673706055
+generate condition vector runtime0.05744314193725586
+train diffusion runtime:0.23748159408569336
+generate condition vector runtime0.0691070556640625
+train diffusion runtime:0.2928152084350586
+before eval 12.537688255310059
+eval time28.88133144378662
+epoch runtime:41.42278075218201
+
+
+set state 0.011979818344116211
+generate condition vector runtime0.0649266242980957
+train diffusion runtime:0.40201306343078613
+generate condition vector runtime0.03871560096740723
+train diffusion runtime:0.26300525665283203
+generate condition vector runtime0.09735918045043945
+train diffusion runtime:0.44570016860961914
+epoch runtime:6.953550338745117
+
+
+set state 0.020325183868408203
+generate condition vector runtime0.05282783508300781
+train diffusion runtime:0.24397826194763184
+generate condition vector runtime0.04713129997253418
+train diffusion runtime:0.2932717800140381
+generate condition vector runtime0.06742119789123535
+train diffusion runtime:0.25163817405700684
+epoch runtime:3.4756662845611572
+
+
+set state 0.008203744888305664
+generate condition vector runtime0.05202937126159668
+train diffusion runtime:0.3437047004699707
+generate condition vector runtime0.0740957260131836
+train diffusion runtime:0.26213765144348145
+generate condition vector runtime0.05990743637084961
+train diffusion runtime:0.3606839179992676
+before eval 23.481995820999146
+eval time29.11980938911438
+epoch runtime:52.60611343383789
+
+
+set state 0.012437582015991211
+generate condition vector runtime0.035344839096069336
+train diffusion runtime:0.1278228759765625
+generate condition vector runtime0.061594247817993164
+train diffusion runtime:0.186570405960083
+generate condition vector runtime0.08752822875976562
+train diffusion runtime:0.33749818801879883
+epoch runtime:15.996120691299438
+
+
+set state 0.00917959213256836
+generate condition vector runtime0.07452058792114258
+train diffusion runtime:0.4385197162628174
+generate condition vector runtime0.061821699142456055
+train diffusion runtime:0.41835594177246094
+generate condition vector runtime0.08289718627929688
+train diffusion runtime:0.18878173828125
+epoch runtime:4.106934070587158
+
+
+set state 0.005253791809082031
+generate condition vector runtime0.05733990669250488
+train diffusion runtime:0.26557445526123047
+generate condition vector runtime0.043428897857666016
+train diffusion runtime:0.24163484573364258
+generate condition vector runtime0.0698540210723877
+train diffusion runtime:0.20560383796691895
+before eval 3.3531553745269775
+eval time25.941319942474365
+epoch runtime:29.29503870010376
+
+
+set state 0.01867532730102539
+generate condition vector runtime0.06584620475769043
+train diffusion runtime:0.2919929027557373
+generate condition vector runtime0.044997453689575195
+train diffusion runtime:0.13992977142333984
+generate condition vector runtime0.0356600284576416
+train diffusion runtime:0.10470795631408691
+epoch runtime:5.3974645137786865
+
+
+set state 0.005358457565307617
+generate condition vector runtime0.05026507377624512
+train diffusion runtime:0.3904867172241211
+generate condition vector runtime0.06098031997680664
+train diffusion runtime:0.33460235595703125
+generate condition vector runtime0.0559694766998291
+train diffusion runtime:0.2611680030822754
+epoch runtime:28.910040378570557
+
+
+set state 0.0074045658111572266
+generate condition vector runtime0.059599876403808594
+train diffusion runtime:0.30748438835144043
+generate condition vector runtime0.12684249877929688
+train diffusion runtime:0.2753720283508301
+generate condition vector runtime0.05545401573181152
+train diffusion runtime:0.3292245864868164
+before eval 4.336822986602783
+eval time27.93348479270935
+epoch runtime:32.27071952819824
+
+
+set state 0.007195949554443359
+generate condition vector runtime0.05351686477661133
+train diffusion runtime:0.4165966510772705
+generate condition vector runtime0.04875802993774414
+train diffusion runtime:0.3021092414855957
+generate condition vector runtime0.047243595123291016
+train diffusion runtime:0.2614860534667969
+epoch runtime:10.001302003860474
+
+
+set state 0.006796598434448242
+generate condition vector runtime0.03873395919799805
+train diffusion runtime:0.12082791328430176
+generate condition vector runtime0.05845808982849121
+train diffusion runtime:0.2527201175689697
+generate condition vector runtime0.052693843841552734
+train diffusion runtime:0.2944457530975342
+epoch runtime:3.205749273300171
+
+
+set state 0.014009475708007812
+generate condition vector runtime0.04663348197937012
+train diffusion runtime:0.22852587699890137
+generate condition vector runtime0.05024862289428711
+train diffusion runtime:0.22301530838012695
+generate condition vector runtime0.04663372039794922
+train diffusion runtime:0.2726881504058838
+before eval 5.847156286239624
+eval time25.603597164154053
+epoch runtime:31.450993537902832
+
+
+set state 0.009494781494140625
+generate condition vector runtime0.04925060272216797
+train diffusion runtime:0.3760671615600586
+generate condition vector runtime0.07807564735412598
+train diffusion runtime:0.3204824924468994
+generate condition vector runtime0.055774688720703125
+train diffusion runtime:0.2647373676300049
+epoch runtime:23.73582935333252
+
+
+set state 0.016181230545043945
+generate condition vector runtime0.07717180252075195
+train diffusion runtime:0.373917818069458
+generate condition vector runtime0.08775877952575684
+train diffusion runtime:0.39290523529052734
+generate condition vector runtime0.059825897216796875
+train diffusion runtime:0.2613966464996338
+epoch runtime:4.1914963722229
+
+
+set state 0.015432119369506836
+generate condition vector runtime0.05984330177307129
+train diffusion runtime:0.25602149963378906
+generate condition vector runtime0.05191326141357422
+train diffusion runtime:0.2519378662109375
+generate condition vector runtime0.05052900314331055
+train diffusion runtime:0.2542276382446289
+before eval 3.898822069168091
+eval time26.284883975982666
+epoch runtime:30.1839439868927
+
+
+set state 0.009193658828735352
+generate condition vector runtime0.06846237182617188
+train diffusion runtime:0.24407625198364258
+generate condition vector runtime0.04747486114501953
+train diffusion runtime:0.3739480972290039
+generate condition vector runtime0.0561060905456543
+train diffusion runtime:0.2718842029571533
+epoch runtime:16.03165340423584
+
+
+set state 0.007956504821777344
+generate condition vector runtime0.08427715301513672
+train diffusion runtime:0.23360443115234375
+generate condition vector runtime0.05211782455444336
+train diffusion runtime:0.30177831649780273
+generate condition vector runtime0.07790589332580566
+train diffusion runtime:0.3015599250793457
+epoch runtime:7.447524309158325
+
+
+set state 0.008663177490234375
+generate condition vector runtime0.06509256362915039
+train diffusion runtime:0.2965214252471924
+generate condition vector runtime0.08542943000793457
+train diffusion runtime:0.32738733291625977
+generate condition vector runtime0.06530070304870605
+train diffusion runtime:0.35756945610046387
+before eval 20.466647386550903
+eval time25.922417402267456
+epoch runtime:46.389644145965576
+
+
+set state 0.012525558471679688
+generate condition vector runtime0.06469416618347168
+train diffusion runtime:0.33216261863708496
+generate condition vector runtime0.05162382125854492
+train diffusion runtime:0.22161149978637695
+generate condition vector runtime0.060370445251464844
+train diffusion runtime:0.40149712562561035
+epoch runtime:5.469113111495972
+
+
+set state 0.020346403121948242
+generate condition vector runtime0.036425113677978516
+train diffusion runtime:0.13443922996520996
+generate condition vector runtime0.05822396278381348
+train diffusion runtime:0.24481201171875
+generate condition vector runtime0.057218074798583984
+train diffusion runtime:0.2937798500061035
+epoch runtime:3.3581860065460205
+
+
+set state 0.017680644989013672
+generate condition vector runtime0.03636670112609863
+train diffusion runtime:0.23760128021240234
+generate condition vector runtime0.04328584671020508
+train diffusion runtime:0.20219779014587402
+generate condition vector runtime0.03745126724243164
+train diffusion runtime:0.20772957801818848
+before eval 2.7690176963806152
+eval time23.377198934555054
+epoch runtime:26.146548748016357
+
+
+set state 0.010696887969970703
+generate condition vector runtime0.05833601951599121
+train diffusion runtime:0.2988731861114502
+generate condition vector runtime0.05406761169433594
+train diffusion runtime:0.2693521976470947
+generate condition vector runtime0.038541555404663086
+train diffusion runtime:0.11501407623291016
+epoch runtime:8.038023948669434
+
+
+set state 0.0054090023040771484
+generate condition vector runtime0.05372476577758789
+train diffusion runtime:0.3224625587463379
+generate condition vector runtime0.06177520751953125
+train diffusion runtime:0.26060056686401367
+generate condition vector runtime0.0577394962310791
+train diffusion runtime:0.23424363136291504
+epoch runtime:19.092869997024536
+
+
+set state 0.017401456832885742
+generate condition vector runtime0.05813097953796387
+train diffusion runtime:0.3125803470611572
+generate condition vector runtime0.06093716621398926
+train diffusion runtime:0.27991604804992676
+generate condition vector runtime0.05058097839355469
+train diffusion runtime:0.22672128677368164
+before eval 13.871647834777832
+eval time25.115997552871704
+epoch runtime:38.98825120925903
+
+
+set state 0.010267257690429688
+generate condition vector runtime0.0676414966583252
+train diffusion runtime:0.327878475189209
+generate condition vector runtime0.057460784912109375
+train diffusion runtime:0.3298189640045166
+generate condition vector runtime0.049553632736206055
+train diffusion runtime:0.3257582187652588
+epoch runtime:5.418524503707886
+
+
+set state 0.0125885009765625
+generate condition vector runtime0.052037954330444336
+train diffusion runtime:0.2925550937652588
+generate condition vector runtime0.049942970275878906
+train diffusion runtime:0.2945892810821533
+generate condition vector runtime0.06307053565979004
+train diffusion runtime:0.3425941467285156
+epoch runtime:3.5131747722625732
+
+
+set state 0.01237630844116211
+generate condition vector runtime0.04584169387817383
+train diffusion runtime:0.2121419906616211
+generate condition vector runtime0.05100274085998535
+train diffusion runtime:0.3095436096191406
+generate condition vector runtime0.04815554618835449
+train diffusion runtime:0.25684475898742676
+before eval 3.0671794414520264
+eval time24.342390298843384
+epoch runtime:27.416132926940918
+
+
+set state 0.010623455047607422
+generate condition vector runtime0.04034423828125
+train diffusion runtime:0.2659182548522949
+generate condition vector runtime0.0694882869720459
+train diffusion runtime:0.3386800289154053
+generate condition vector runtime0.0711362361907959
+train diffusion runtime:0.2905731201171875
+epoch runtime:26.504026651382446
+
+
+set state 0.013841629028320312
+generate condition vector runtime0.06046938896179199
+train diffusion runtime:0.2790393829345703
+generate condition vector runtime0.06681442260742188
+train diffusion runtime:0.3488650321960449
+generate condition vector runtime0.06333732604980469
+train diffusion runtime:0.25008583068847656
+epoch runtime:3.5479907989501953
+
+
+set state 0.005251646041870117
+generate condition vector runtime0.049156904220581055
+train diffusion runtime:0.23741650581359863
+generate condition vector runtime0.04612231254577637
+train diffusion runtime:0.3208346366882324
+generate condition vector runtime0.04375433921813965
+train diffusion runtime:0.2656238079071045
+before eval 3.2116317749023438
+eval time22.210318326950073
+epoch runtime:25.4226655960083
+
+
+set state 0.0077931880950927734
+generate condition vector runtime0.055793046951293945
+train diffusion runtime:0.26715874671936035
+generate condition vector runtime0.03887295722961426
+train diffusion runtime:0.11940288543701172
+generate condition vector runtime0.06253552436828613
+train diffusion runtime:0.4240901470184326
+epoch runtime:13.379427194595337
+
+
+set state 0.017403841018676758
+generate condition vector runtime0.06828570365905762
+train diffusion runtime:0.28406500816345215
+generate condition vector runtime0.0423588752746582
+train diffusion runtime:0.23493123054504395
+generate condition vector runtime0.05674338340759277
+train diffusion runtime:0.22918915748596191
+epoch runtime:8.882466316223145
+
+
+set state 0.00788569450378418
+generate condition vector runtime0.07944345474243164
+train diffusion runtime:0.26276588439941406
+generate condition vector runtime0.0636434555053711
+train diffusion runtime:0.2906219959259033
+generate condition vector runtime0.061449289321899414
+train diffusion runtime:0.25943946838378906
+before eval 16.782625675201416
+eval time23.89668607711792
+epoch runtime:40.68304944038391
+
+
+set state 0.006314992904663086
+generate condition vector runtime0.05358481407165527
+train diffusion runtime:0.18972277641296387
+generate condition vector runtime0.0637362003326416
+train diffusion runtime:0.3023808002471924
+generate condition vector runtime0.05836367607116699
+train diffusion runtime:0.25048303604125977
+epoch runtime:6.604664087295532
+
+
+set state 0.0119476318359375
+generate condition vector runtime0.046691179275512695
+train diffusion runtime:0.25328493118286133
+generate condition vector runtime0.0538027286529541
+train diffusion runtime:0.3137795925140381
+generate condition vector runtime0.07506155967712402
+train diffusion runtime:0.38751959800720215
+epoch runtime:3.5443601608276367
+
+
+set state 0.012174844741821289
+generate condition vector runtime0.051815032958984375
+train diffusion runtime:0.31305813789367676
+generate condition vector runtime0.06827378273010254
+train diffusion runtime:0.23737382888793945
+generate condition vector runtime0.061829566955566406
+train diffusion runtime:0.26937198638916016
+before eval 3.306589126586914
+eval time23.55601477622986
+epoch runtime:26.866621255874634
+
+
+set state 0.005274057388305664
+generate condition vector runtime0.04984092712402344
+train diffusion runtime:0.22329401969909668
+generate condition vector runtime0.056360483169555664
+train diffusion runtime:0.28856730461120605
+generate condition vector runtime0.06242513656616211
+train diffusion runtime:0.3813772201538086
+epoch runtime:4.745559215545654
+
+
+set state 0.016582965850830078
+generate condition vector runtime0.06672978401184082
+train diffusion runtime:0.27045416831970215
+generate condition vector runtime0.04857778549194336
+train diffusion runtime:0.22334504127502441
+generate condition vector runtime0.06482052803039551
+train diffusion runtime:0.27071452140808105
+epoch runtime:23.575100421905518
+
+
+set state 0.008385181427001953
+generate condition vector runtime0.06435036659240723
+train diffusion runtime:0.34368157386779785
+generate condition vector runtime0.045966148376464844
+train diffusion runtime:0.24884247779846191
+generate condition vector runtime0.04587531089782715
+train diffusion runtime:0.18401551246643066
+before eval 3.2231314182281494
+eval time23.988391876220703
+epoch runtime:27.211866855621338
+
+
+set state 0.011052370071411133
+generate condition vector runtime0.05069160461425781
+train diffusion runtime:0.2848799228668213
+generate condition vector runtime0.05814981460571289
+train diffusion runtime:0.30146145820617676
+generate condition vector runtime0.047698020935058594
+train diffusion runtime:0.31756067276000977
+epoch runtime:20.023467540740967
+
+
+set state 0.01118779182434082
+generate condition vector runtime0.07007527351379395
+train diffusion runtime:0.25504302978515625
+generate condition vector runtime0.04710268974304199
+train diffusion runtime:0.19811725616455078
+generate condition vector runtime0.06649947166442871
+train diffusion runtime:0.31555819511413574
+epoch runtime:3.5310304164886475
+
+
+set state 0.012118101119995117
+generate condition vector runtime0.05700802803039551
+train diffusion runtime:0.2303462028503418
+generate condition vector runtime0.0606846809387207
+train diffusion runtime:0.3745839595794678
+generate condition vector runtime0.06898856163024902
+train diffusion runtime:0.31229233741760254
+before eval 3.2537741661071777
+eval time27.592861652374268
+epoch runtime:30.84704351425171
+
+
+set state 0.008815288543701172
+generate condition vector runtime0.050072669982910156
+train diffusion runtime:0.24561119079589844
+generate condition vector runtime0.09023523330688477
+train diffusion runtime:0.4260241985321045
+generate condition vector runtime0.08572578430175781
+train diffusion runtime:0.4294321537017822
+epoch runtime:17.626206636428833
+
+
+set state 0.008092880249023438
+generate condition vector runtime0.06144905090332031
+train diffusion runtime:0.37875962257385254
+generate condition vector runtime0.09014725685119629
+train diffusion runtime:0.42090678215026855
+generate condition vector runtime0.03848600387573242
+train diffusion runtime:0.13927483558654785
+epoch runtime:3.855302572250366
+
+
+set state 0.005209207534790039
+generate condition vector runtime0.05599474906921387
+train diffusion runtime:0.35967230796813965
+generate condition vector runtime0.07154583930969238
+train diffusion runtime:0.29157280921936035
+generate condition vector runtime0.04004240036010742
+train diffusion runtime:0.2740304470062256
+before eval 9.828051090240479
+eval time24.96835684776306
+epoch runtime:34.79696702957153
+
+
+set state 0.010018110275268555
+generate condition vector runtime0.03601956367492676
+train diffusion runtime:0.23664259910583496
+generate condition vector runtime0.07005548477172852
+train diffusion runtime:0.44843578338623047
+generate condition vector runtime0.04857993125915527
+train diffusion runtime:0.33583950996398926
+epoch runtime:5.501765251159668
+
+
+set state 0.017166614532470703
+generate condition vector runtime0.06051135063171387
+train diffusion runtime:0.23593568801879883
+generate condition vector runtime0.06722450256347656
+train diffusion runtime:0.3839700222015381
+generate condition vector runtime0.04033374786376953
+train diffusion runtime:0.3614530563354492
+epoch runtime:3.502197504043579
+
+
+set state 0.008483648300170898
+generate condition vector runtime0.09973549842834473
+train diffusion runtime:0.41869354248046875
+generate condition vector runtime0.09048676490783691
+train diffusion runtime:0.3821091651916504
+generate condition vector runtime0.05039191246032715
+train diffusion runtime:0.2815523147583008
+before eval 25.785311460494995
+eval time24.824606895446777
+epoch runtime:50.61016917228699
+
+
+set state 0.009124279022216797
+generate condition vector runtime0.05562567710876465
+train diffusion runtime:0.27893519401550293
+generate condition vector runtime0.04623913764953613
+train diffusion runtime:0.2697460651397705
+generate condition vector runtime0.07752752304077148
+train diffusion runtime:0.41747450828552246
+epoch runtime:8.326138734817505
+
+
+set state 0.01949286460876465
+generate condition vector runtime0.048764944076538086
+train diffusion runtime:0.24413585662841797
+generate condition vector runtime0.04153323173522949
+train diffusion runtime:0.19910430908203125
+generate condition vector runtime0.053842782974243164
+train diffusion runtime:0.23589539527893066
+epoch runtime:3.239125967025757
+
+
+set state 0.011995315551757812
+generate condition vector runtime0.06597661972045898
+train diffusion runtime:0.19988751411437988
+generate condition vector runtime0.06544351577758789
+train diffusion runtime:0.19588541984558105
+generate condition vector runtime0.05054497718811035
+train diffusion runtime:0.26654744148254395
+before eval 3.2700798511505127
+eval time26.156585216522217
+epoch runtime:29.426961421966553
+
+
+set state 0.014339685440063477
+generate condition vector runtime0.05836963653564453
+train diffusion runtime:0.25505542755126953
+generate condition vector runtime0.0405735969543457
+train diffusion runtime:0.2890586853027344
+generate condition vector runtime0.03757119178771973
+train diffusion runtime:0.30312156677246094
+epoch runtime:14.669501066207886
+
+
+set state 0.012012481689453125
+generate condition vector runtime0.05723166465759277
+train diffusion runtime:0.3276329040527344
+generate condition vector runtime0.0518035888671875
+train diffusion runtime:0.22868752479553223
+generate condition vector runtime0.061037540435791016
+train diffusion runtime:0.3183901309967041
+epoch runtime:17.763895988464355
+
+
+set state 0.008998394012451172
+generate condition vector runtime0.05714726448059082
+train diffusion runtime:0.2491292953491211
+generate condition vector runtime0.056540489196777344
+train diffusion runtime:0.28225016593933105
+generate condition vector runtime0.07030344009399414
+train diffusion runtime:0.2898709774017334
+before eval 3.4547677040100098
+eval time26.100888967514038
+epoch runtime:29.556114196777344
+
+
+set state 0.012128114700317383
+generate condition vector runtime0.06308388710021973
+train diffusion runtime:0.31087636947631836
+generate condition vector runtime0.05795431137084961
+train diffusion runtime:0.26651430130004883
+generate condition vector runtime0.055075883865356445
+train diffusion runtime:0.41774821281433105
+epoch runtime:5.304800271987915
+
+
+set state 0.0048274993896484375
+generate condition vector runtime0.03874611854553223
+train diffusion runtime:0.17780232429504395
+generate condition vector runtime0.04654383659362793
+train diffusion runtime:0.32036566734313965
+generate condition vector runtime0.058722496032714844
+train diffusion runtime:0.32387328147888184
+epoch runtime:10.655999183654785
+
+
+set state 0.009176492691040039
+generate condition vector runtime0.04896688461303711
+train diffusion runtime:0.24499106407165527
+generate condition vector runtime0.05576944351196289
+train diffusion runtime:0.31299471855163574
+generate condition vector runtime0.06430888175964355
+train diffusion runtime:0.30974602699279785
+before eval 3.536621332168579
+eval time23.228400468826294
+epoch runtime:26.766677618026733
+
+
+set state 0.020238876342773438
+generate condition vector runtime0.0516202449798584
+train diffusion runtime:0.2128458023071289
+generate condition vector runtime0.051935672760009766
+train diffusion runtime:0.365861177444458
+generate condition vector runtime0.06647419929504395
+train diffusion runtime:0.3485386371612549
+epoch runtime:24.32584238052368
+
+
+set state 0.011119365692138672
+generate condition vector runtime0.06435275077819824
+train diffusion runtime:0.36090922355651855
+generate condition vector runtime0.03642582893371582
+train diffusion runtime:0.10830020904541016
+generate condition vector runtime0.05516791343688965
+train diffusion runtime:0.2788856029510498
+epoch runtime:7.304824113845825
+
+
+set state 0.01452183723449707
+generate condition vector runtime0.07988810539245605
+train diffusion runtime:0.35239148139953613
+generate condition vector runtime0.036281585693359375
+train diffusion runtime:0.2662343978881836
+generate condition vector runtime0.03469061851501465
+train diffusion runtime:0.2371232509613037
+before eval 3.8451828956604004
+eval time27.055732011795044
+epoch runtime:30.901267290115356
+
+
+set state 0.005942344665527344
+generate condition vector runtime0.05841231346130371
+train diffusion runtime:0.27202606201171875
+generate condition vector runtime0.0540773868560791
+train diffusion runtime:0.14651107788085938
+generate condition vector runtime0.08123207092285156
+train diffusion runtime:0.3810603618621826
+epoch runtime:4.542916297912598
+
+
+set state 0.011661052703857422
+generate condition vector runtime0.04188036918640137
+train diffusion runtime:0.221876859664917
+generate condition vector runtime0.05606198310852051
+train diffusion runtime:0.2982444763183594
+generate condition vector runtime0.05660200119018555
+train diffusion runtime:0.3012125492095947
+epoch runtime:3.0185189247131348
+
+
+set state 0.004556179046630859
+generate condition vector runtime0.0698997974395752
+train diffusion runtime:0.32816123962402344
+generate condition vector runtime0.057531118392944336
+train diffusion runtime:0.3393409252166748
+generate condition vector runtime0.048813581466674805
+train diffusion runtime:0.24894309043884277
+before eval 15.035045862197876
+eval time21.24860405921936
+epoch runtime:36.2868754863739
+
+
+set state 0.014664173126220703
+generate condition vector runtime0.048223257064819336
+train diffusion runtime:0.23681259155273438
+generate condition vector runtime0.053223609924316406
+train diffusion runtime:0.21790528297424316
+generate condition vector runtime0.0565333366394043
+train diffusion runtime:0.28788018226623535
+epoch runtime:13.545445203781128
+
+
+set state 0.01599574089050293
+generate condition vector runtime0.054097652435302734
+train diffusion runtime:0.21274733543395996
+generate condition vector runtime0.056261301040649414
+train diffusion runtime:0.2660858631134033
+generate condition vector runtime0.042005300521850586
+train diffusion runtime:0.1625831127166748
+epoch runtime:2.938467025756836
+
+
+set state 0.004118442535400391
+generate condition vector runtime0.05240654945373535
+train diffusion runtime:0.18709063529968262
+generate condition vector runtime0.05088448524475098
+train diffusion runtime:0.2196183204650879
+generate condition vector runtime0.07314157485961914
+train diffusion runtime:0.3605325222015381
+before eval 5.87325382232666
+eval time21.012255430221558
+epoch runtime:26.892969846725464
+
+
+set state 0.01534891128540039
+generate condition vector runtime0.04806661605834961
+train diffusion runtime:0.1661679744720459
+generate condition vector runtime0.04493880271911621
+train diffusion runtime:0.1973581314086914
+generate condition vector runtime0.050881147384643555
+train diffusion runtime:0.24739503860473633
+epoch runtime:7.94653058052063
+
+
+set state 0.008270502090454102
+generate condition vector runtime0.05121469497680664
+train diffusion runtime:0.282700777053833
+generate condition vector runtime0.06360650062561035
+train diffusion runtime:0.36797618865966797
+generate condition vector runtime0.058982133865356445
+train diffusion runtime:0.29909634590148926
+epoch runtime:18.181453704833984
+
+
+set state 0.008757352828979492
+generate condition vector runtime0.045462846755981445
+train diffusion runtime:0.290790319442749
+generate condition vector runtime0.06216740608215332
+train diffusion runtime:0.285158634185791
+generate condition vector runtime0.034665584564208984
+train diffusion runtime:0.18580913543701172
+before eval 3.333897590637207
+eval time22.26404047012329
+epoch runtime:25.598320484161377
+
+
+set state 0.009247779846191406
+generate condition vector runtime0.05776834487915039
+train diffusion runtime:0.336928129196167
+generate condition vector runtime0.05108332633972168
+train diffusion runtime:0.3542773723602295
+generate condition vector runtime0.05222940444946289
+train diffusion runtime:0.2714362144470215
+epoch runtime:5.110081434249878
+
+
+set state 0.009189367294311523
+generate condition vector runtime0.053566694259643555
+train diffusion runtime:0.24455857276916504
+generate condition vector runtime0.05091738700866699
+train diffusion runtime:0.21688365936279297
+generate condition vector runtime0.040786027908325195
+train diffusion runtime:0.2398664951324463
+epoch runtime:3.0277395248413086
+
+
+set state 0.00728917121887207
+generate condition vector runtime0.05342388153076172
+train diffusion runtime:0.3197927474975586
+generate condition vector runtime0.046790361404418945
+train diffusion runtime:0.28816843032836914
+generate condition vector runtime0.05500984191894531
+train diffusion runtime:0.26024532318115234
+before eval 7.76356053352356
+eval time22.254170417785645
+epoch runtime:30.019939184188843
+
+
+set state 0.00604701042175293
+generate condition vector runtime0.05460810661315918
+train diffusion runtime:0.26251912117004395
+generate condition vector runtime0.05487847328186035
+train diffusion runtime:0.2876598834991455
+generate condition vector runtime0.05361223220825195
+train diffusion runtime:0.26431751251220703
+epoch runtime:19.958425521850586
+
+
+set state 0.00816202163696289
+generate condition vector runtime0.03525257110595703
+train diffusion runtime:0.18558645248413086
+generate condition vector runtime0.03931879997253418
+train diffusion runtime:0.2610161304473877
+generate condition vector runtime0.05207991600036621
+train diffusion runtime:0.3372771739959717
+epoch runtime:3.178948163986206
+
+
+set state 0.0060541629791259766
+generate condition vector runtime0.0605771541595459
+train diffusion runtime:0.27228355407714844
+generate condition vector runtime0.035147905349731445
+train diffusion runtime:0.21305537223815918
+generate condition vector runtime0.04593634605407715
+train diffusion runtime:0.2715744972229004
+before eval 2.97055721282959
+eval time22.931211233139038
+epoch runtime:25.902247190475464
+
+
+set state 0.011644601821899414
+generate condition vector runtime0.07830619812011719
+train diffusion runtime:0.25972819328308105
+generate condition vector runtime0.08474040031433105
+train diffusion runtime:0.39983534812927246
+generate condition vector runtime0.05691933631896973
+train diffusion runtime:0.32488417625427246
+epoch runtime:13.187549829483032
+
+
+set state 0.005584001541137695
+generate condition vector runtime0.050309181213378906
+train diffusion runtime:0.4032106399536133
+generate condition vector runtime0.06007575988769531
+train diffusion runtime:0.19714617729187012
+generate condition vector runtime0.0690910816192627
+train diffusion runtime:0.21238970756530762
+epoch runtime:3.1751794815063477
+
+
+set state 0.00741887092590332
+generate condition vector runtime0.07273006439208984
+train diffusion runtime:0.190568208694458
+generate condition vector runtime0.05666685104370117
+train diffusion runtime:0.3231008052825928
+generate condition vector runtime0.06912827491760254
+train diffusion runtime:0.3152046203613281
+before eval 21.20557713508606
+eval time24.642306566238403
+epoch runtime:45.84840440750122
+
+
+set state 0.020918607711791992
+generate condition vector runtime0.055574655532836914
+train diffusion runtime:0.33272242546081543
+generate condition vector runtime0.05877995491027832
+train diffusion runtime:0.3464779853820801
+generate condition vector runtime0.055553436279296875
+train diffusion runtime:0.24571967124938965
+epoch runtime:4.725648880004883
+
+
+set state 0.008374929428100586
+generate condition vector runtime0.05819535255432129
+train diffusion runtime:0.4571397304534912
+generate condition vector runtime0.0895235538482666
+train diffusion runtime:0.5173318386077881
+generate condition vector runtime0.049419403076171875
+train diffusion runtime:0.2510387897491455
+epoch runtime:14.138050556182861
+
+
+set state 0.006411075592041016
+generate condition vector runtime0.06202125549316406
+train diffusion runtime:0.3059113025665283
+generate condition vector runtime0.05308985710144043
+train diffusion runtime:0.25703907012939453
+generate condition vector runtime0.04982113838195801
+train diffusion runtime:0.23316431045532227
+before eval 3.1807780265808105
+eval time24.71553349494934
+epoch runtime:27.896869897842407
+
+
+set state 0.006225109100341797
+generate condition vector runtime0.05215716361999512
+train diffusion runtime:0.28635096549987793
+generate condition vector runtime0.060666561126708984
+train diffusion runtime:0.38565945625305176
+generate condition vector runtime0.053537845611572266
+train diffusion runtime:0.21642017364501953
+epoch runtime:5.124131441116333
+
+
+set state 0.014730691909790039
+generate condition vector runtime0.05880904197692871
+train diffusion runtime:0.18569207191467285
+generate condition vector runtime0.051567792892456055
+train diffusion runtime:0.25501418113708496
+generate condition vector runtime0.07961320877075195
+train diffusion runtime:0.3376452922821045
+epoch runtime:16.86329936981201
+
+
+set state 0.017055749893188477
+generate condition vector runtime0.07463312149047852
+train diffusion runtime:0.3757777214050293
+generate condition vector runtime0.03593039512634277
+train diffusion runtime:0.14586186408996582
+generate condition vector runtime0.05758857727050781
+train diffusion runtime:0.1981954574584961
+before eval 3.7632527351379395
+eval time26.17918634414673
+epoch runtime:29.94618272781372
+
+
+set state 0.009471654891967773
+generate condition vector runtime0.06878781318664551
+train diffusion runtime:0.32829833030700684
+generate condition vector runtime0.05057096481323242
+train diffusion runtime:0.31665682792663574
+generate condition vector runtime0.05108332633972168
+train diffusion runtime:0.2298741340637207
+epoch runtime:8.282767057418823
+
+
+set state 0.008733749389648438
+generate condition vector runtime0.0706331729888916
+train diffusion runtime:0.2215590476989746
+generate condition vector runtime0.03629612922668457
+train diffusion runtime:0.19732999801635742
+generate condition vector runtime0.05461549758911133
+train diffusion runtime:0.24974560737609863
+epoch runtime:3.1335091590881348
+
+
+set state 0.010694026947021484
+generate condition vector runtime0.07584333419799805
+train diffusion runtime:0.2953834533691406
+generate condition vector runtime0.0355377197265625
+train diffusion runtime:0.27547216415405273
+generate condition vector runtime0.041811466217041016
+train diffusion runtime:0.12808489799499512
+before eval 6.546862363815308
+eval time26.104114055633545
+epoch runtime:32.6520562171936
+
+
+set state 0.01398468017578125
+generate condition vector runtime0.05437111854553223
+train diffusion runtime:0.2543294429779053
+generate condition vector runtime0.055266618728637695
+train diffusion runtime:0.267223596572876
+generate condition vector runtime0.04254722595214844
+train diffusion runtime:0.32486557960510254
+epoch runtime:33.24296522140503
+
+
+set state 0.008506059646606445
+generate condition vector runtime0.0748746395111084
+train diffusion runtime:0.29175639152526855
+generate condition vector runtime0.038916587829589844
+train diffusion runtime:0.2717010974884033
+generate condition vector runtime0.050258636474609375
+train diffusion runtime:0.1949143409729004
+epoch runtime:5.31571364402771
+
+
+set state 0.00913691520690918
+generate condition vector runtime0.07431936264038086
+train diffusion runtime:0.28953075408935547
+generate condition vector runtime0.039423465728759766
+train diffusion runtime:0.23470234870910645
+generate condition vector runtime0.048972368240356445
+train diffusion runtime:0.21642470359802246
+before eval 3.496269941329956
+eval time29.224905490875244
+epoch runtime:32.72851848602295
+
+
+set state 0.00912928581237793
+generate condition vector runtime0.05435991287231445
+train diffusion runtime:0.2834017276763916
+generate condition vector runtime0.06174159049987793
+train diffusion runtime:0.3062727451324463
+generate condition vector runtime0.06942009925842285
+train diffusion runtime:0.3421666622161865
+epoch runtime:5.484060764312744
+
+
+set state 0.014137506484985352
+generate condition vector runtime0.05374932289123535
+train diffusion runtime:0.26883435249328613
+generate condition vector runtime0.035729408264160156
+train diffusion runtime:0.1529848575592041
+generate condition vector runtime0.06200551986694336
+train diffusion runtime:0.2671239376068115
+epoch runtime:2.9472365379333496
+
+
+set state 0.010500431060791016
+generate condition vector runtime0.0771341323852539
+train diffusion runtime:0.38089823722839355
+generate condition vector runtime0.08730244636535645
+train diffusion runtime:0.31107234954833984
+generate condition vector runtime0.05612778663635254
+train diffusion runtime:0.3999345302581787
+before eval 20.68125891685486
+eval time24.873377799987793
+epoch runtime:45.55496573448181
+
+
+set state 0.013258695602416992
+generate condition vector runtime0.05042076110839844
+train diffusion runtime:0.2378215789794922
+generate condition vector runtime0.08437180519104004
+train diffusion runtime:0.2977433204650879
+generate condition vector runtime0.04360532760620117
+train diffusion runtime:0.2483208179473877
+epoch runtime:13.727190017700195
+
+
+set state 0.005559206008911133
+generate condition vector runtime0.05497169494628906
+train diffusion runtime:0.20872068405151367
+generate condition vector runtime0.0703732967376709
+train diffusion runtime:0.32675957679748535
+generate condition vector runtime0.0334627628326416
+train diffusion runtime:0.33507561683654785
+epoch runtime:3.8758466243743896
+
+
+set state 0.01979231834411621
+generate condition vector runtime0.08040642738342285
+train diffusion runtime:0.3521111011505127
+generate condition vector runtime0.05264687538146973
+train diffusion runtime:0.25859761238098145
+generate condition vector runtime0.05744504928588867
+train diffusion runtime:0.2750265598297119
+before eval 10.163098096847534
+eval time26.604838371276855
+epoch runtime:36.77486848831177
+
+
+set state 0.0068476200103759766
+generate condition vector runtime0.05123090744018555
+train diffusion runtime:0.23560738563537598
+generate condition vector runtime0.03406238555908203
+train diffusion runtime:0.10386443138122559
+generate condition vector runtime0.06464767456054688
+train diffusion runtime:0.2790098190307617
+epoch runtime:4.947354316711426
+
+
+set state 0.012582063674926758
+generate condition vector runtime0.06067967414855957
+train diffusion runtime:0.33148670196533203
+generate condition vector runtime0.038814544677734375
+train diffusion runtime:0.2566096782684326
+generate condition vector runtime0.03807711601257324
+train diffusion runtime:0.23500752449035645
+epoch runtime:21.678200244903564
+
+
+set state 0.008723020553588867
+generate condition vector runtime0.0631415843963623
+train diffusion runtime:0.29693102836608887
+generate condition vector runtime0.0878908634185791
+train diffusion runtime:0.23079776763916016
+generate condition vector runtime0.037694454193115234
+train diffusion runtime:0.17167901992797852
+before eval 3.451723337173462
+eval time27.544103622436523
+epoch runtime:31.00017213821411
+
+
+set state 0.02172231674194336
+generate condition vector runtime0.06331586837768555
+train diffusion runtime:0.25858092308044434
+generate condition vector runtime0.05874180793762207
+train diffusion runtime:0.319796085357666
+generate condition vector runtime0.03868913650512695
+train diffusion runtime:0.22246074676513672
+epoch runtime:11.55037522315979
+
+
+set state 0.008925199508666992
+generate condition vector runtime0.07724332809448242
+train diffusion runtime:0.33159470558166504
+generate condition vector runtime0.046067237854003906
+train diffusion runtime:0.23125696182250977
+generate condition vector runtime0.05942583084106445
+train diffusion runtime:0.23331761360168457
+epoch runtime:7.348986864089966
+
+
+set state 0.0212862491607666
+generate condition vector runtime0.03599715232849121
+train diffusion runtime:0.17392802238464355
+generate condition vector runtime0.06620001792907715
+train diffusion runtime:0.34332871437072754
+generate condition vector runtime0.0397486686706543
+train diffusion runtime:0.18326473236083984
+before eval 3.316945791244507
+eval time25.55422878265381
+epoch runtime:28.87554931640625
+
+
+set state 0.010776281356811523
+generate condition vector runtime0.06355452537536621
+train diffusion runtime:0.2577536106109619
+generate condition vector runtime0.06791090965270996
+train diffusion runtime:0.21376347541809082
+generate condition vector runtime0.060195207595825195
+train diffusion runtime:0.21370887756347656
+epoch runtime:18.797279119491577
+
+
+set state 0.010077953338623047
+generate condition vector runtime0.06836819648742676
+train diffusion runtime:0.4242703914642334
+generate condition vector runtime0.046013593673706055
+train diffusion runtime:0.34430837631225586
+generate condition vector runtime0.038659095764160156
+train diffusion runtime:0.3627593517303467
+epoch runtime:10.259116649627686
+
+
+set state 0.018146038055419922
+generate condition vector runtime0.06323909759521484
+train diffusion runtime:0.24834227561950684
+generate condition vector runtime0.059111595153808594
+train diffusion runtime:0.34636855125427246
+generate condition vector runtime0.07182788848876953
+train diffusion runtime:0.33996057510375977
+before eval 3.5767087936401367
+eval time24.292296886444092
+epoch runtime:27.871111631393433
+
+
+set state 0.012223005294799805
+generate condition vector runtime0.04473519325256348
+train diffusion runtime:0.27718138694763184
+generate condition vector runtime0.05299043655395508
+train diffusion runtime:0.19260048866271973
+generate condition vector runtime0.04942965507507324
+train diffusion runtime:0.3498504161834717
+epoch runtime:4.717097282409668
+
+
+set state 0.01367950439453125
+generate condition vector runtime0.052555084228515625
+train diffusion runtime:0.2671318054199219
+generate condition vector runtime0.0566558837890625
+train diffusion runtime:0.30094170570373535
+generate condition vector runtime0.05527758598327637
+train diffusion runtime:0.19997763633728027
+epoch runtime:3.081965923309326
+
+
+set state 0.009105920791625977
+generate condition vector runtime0.06595635414123535
+train diffusion runtime:0.4618222713470459
+generate condition vector runtime0.07193374633789062
+train diffusion runtime:0.31168365478515625
+generate condition vector runtime0.07205605506896973
+train diffusion runtime:0.251554012298584
+before eval 24.121729373931885
+eval time27.026872873306274
+epoch runtime:51.149096965789795
+
+
+set state 0.007127285003662109
+generate condition vector runtime0.07093691825866699
+train diffusion runtime:0.5084404945373535
+generate condition vector runtime0.06249094009399414
+train diffusion runtime:0.3696470260620117
+generate condition vector runtime0.04803037643432617
+train diffusion runtime:0.33415818214416504
+epoch runtime:5.818349361419678
+
+
+set state 0.008672237396240234
+generate condition vector runtime0.06131434440612793
+train diffusion runtime:0.3739354610443115
+generate condition vector runtime0.057363033294677734
+train diffusion runtime:0.21831750869750977
+generate condition vector runtime0.06509089469909668
+train diffusion runtime:0.36681628227233887
+epoch runtime:3.6877028942108154
+
+
+set state 0.008949041366577148
+generate condition vector runtime0.06118154525756836
+train diffusion runtime:0.23399686813354492
+generate condition vector runtime0.08765506744384766
+train diffusion runtime:0.37842249870300293
+generate condition vector runtime0.05834650993347168
+train diffusion runtime:0.2651522159576416
+before eval 5.967055082321167
+eval time25.92581844329834
+epoch runtime:31.89357566833496
+
+
+set state 0.02483224868774414
+generate condition vector runtime0.06318068504333496
+train diffusion runtime:0.31519341468811035
+generate condition vector runtime0.05055713653564453
+train diffusion runtime:0.3163487911224365
+generate condition vector runtime0.08930802345275879
+train diffusion runtime:0.2963862419128418
+epoch runtime:22.34408974647522
+
+
+set state 0.004595041275024414
+generate condition vector runtime0.09940600395202637
+train diffusion runtime:0.33011484146118164
+generate condition vector runtime0.06790685653686523
+train diffusion runtime:0.5222771167755127
+generate condition vector runtime0.0830392837524414
+train diffusion runtime:0.2893993854522705
+epoch runtime:17.895386934280396
+
+
+set state 0.009505987167358398
+generate condition vector runtime0.06938982009887695
+train diffusion runtime:0.2902402877807617
+generate condition vector runtime0.056276559829711914
+train diffusion runtime:0.2875688076019287
+generate condition vector runtime0.052822113037109375
+train diffusion runtime:0.2677924633026123
+before eval 3.5434398651123047
+eval time27.323418617248535
+epoch runtime:30.86713194847107
+
+
+set state 0.014207124710083008
+generate condition vector runtime0.03819990158081055
+train diffusion runtime:0.15423035621643066
+generate condition vector runtime0.06269335746765137
+train diffusion runtime:0.28006982803344727
+generate condition vector runtime0.0426023006439209
+train diffusion runtime:0.2368011474609375
+epoch runtime:8.982107400894165
+
+
+set state 0.009054422378540039
+generate condition vector runtime0.04510951042175293
+train diffusion runtime:0.1632542610168457
+generate condition vector runtime0.03464698791503906
+train diffusion runtime:0.13025212287902832
+generate condition vector runtime0.05371737480163574
+train diffusion runtime:0.3092935085296631
+epoch runtime:3.046567678451538
+
+
+set state 0.011622428894042969
+generate condition vector runtime0.0535426139831543
+train diffusion runtime:0.27863383293151855
+generate condition vector runtime0.03414177894592285
+train diffusion runtime:0.23406672477722168
+generate condition vector runtime0.06748819351196289
+train diffusion runtime:0.34752416610717773
+before eval 3.455191135406494
+eval time26.92450499534607
+epoch runtime:30.380163192749023
+
+
+set state 0.012133359909057617
+generate condition vector runtime0.07177472114562988
+train diffusion runtime:0.3126678466796875
+generate condition vector runtime0.05485415458679199
+train diffusion runtime:0.2789032459259033
+generate condition vector runtime0.050540924072265625
+train diffusion runtime:0.21237707138061523
+epoch runtime:22.67328906059265
+
+
+set state 0.0047397613525390625
+generate condition vector runtime0.04324841499328613
+train diffusion runtime:0.3382079601287842
+generate condition vector runtime0.052193403244018555
+train diffusion runtime:0.1758575439453125
+generate condition vector runtime0.0836789608001709
+train diffusion runtime:0.33881235122680664
+epoch runtime:3.607306718826294
+
+
+set state 0.014868736267089844
+generate condition vector runtime0.06096076965332031
+train diffusion runtime:0.2458353042602539
+generate condition vector runtime0.055190086364746094
+train diffusion runtime:0.28261613845825195
+generate condition vector runtime0.05457878112792969
+train diffusion runtime:0.22373247146606445
+before eval 8.87449049949646
+eval time24.162015676498413
+epoch runtime:33.040992975234985
+
+
+set state 0.0063512325286865234
+generate condition vector runtime0.060187578201293945
+train diffusion runtime:0.2294316291809082
+generate condition vector runtime0.05420088768005371
+train diffusion runtime:0.21423101425170898
+generate condition vector runtime0.052759647369384766
+train diffusion runtime:0.2354574203491211
+epoch runtime:7.842132568359375
+
+
+set state 0.009566307067871094
+generate condition vector runtime0.037267208099365234
+train diffusion runtime:0.26529645919799805
+generate condition vector runtime0.06745433807373047
+train diffusion runtime:0.23332929611206055
+generate condition vector runtime0.059259653091430664
+train diffusion runtime:0.3143484592437744
+epoch runtime:8.896861791610718
+
+
+set state 0.013597249984741211
+generate condition vector runtime0.0661931037902832
+train diffusion runtime:0.32413673400878906
+generate condition vector runtime0.05279135704040527
+train diffusion runtime:0.26851439476013184
+generate condition vector runtime0.06055927276611328
+train diffusion runtime:0.25765538215637207
+before eval 15.874286413192749
+eval time25.185291290283203
+epoch runtime:41.05999040603638
+
+
+set state 0.017363548278808594
+generate condition vector runtime0.05282878875732422
+train diffusion runtime:0.3086230754852295
+generate condition vector runtime0.07328104972839355
+train diffusion runtime:0.3265261650085449
+generate condition vector runtime0.05893445014953613
+train diffusion runtime:0.3353309631347656
+epoch runtime:9.9524405002594
+
+
+set state 0.005056858062744141
+generate condition vector runtime0.03992486000061035
+train diffusion runtime:0.3442060947418213
+generate condition vector runtime0.05330491065979004
+train diffusion runtime:0.3329486846923828
+generate condition vector runtime0.06784296035766602
+train diffusion runtime:0.24506044387817383
+epoch runtime:4.1062376499176025
+
+
+set state 0.00785207748413086
+generate condition vector runtime0.06920456886291504
+train diffusion runtime:0.28162145614624023
+generate condition vector runtime0.05539298057556152
+train diffusion runtime:0.3432424068450928
+generate condition vector runtime0.04840970039367676
+train diffusion runtime:0.13787221908569336
+before eval 3.3276846408843994
+eval time25.05349850654602
+epoch runtime:28.386606454849243
+
+
+set state 0.013013362884521484
+generate condition vector runtime0.0682671070098877
+train diffusion runtime:0.4930577278137207
+generate condition vector runtime0.0589749813079834
+train diffusion runtime:0.2592735290527344
+generate condition vector runtime0.09542465209960938
+train diffusion runtime:0.31646084785461426
+epoch runtime:5.634348154067993
+
+
+set state 0.008150815963745117
+generate condition vector runtime0.06748700141906738
+train diffusion runtime:0.3590841293334961
+generate condition vector runtime0.07309556007385254
+train diffusion runtime:0.20917892456054688
+generate condition vector runtime0.06706738471984863
+train diffusion runtime:0.32763123512268066
+epoch runtime:28.526825428009033
+
+
+set state 0.011206865310668945
+generate condition vector runtime0.041625261306762695
+train diffusion runtime:0.31359171867370605
+generate condition vector runtime0.05848336219787598
+train diffusion runtime:0.34443163871765137
+generate condition vector runtime0.0612332820892334
+train diffusion runtime:0.3646855354309082
+before eval 6.939055681228638
+eval time24.78027319908142
+epoch runtime:31.719792366027832
+
+
+set state 0.014091730117797852
+generate condition vector runtime0.06157231330871582
+train diffusion runtime:0.39885663986206055
+generate condition vector runtime0.05314517021179199
+train diffusion runtime:0.4369997978210449
+generate condition vector runtime0.06414389610290527
+train diffusion runtime:0.26720404624938965
+epoch runtime:9.01898455619812
+
+
+set state 0.004586935043334961
+generate condition vector runtime0.06458616256713867
+train diffusion runtime:0.2182459831237793
+generate condition vector runtime0.05327892303466797
+train diffusion runtime:0.16630816459655762
+generate condition vector runtime0.06879854202270508
+train diffusion runtime:0.31766557693481445
+epoch runtime:3.646810293197632
+
+
+set state 0.010339021682739258
+generate condition vector runtime0.047042131423950195
+train diffusion runtime:0.22991180419921875
+generate condition vector runtime0.0629875659942627
+train diffusion runtime:0.31355953216552734
+generate condition vector runtime0.039212942123413086
+train diffusion runtime:0.24452686309814453
+before eval 3.4921319484710693
+eval time23.825634956359863
+epoch runtime:27.324837684631348
+
+
+set state 0.014570236206054688
+generate condition vector runtime0.04100799560546875
+train diffusion runtime:0.26978373527526855
+generate condition vector runtime0.07345414161682129
+train diffusion runtime:0.22344541549682617
+generate condition vector runtime0.05629110336303711
+train diffusion runtime:0.24753570556640625
+epoch runtime:19.77777099609375
+
+
+set state 0.004122018814086914
+generate condition vector runtime0.05045437812805176
+train diffusion runtime:0.20693278312683105
+generate condition vector runtime0.06449675559997559
+train diffusion runtime:0.31739354133605957
+generate condition vector runtime0.05572509765625
+train diffusion runtime:0.1893167495727539
+epoch runtime:3.450157403945923
+
+
+set state 0.007923126220703125
+generate condition vector runtime0.056154489517211914
+train diffusion runtime:0.2989387512207031
+generate condition vector runtime0.08061957359313965
+train diffusion runtime:0.55560302734375
+generate condition vector runtime0.04613089561462402
+train diffusion runtime:0.23895263671875
+before eval 3.882371425628662
+eval time24.983326196670532
+epoch runtime:28.87004590034485
+
+
+set state 0.010248422622680664
+generate condition vector runtime0.045003414154052734
+train diffusion runtime:0.21970081329345703
+generate condition vector runtime0.05331158638000488
+train diffusion runtime:0.20603275299072266
+generate condition vector runtime0.09168124198913574
+train diffusion runtime:0.4165933132171631
+epoch runtime:19.274876356124878
+
+
+set state 0.005452394485473633
+generate condition vector runtime0.03416728973388672
+train diffusion runtime:0.3546319007873535
+generate condition vector runtime0.049460649490356445
+train diffusion runtime:0.17566871643066406
+generate condition vector runtime0.05007457733154297
+train diffusion runtime:0.3259909152984619
+epoch runtime:3.6147994995117188
+
+
+set state 0.017560482025146484
+generate condition vector runtime0.038266897201538086
+train diffusion runtime:0.1131434440612793
+generate condition vector runtime0.05402112007141113
+train diffusion runtime:0.13898682594299316
+generate condition vector runtime0.08360123634338379
+train diffusion runtime:0.36036014556884766
+before eval 19.662101984024048
+eval time27.555245399475098
+epoch runtime:47.2176296710968
+
+
+set state 0.009565591812133789
+generate condition vector runtime0.05995965003967285
+train diffusion runtime:0.418759822845459
+generate condition vector runtime0.04562854766845703
+train diffusion runtime:0.11701726913452148
+generate condition vector runtime0.07157707214355469
+train diffusion runtime:0.3178446292877197
+epoch runtime:8.86096715927124
+
+
+set state 0.012237310409545898
+generate condition vector runtime0.0574030876159668
+train diffusion runtime:0.3605821132659912
+generate condition vector runtime0.06893444061279297
+train diffusion runtime:0.31978416442871094
+generate condition vector runtime0.04163312911987305
+train diffusion runtime:0.2608029842376709
+epoch runtime:3.749920129776001
+
+
+set state 0.011282920837402344
+generate condition vector runtime0.07233262062072754
+train diffusion runtime:0.24863004684448242
+generate condition vector runtime0.043524742126464844
+train diffusion runtime:0.2357771396636963
+generate condition vector runtime0.04339480400085449
+train diffusion runtime:0.2669789791107178
+before eval 3.466259479522705
+eval time26.626200675964355
+epoch runtime:30.093398809432983
+
+
+set state 0.014335393905639648
+generate condition vector runtime0.05340456962585449
+train diffusion runtime:0.27277565002441406
+generate condition vector runtime0.056021928787231445
+train diffusion runtime:0.2559654712677002
+generate condition vector runtime0.06751847267150879
+train diffusion runtime:0.22321772575378418
+epoch runtime:4.264438152313232
+
+
+set state 0.008344173431396484
+generate condition vector runtime0.0556032657623291
+train diffusion runtime:0.33486127853393555
+generate condition vector runtime0.05644869804382324
+train diffusion runtime:0.22546148300170898
+generate condition vector runtime0.05519223213195801
+train diffusion runtime:0.1861402988433838
+epoch runtime:21.007959842681885
+
+
+set state 0.007169961929321289
+generate condition vector runtime0.049259185791015625
+train diffusion runtime:0.3492436408996582
+generate condition vector runtime0.0629739761352539
+train diffusion runtime:0.3822004795074463
+generate condition vector runtime0.05508708953857422
+train diffusion runtime:0.29565858840942383
+before eval 11.284223556518555
+eval time24.297630310058594
+epoch runtime:35.58528542518616
+
+
+set state 0.005506753921508789
+generate condition vector runtime0.0489048957824707
+train diffusion runtime:0.14777088165283203
+generate condition vector runtime0.04756569862365723
+train diffusion runtime:0.32920002937316895
+generate condition vector runtime0.06871294975280762
+train diffusion runtime:0.3543355464935303
+epoch runtime:4.884266376495361
+
+
+set state 0.016933202743530273
+generate condition vector runtime0.05996990203857422
+train diffusion runtime:0.1929006576538086
+generate condition vector runtime0.034371376037597656
+train diffusion runtime:0.10254859924316406
+generate condition vector runtime0.04283285140991211
+train diffusion runtime:0.20362257957458496
+epoch runtime:2.85775089263916
+
+
+set state 0.0046234130859375
+generate condition vector runtime0.04260659217834473
+train diffusion runtime:0.15936589241027832
+generate condition vector runtime0.038421630859375
+train diffusion runtime:0.1846320629119873
+generate condition vector runtime0.038780927658081055
+train diffusion runtime:0.1227562427520752
+before eval 2.7906360626220703
+eval time21.585013151168823
+epoch runtime:24.37628483772278
+
+
+set state 0.012457132339477539
+generate condition vector runtime0.04413771629333496
+train diffusion runtime:0.38298535346984863
+generate condition vector runtime0.0474696159362793
+train diffusion runtime:0.21196961402893066
+generate condition vector runtime0.07585406303405762
+train diffusion runtime:0.35562825202941895
+epoch runtime:26.462769269943237
+
+
+set state 0.016259193420410156
+generate condition vector runtime0.06683063507080078
+train diffusion runtime:0.335064172744751
+generate condition vector runtime0.07042741775512695
+train diffusion runtime:0.38573288917541504
+generate condition vector runtime0.06728172302246094
+train diffusion runtime:0.3713836669921875
+epoch runtime:4.502481937408447
+
+
+set state 0.017883777618408203
+generate condition vector runtime0.06780123710632324
+train diffusion runtime:0.24063920974731445
+generate condition vector runtime0.08849763870239258
+train diffusion runtime:0.41711974143981934
+generate condition vector runtime0.0543363094329834
+train diffusion runtime:0.2740600109100342
+before eval 7.8929784297943115
+eval time21.146270513534546
+epoch runtime:29.03962731361389
+
+
+set state 0.022706031799316406
+generate condition vector runtime0.04123854637145996
+train diffusion runtime:0.17099237442016602
+generate condition vector runtime0.046082496643066406
+train diffusion runtime:0.23711752891540527
+generate condition vector runtime0.03725004196166992
+train diffusion runtime:0.21940064430236816
+epoch runtime:4.256891965866089
+
+
+set state 0.004142045974731445
+generate condition vector runtime0.06051468849182129
+train diffusion runtime:0.15877008438110352
+generate condition vector runtime0.056729793548583984
+train diffusion runtime:0.30698347091674805
+generate condition vector runtime0.05159926414489746
+train diffusion runtime:0.14510560035705566
+epoch runtime:7.734553337097168
+
+
+set state 0.007904529571533203
+generate condition vector runtime0.05081629753112793
+train diffusion runtime:0.21957159042358398
+generate condition vector runtime0.0425412654876709
+train diffusion runtime:0.1688098907470703
+generate condition vector runtime0.08243727684020996
+train diffusion runtime:0.34911060333251953
+before eval 15.359826564788818
+eval time24.306124210357666
+epoch runtime:39.666383504867554
+
+
+set state 0.013862848281860352
+generate condition vector runtime0.0647580623626709
+train diffusion runtime:0.3832836151123047
+generate condition vector runtime0.04007077217102051
+train diffusion runtime:0.21297764778137207
+generate condition vector runtime0.07616782188415527
+train diffusion runtime:0.3706982135772705
+epoch runtime:4.878728866577148
+
+
+set state 0.012045621871948242
+generate condition vector runtime0.05340170860290527
+train diffusion runtime:0.3215184211730957
+generate condition vector runtime0.06348133087158203
+train diffusion runtime:0.27165746688842773
+generate condition vector runtime0.04513907432556152
+train diffusion runtime:0.23764252662658691
+epoch runtime:4.66551947593689
+
+
+set state 0.00825047492980957
+generate condition vector runtime0.05108976364135742
+train diffusion runtime:0.2977442741394043
+generate condition vector runtime0.054311513900756836
+train diffusion runtime:0.2789137363433838
+generate condition vector runtime0.06617426872253418
+train diffusion runtime:0.28980445861816406
+before eval 2.9634790420532227
+eval time22.952493906021118
+epoch runtime:25.929572343826294
+
+
+set state 0.008919239044189453
+generate condition vector runtime0.05749869346618652
+train diffusion runtime:0.3021237850189209
+generate condition vector runtime0.057634592056274414
+train diffusion runtime:0.26868748664855957
+generate condition vector runtime0.08611440658569336
+train diffusion runtime:0.3308379650115967
+epoch runtime:10.3761465549469
+
+
+set state 0.008606433868408203
+generate condition vector runtime0.06717610359191895
+train diffusion runtime:0.3346593379974365
+generate condition vector runtime0.05927467346191406
+train diffusion runtime:0.23246407508850098
+generate condition vector runtime0.051987648010253906
+train diffusion runtime:0.24664521217346191
+epoch runtime:19.078656435012817
+
+
+set state 0.006900310516357422
+generate condition vector runtime0.035077571868896484
+train diffusion runtime:0.11358833312988281
+generate condition vector runtime0.047650814056396484
+train diffusion runtime:0.17184805870056152
+generate condition vector runtime0.034896135330200195
+train diffusion runtime:0.22035503387451172
+before eval 2.713634490966797
+eval time24.430297374725342
+epoch runtime:27.15321636199951
+
+
+set state 0.011090517044067383
+generate condition vector runtime0.03528428077697754
+train diffusion runtime:0.22955608367919922
+generate condition vector runtime0.05547475814819336
+train diffusion runtime:0.24604582786560059
+generate condition vector runtime0.03647303581237793
+train diffusion runtime:0.21612167358398438
+epoch runtime:13.55415153503418
+
+
+set state 0.008247613906860352
+generate condition vector runtime0.06342554092407227
+train diffusion runtime:0.23768877983093262
+generate condition vector runtime0.06501126289367676
+train diffusion runtime:0.37299394607543945
+generate condition vector runtime0.07505655288696289
+train diffusion runtime:0.35214686393737793
+epoch runtime:3.781710147857666
+
+
+set state 0.008875370025634766
+generate condition vector runtime0.04646468162536621
+train diffusion runtime:0.2381734848022461
+generate condition vector runtime0.04404592514038086
+train diffusion runtime:0.23799753189086914
+generate condition vector runtime0.037508487701416016
+train diffusion runtime:0.23356103897094727
+before eval 2.8713793754577637
+eval time23.835992336273193
+epoch runtime:26.711369037628174
+
+
+set state 0.010890960693359375
+generate condition vector runtime0.057405948638916016
+train diffusion runtime:0.28481316566467285
+generate condition vector runtime0.06666707992553711
+train diffusion runtime:0.2744297981262207
+generate condition vector runtime0.06791877746582031
+train diffusion runtime:0.21212482452392578
+epoch runtime:17.746570348739624
+
+
+set state 0.009006023406982422
+generate condition vector runtime0.06661868095397949
+train diffusion runtime:0.3066537380218506
+generate condition vector runtime0.03860354423522949
+train diffusion runtime:0.26415443420410156
+generate condition vector runtime0.06690573692321777
+train diffusion runtime:0.3168635368347168
+epoch runtime:7.625576734542847
+
+
+set state 0.007259368896484375
+generate condition vector runtime0.035819292068481445
+train diffusion runtime:0.3318789005279541
+generate condition vector runtime0.056940555572509766
+train diffusion runtime:0.27759647369384766
+generate condition vector runtime0.04153728485107422
+train diffusion runtime:0.1924140453338623
+before eval 3.0834927558898926
+eval time21.063568830490112
+epoch runtime:24.14738702774048
+
+
+set state 0.013244390487670898
+generate condition vector runtime0.06386065483093262
+train diffusion runtime:0.2700662612915039
+generate condition vector runtime0.0795435905456543
+train diffusion runtime:0.253521203994751
+generate condition vector runtime0.05050969123840332
+train diffusion runtime:0.3255958557128906
+epoch runtime:9.954097509384155
+
+
+set state 0.004529237747192383
+generate condition vector runtime0.03276205062866211
+train diffusion runtime:0.23801803588867188
+generate condition vector runtime0.059369802474975586
+train diffusion runtime:0.3091011047363281
+generate condition vector runtime0.05743575096130371
+train diffusion runtime:0.2937483787536621
+epoch runtime:3.3366706371307373
+
+
+set state 0.012045145034790039
+generate condition vector runtime0.0372776985168457
+train diffusion runtime:0.20167970657348633
+generate condition vector runtime0.10163712501525879
+train diffusion runtime:0.28878045082092285
+generate condition vector runtime0.06611824035644531
+train diffusion runtime:0.2835233211517334
+before eval 23.85934066772461
+eval time28.89969301223755
+epoch runtime:52.75945448875427
+
+
+set state 0.019899368286132812
+generate condition vector runtime0.05442047119140625
+train diffusion runtime:0.31331682205200195
+generate condition vector runtime0.048517465591430664
+train diffusion runtime:0.3272864818572998
+generate condition vector runtime0.05056500434875488
+train diffusion runtime:0.27817726135253906
+epoch runtime:5.04954981803894
+
+
+set state 0.0040378570556640625
+generate condition vector runtime0.04128456115722656
+train diffusion runtime:0.2817051410675049
+generate condition vector runtime0.06099367141723633
+train diffusion runtime:0.25353217124938965
+generate condition vector runtime0.050470829010009766
+train diffusion runtime:0.25696849822998047
+epoch runtime:3.2998223304748535
+
+
+set state 0.013843059539794922
+generate condition vector runtime0.0719156265258789
+train diffusion runtime:0.23270893096923828
+generate condition vector runtime0.04767560958862305
+train diffusion runtime:0.18283629417419434
+generate condition vector runtime0.04948902130126953
+train diffusion runtime:0.3005642890930176
+before eval 6.685647010803223
+eval time24.81689763069153
+epoch runtime:31.502772331237793
+
+
+set state 0.008990764617919922
+generate condition vector runtime0.06998252868652344
+train diffusion runtime:0.26587367057800293
+generate condition vector runtime0.05073404312133789
+train diffusion runtime:0.2992246150970459
+generate condition vector runtime0.055616140365600586
+train diffusion runtime:0.2130603790283203
+epoch runtime:9.30859923362732
+
+
+set state 0.01240396499633789
+generate condition vector runtime0.03875732421875
+train diffusion runtime:0.19670796394348145
+generate condition vector runtime0.07540512084960938
+train diffusion runtime:0.3055746555328369
+generate condition vector runtime0.07227897644042969
+train diffusion runtime:0.1856975555419922
+epoch runtime:15.629314661026001
+
+
+set state 0.0070879459381103516
+generate condition vector runtime0.05366802215576172
+train diffusion runtime:0.320159912109375
+generate condition vector runtime0.043435096740722656
+train diffusion runtime:0.21043777465820312
+generate condition vector runtime0.062421560287475586
+train diffusion runtime:0.2688267230987549
+before eval 3.190769910812378
+eval time24.97073769569397
+epoch runtime:28.162136793136597
+
+
+set state 0.012952089309692383
+generate condition vector runtime0.05913209915161133
+train diffusion runtime:0.3415048122406006
+generate condition vector runtime0.0364992618560791
+train diffusion runtime:0.20308518409729004
+generate condition vector runtime0.03817462921142578
+train diffusion runtime:0.15405702590942383
+epoch runtime:7.7284674644470215
+
+
+set state 0.006542682647705078
+generate condition vector runtime0.0449223518371582
+train diffusion runtime:0.2333362102508545
+generate condition vector runtime0.0460207462310791
+train diffusion runtime:0.20045065879821777
+generate condition vector runtime0.06742715835571289
+train diffusion runtime:0.262129545211792
+epoch runtime:7.078824043273926
+
+
+set state 0.008608579635620117
+generate condition vector runtime0.050000905990600586
+train diffusion runtime:0.21862292289733887
+generate condition vector runtime0.035239219665527344
+train diffusion runtime:0.10711431503295898
+generate condition vector runtime0.03615832328796387
+train diffusion runtime:0.1416797637939453
+before eval 4.394470930099487
+eval time21.675779342651367
+epoch runtime:26.074151277542114
+
+
+set state 0.011195182800292969
+generate condition vector runtime0.05194544792175293
+train diffusion runtime:0.27135515213012695
+generate condition vector runtime0.05430173873901367
+train diffusion runtime:0.339247465133667
+generate condition vector runtime0.06606149673461914
+train diffusion runtime:0.19809937477111816
+epoch runtime:24.12794017791748
+
+
+set state 0.017729997634887695
+generate condition vector runtime0.0557553768157959
+train diffusion runtime:0.25389790534973145
+generate condition vector runtime0.06172657012939453
+train diffusion runtime:0.27103137969970703
+generate condition vector runtime0.03844261169433594
+train diffusion runtime:0.1770331859588623
+epoch runtime:3.080977439880371
+
+
+set state 0.016396522521972656
+generate condition vector runtime0.05634903907775879
+train diffusion runtime:0.28351807594299316
+generate condition vector runtime0.05384659767150879
+train diffusion runtime:0.2858271598815918
+generate condition vector runtime0.04894733428955078
+train diffusion runtime:0.15597772598266602
+before eval 3.3362529277801514
+eval time23.611769914627075
+epoch runtime:26.952019453048706
+
+
+set state 0.01450490951538086
+generate condition vector runtime0.05691647529602051
+train diffusion runtime:0.241166353225708
+generate condition vector runtime0.05441784858703613
+train diffusion runtime:0.2325735092163086
+generate condition vector runtime0.05986475944519043
+train diffusion runtime:0.22441649436950684
+epoch runtime:4.61210823059082
+
+
+set state 0.004038095474243164
+generate condition vector runtime0.04770302772521973
+train diffusion runtime:0.20601367950439453
+generate condition vector runtime0.04157614707946777
+train diffusion runtime:0.1670987606048584
+generate condition vector runtime0.04581141471862793
+train diffusion runtime:0.20661354064941406
+epoch runtime:2.735454559326172
+
+
+set state 0.007753849029541016
+generate condition vector runtime0.03554487228393555
+train diffusion runtime:0.2570788860321045
+generate condition vector runtime0.04883098602294922
+train diffusion runtime:0.2181532382965088
+generate condition vector runtime0.08321261405944824
+train diffusion runtime:0.21982979774475098
+before eval 14.81096363067627
+eval time23.315341234207153
+epoch runtime:38.128114223480225
+
+
+set state 0.008765459060668945
+generate condition vector runtime0.05410599708557129
+train diffusion runtime:0.27789735794067383
+generate condition vector runtime0.05093026161193848
+train diffusion runtime:0.34798622131347656
+generate condition vector runtime0.05695366859436035
+train diffusion runtime:0.3298220634460449
+epoch runtime:19.293548822402954
+
+
+set state 0.010804891586303711
+generate condition vector runtime0.037247419357299805
+train diffusion runtime:0.1648571491241455
+generate condition vector runtime0.06723880767822266
+train diffusion runtime:0.2858726978302002
+generate condition vector runtime0.09082198143005371
+train diffusion runtime:0.3793761730194092
+epoch runtime:8.050349712371826
+
+
+set state 0.010598182678222656
+generate condition vector runtime0.06070590019226074
+train diffusion runtime:0.27230215072631836
+generate condition vector runtime0.05376434326171875
+train diffusion runtime:0.20874428749084473
+generate condition vector runtime0.04384422302246094
+train diffusion runtime:0.20884132385253906
+before eval 3.4179906845092773
+eval time24.01732087135315
+epoch runtime:27.43870782852173
+
+
+set state 0.015381336212158203
+generate condition vector runtime0.06674909591674805
+train diffusion runtime:0.23854947090148926
+generate condition vector runtime0.045165300369262695
+train diffusion runtime:0.22083163261413574
+generate condition vector runtime0.03471112251281738
+train diffusion runtime:0.10352444648742676
+epoch runtime:4.167865037918091
+
+
+set state 0.004192352294921875
+generate condition vector runtime0.047919511795043945
+train diffusion runtime:0.2349996566772461
+generate condition vector runtime0.05652904510498047
+train diffusion runtime:0.2084658145904541
+generate condition vector runtime0.06370711326599121
+train diffusion runtime:0.333599328994751
+epoch runtime:18.48669719696045
+
+
+set state 0.008860588073730469
+generate condition vector runtime0.047704458236694336
+train diffusion runtime:0.25015687942504883
+generate condition vector runtime0.06480622291564941
+train diffusion runtime:0.2964918613433838
+generate condition vector runtime0.04950380325317383
+train diffusion runtime:0.19357013702392578
+before eval 3.408961296081543
+eval time20.176567554473877
+epoch runtime:23.5858633518219
+
+
+set state 0.0069730281829833984
+generate condition vector runtime0.04646778106689453
+train diffusion runtime:0.1920170783996582
+generate condition vector runtime0.036148786544799805
+train diffusion runtime:0.1997997760772705
+generate condition vector runtime0.034356117248535156
+train diffusion runtime:0.10248327255249023
+epoch runtime:4.41673469543457
+
+
+set state 0.004464626312255859
+generate condition vector runtime0.05076265335083008
+train diffusion runtime:0.1731269359588623
+generate condition vector runtime0.03408646583557129
+train diffusion runtime:0.1018972396850586
+generate condition vector runtime0.038964033126831055
+train diffusion runtime:0.19373846054077148
+epoch runtime:2.5210225582122803
+
+
+set state 0.008063316345214844
+generate condition vector runtime0.037094831466674805
+train diffusion runtime:0.11748099327087402
+generate condition vector runtime0.04208874702453613
+train diffusion runtime:0.1148233413696289
+generate condition vector runtime0.05700516700744629
+train diffusion runtime:0.2169175148010254
+before eval 10.756524324417114
+eval time21.558407306671143
+epoch runtime:32.31843400001526
+
+
+set state 0.007185459136962891
+generate condition vector runtime0.04537367820739746
+train diffusion runtime:0.23960256576538086
+generate condition vector runtime0.08125686645507812
+train diffusion runtime:0.2941431999206543
+generate condition vector runtime0.0767362117767334
+train diffusion runtime:0.2985110282897949
+epoch runtime:18.832780361175537
+
+
+set state 0.008234024047851562
+generate condition vector runtime0.050138235092163086
+train diffusion runtime:0.28767943382263184
+generate condition vector runtime0.039845943450927734
+train diffusion runtime:0.2849760055541992
+generate condition vector runtime0.04830455780029297
+train diffusion runtime:0.27468180656433105
+epoch runtime:3.1881473064422607
+
+
+set state 0.005308628082275391
+generate condition vector runtime0.04275202751159668
+train diffusion runtime:0.14365100860595703
+generate condition vector runtime0.04826807975769043
+train diffusion runtime:0.25198888778686523
+generate condition vector runtime0.07427787780761719
+train diffusion runtime:0.31849217414855957
+before eval 3.267502784729004
