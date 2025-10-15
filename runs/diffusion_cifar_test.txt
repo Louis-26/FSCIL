@@ -1,0 +1,13 @@
+python train.py
+    -project "diffusion_fscil_cifar100"
+    -dataset "cifar100"
+    -gpu "0"
+    -epochs_base 200
+    -num_diffusion_steps 1000
+    -ddim_steps 50
+    -lr_diffusion 1e-4
+    -batch_size_diffusion 256
+    -batch_size_base 128
+    -test_batch_size 100
+    -num_workers 8
+    -seed 1

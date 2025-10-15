@@ -1,0 +1,10 @@
+# torch
+# torchvision
+timm
+# tqdm
+numpy
+pillow
+scipy
+matplotlib
+
+
