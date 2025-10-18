@@ -12,7 +12,8 @@ conda create -n FSCIL_env python=3.13 -y
 conda activate FSCIL_env
 pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 python -c "import torch; print(torch.version.cuda)"
-pip install ftfy regex tqdm
+
+[//]: # (pip install ftfy regex tqdm)
 pip install git+https://github.com/openai/CLIP.git
 pip install -r requirements.txt
 

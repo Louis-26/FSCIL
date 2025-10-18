@@ -218,8 +218,8 @@ if __name__ == '__main__':
     ==================================================
     Project: {PROJECT_NAME}
     Dataset: {DATASET}
-    GPU name: {torch}
-    CUDA: 
+    GPU name: {torch.cuda.get_device_name(0)}
+    CUDA: {torch.version.cuda}
     GPU ID: {GPU_ID}
     =================================================="
     """
