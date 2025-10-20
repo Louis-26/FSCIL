@@ -46,3 +46,6 @@ CIFAR-100: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 Caltech-UCSD Birds-200-2011: https://www.vision.caltech.edu/datasets/cub_200_2011/
 
 Mini imagenet: https://drive.usercontent.google.com/download?id=16V_ZlkW4SsnNDtnGmaBRq2OoPmUOc5mY&export=download
+
+## paper
+link: https://www.overleaf.com/5445663713xzmxjpbhvxsx#a9eccc 
