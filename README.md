@@ -1,9 +1,10 @@
 Few-Shot Class-Incremental Learning
 
-https://www.yuque.com/kanghaidong/ctruy3/qski7fh1toekqqk7/edit
+
+## documentation and background
+Yuque: https://www.yuque.com/kanghaidong/ctruy3/qski7fh1toekqqk7/edit
 
 Google doc: https://docs.google.com/document/d/1VFSoz94z6_FsUrWT3cM1vB6_WJzbFlSrRPl-ZYNraxI/edit?usp=sharing
-
 
 Google slide: https://docs.google.com/presentation/d/1j9bRXTQGni-2a8GKquyR_TUGlMFpABAPYpuJK5Iq6Yc/edit?usp=sharing
 
@@ -48,4 +49,6 @@ Caltech-UCSD Birds-200-2011: https://www.vision.caltech.edu/datasets/cub_200_201
 Mini imagenet: https://drive.usercontent.google.com/download?id=16V_ZlkW4SsnNDtnGmaBRq2OoPmUOc5mY&export=download
 
 ## paper
-link: https://www.overleaf.com/5445663713xzmxjpbhvxsx#a9eccc 
+Yi Lu part: https://www.overleaf.com/read/rwkqmwqdgzxx#35c90c
+
+final link: https://www.overleaf.com/5445663713xzmxjpbhvxsx#a9eccc 
