@@ -51,4 +51,6 @@ Mini imagenet: https://drive.usercontent.google.com/download?id=16V_ZlkW4SsnNDtn
 ## paper
 Yi Lu part: https://www.overleaf.com/read/rwkqmwqdgzxx#35c90c
 
-final link: https://www.overleaf.com/5445663713xzmxjpbhvxsx#a9eccc 
+final link: https://www.overleaf.com/5445663713xzmxjpbhvxsx#a9eccc
+
+update
