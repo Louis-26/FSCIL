@@ -32,6 +32,28 @@ sys.argv = [
     "-seed", "1"
 ]
 
+def display_device_info(PROJECT_NAME, DATASET, GPU_ID):
+    # Get the number of available CUDA devices
+    num_cuda_devices = torch.cuda.device_count()
+    print(f"Number of CUDA devices: {num_cuda_devices}")
+
+    # Iterate through each CUDA device to get its name
+    for i in range(num_cuda_devices):
+        device_name = torch.cuda.get_device_name(i)
+        print(f"    GPU Device {i}: {device_name}")
+
+    print(f"""
+        ==================================================
+          DiffusionFSCIL - CIFAR-100
+        ==================================================
+        Project: {PROJECT_NAME}
+        Dataset: {DATASET}
+        GPU name: {torch.cuda.get_device_name(0)}
+        CUDA: {torch.version.cuda}
+        GPU ID: {GPU_ID}
+        ==================================================
+        """
+          )
 
 def get_command_line_parser():
     parser = argparse.ArgumentParser(description='DiffusionFSCIL Training')
@@ -201,29 +223,8 @@ def main():
 
 
 if __name__ == '__main__':
-    # Get the number of available CUDA devices
-    num_cuda_devices = torch.cuda.device_count()
-    print(f"Number of CUDA devices: {num_cuda_devices}")
-
-    # Iterate through each CUDA device to get its name
-    for i in range(num_cuda_devices):
-        device_name = torch.cuda.get_device_name(i)
-        print(f"    GPU Device {i}: {device_name}")
-    PROJECT_NAME = "diffusion_fscil_cifar100"
-    DATASET = "cifar100"
-    GPU_ID = "0"
-    print(f"""
-    ==================================================
-      DiffusionFSCIL - CIFAR-100
-    ==================================================
-    Project: {PROJECT_NAME}
-    Dataset: {DATASET}
-    GPU name: {torch.cuda.get_device_name(0)}
-    CUDA: {torch.version.cuda}
-    GPU ID: {GPU_ID}
-    ==================================================
-    """
-          )
+    PROJECT_NAME, DATASET, GPU_ID = "diffusion_fscil_cifar100", "cifar100", "0"
+    display_device_info(PROJECT_NAME, DATASET, GPU_ID)
     main()
     print("""
           ==================================================
