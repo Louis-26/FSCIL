@@ -18,6 +18,8 @@ python -c "import torch; print(torch.version.cuda)"
 pip install git+https://github.com/openai/CLIP.git
 pip install -r requirements.txt
 
+if on linux: chmod -R +x git_script
+
 ## run training
 add the following in train.py
 ```python
@@ -44,7 +46,7 @@ Download the following datasets and put them in the `data` folder
 
 CIFAR-100: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 
-Caltech-UCSD Birds-200-2011: https://www.vision.caltech.edu/datasets/cub_200_2011/
+Caltech-UCSD Birds-200-2011: https://data.caltech.edu/records/65de6-vp158/files/CUB_200_2011.tgz
 
 Mini imagenet: https://drive.usercontent.google.com/download?id=16V_ZlkW4SsnNDtnGmaBRq2OoPmUOc5mY&export=download
 
