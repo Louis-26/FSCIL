@@ -50,6 +50,10 @@ Caltech-UCSD Birds-200-2011: https://data.caltech.edu/records/65de6-vp158/files/
 
 Mini imagenet: https://drive.usercontent.google.com/download?id=16V_ZlkW4SsnNDtnGmaBRq2OoPmUOc5mY&export=download
 
+### index list
+linux: mv complementary/index_list data/
+windows: move complementary\index_list data\
+
 ## paper
 Yi Lu part: https://www.overleaf.com/read/rwkqmwqdgzxx#35c90c
 
