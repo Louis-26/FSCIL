@@ -133,6 +133,8 @@ def set_seed(seed):
 
 def auto_config_dataset(args):
     """自动配置数据集参数"""
+    # way: number of different classes in each session
+    # shot: number of additional samples in each session
     if args.dataset == 'cifar100':
         args.num_classes = 100
         args.base_class = 60
