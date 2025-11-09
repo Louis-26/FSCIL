@@ -159,7 +159,7 @@ def test_diffusion(model, testloader, args, session):
     model.eval()
     
     # 所有类别都用扩散生成原型
-    log.info(f"Generating prototypes for {test_class} classes using Diffusion...")
+    log.info(f"Generating prototypes for {test_class} classes using Text Prototypes...")
     class_ids = list(range(test_class))
     
     ddim_steps = getattr(args, 'ddim_steps', 50)

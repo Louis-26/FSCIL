@@ -1,5 +1,6 @@
 Few-Shot Class-Incremental Learning
 
+In this branch, we disable the diffusion model and reproduce the result from CLIP model.
 
 ## documentation and background
 Yuque: https://www.yuque.com/kanghaidong/ctruy3/qski7fh1toekqqk7/edit

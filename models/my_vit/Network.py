@@ -159,53 +159,28 @@ class MYNET(nn.Module):
     
     @torch.no_grad()
     def generate_prototypes(self, class_ids, use_cache=True, ddim_steps=50):
-        """
-        使用扩散模型生成视觉原型
-        
-        Args:
-            class_ids: List[int] or Tensor 类别ID
-            use_cache: bool 是否使用缓存
-            ddim_steps: int DDIM采样步数
-        
-        Returns:
-            prototypes: (C, 512) 生成的原型特征
-        """
+        """生成原型（禁用扩散，直接使用文本原型）"""
+        # ... 参数处理 ...
         if isinstance(class_ids, list):
             class_ids = torch.tensor(class_ids).cuda()
         elif not isinstance(class_ids, torch.Tensor):
             class_ids = torch.tensor([class_ids]).cuda()
-        
+
         if class_ids.device != torch.device('cuda'):
             class_ids = class_ids.cuda()
-        
+
         prototypes = []
-        
         for cid in class_ids:
             cid_int = cid.item()
-            
-            # 检查缓存
-            if use_cache and cid_int in self.visual_prototypes:
-                prototypes.append(self.visual_prototypes[cid_int])
-            else:
-                # 生成新原型
-                if cid_int not in self.text_prototypes:
-                    log.warning(f"Text prototype for class {cid_int} not found, generating...")
-                    self.generate_text_prototypes([cid_int])
-                
-                text_feat = self.text_prototypes[cid_int].unsqueeze(0)
-                label = torch.tensor([cid_int]).cuda()
-                
-                # 使用扩散模型采样（guidance_scale=5.0最优）
-                proto = self.diffusion_model.sample(
-                    label, 
-                    text_feat, 
-                    ddim_steps=ddim_steps,
-                    guidance_scale=5.0  #  关键：增强条件控制
-                )
-                
-                # 缓存
-                self.visual_prototypes[cid_int] = proto.squeeze(0)
-                prototypes.append(proto.squeeze(0))
+
+            # 生成文本原型（如果不存在）
+            if cid_int not in self.text_prototypes:
+                log.warning(f"Text prototype for class {cid_int} not found, generating...")
+                self.generate_text_prototypes([cid_int])
+
+            # ✅ 直接使用文本原型，跳过扩散
+            text_feat = self.text_prototypes[cid_int]
+            prototypes.append(text_feat)
         
         return torch.stack(prototypes)
     
