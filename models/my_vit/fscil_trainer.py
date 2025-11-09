@@ -206,9 +206,9 @@ class FSCILTrainer:
             log.info(f"Session {i}: Top1={test_acc[-1]:.2f}% | gAcc={gacc:.2f}%")
         
         # 保存最终结果
-        result_file = os.path.join(self.save_path, 'final_results.txt')
+        result_file = os.path.join(self.save_path, 'final_results_no_diffusion.txt')
         with open(result_file, 'w') as f:
-            f.write(f"DiffusionFSCIL Results - {self.args.dataset}\n")
+            f.write(f"FSCIL Results without diffusion - {self.args.dataset}\n")
             f.write("="*60 + "\n")
             for i, (test_acc, gacc) in enumerate(zip(self.test_acc_curve, self.gAcc_curve)):
                 f.write(f"Session {i}: Top1={test_acc[-1]:.2f}% | gAcc={gacc:.2f}%\n")
