@@ -95,7 +95,7 @@ class FSCILTrainer:
         log.info(f"  - gAcc: {acc_dict['gAcc']:.2f}%")
         
         # 保存检查点
-        self.save_checkpoint('session0_diffusion.pth')
+        self.save_checkpoint('session0_without_diffusion.pth')
         log.info(f"✅ Session 0 checkpoint saved")
     
     def train_incremental(self, session):
