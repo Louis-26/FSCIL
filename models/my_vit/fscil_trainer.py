@@ -24,7 +24,6 @@ class FSCILTrainer:
         self.save_path = os.path.join(
             'checkpoint',
             f'{args.project}_{args.dataset}',
-            f'diffusion'
         )
         ensure_path(self.save_path)
         

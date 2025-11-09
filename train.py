@@ -18,7 +18,7 @@ import sys
 
 sys.argv = [
     "program_name",
-    "-project", "diffusion_fscil_cifar100",
+    "-project", "diffusion_fscil",
     "-dataset", "cifar100",
     "-gpu", "0",
     "-epochs_base", "200",
