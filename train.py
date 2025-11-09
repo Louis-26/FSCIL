@@ -12,13 +12,13 @@ from models.logger import LOGGER
 log = LOGGER.LOGGER
 
 DATA_DIR = 'data/'
-PROJECT = 'diffusion_fscil'
+PROJECT = 'no_diffusion_fscil'
 
 import sys
 
 sys.argv = [
     "program_name",
-    "-project", "diffusion_fscil_cifar100",
+    "-project", "diffusion_fscil",
     "-dataset", "cifar100",
     "-gpu", "0",
     "-epochs_base", "200",
@@ -214,7 +214,7 @@ def main():
         else:
             # 尝试自动加载
             prev_session = args.start_session - 1
-            trainer.load_checkpoint(f'session{prev_session}_diffusion.pth')
+            trainer.load_checkpoint(f'session{prev_session}_without_diffusion.pth')
 
         # 继续训练
         for session in range(args.start_session, args.sessions):

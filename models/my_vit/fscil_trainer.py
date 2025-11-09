@@ -24,7 +24,7 @@ class FSCILTrainer:
         self.save_path = os.path.join(
             'checkpoint',
             f'{args.project}_{args.dataset}',
-            f'diffusion'
+            f'no_diffusion'
         )
         ensure_path(self.save_path)
         
@@ -135,7 +135,7 @@ class FSCILTrainer:
             log.info(f"    Task {i}: {acc:.2f}%")
         
         # 保存检查点（虽然没有参数更新，但保存状态）
-        self.save_checkpoint(f'session{session}_diffusion.pth')
+        self.save_checkpoint(f'session{session}_without_diffusion.pth')
     
     def save_checkpoint(self, filename):
         """保存检查点"""
