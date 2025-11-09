@@ -44,7 +44,7 @@ sys.argv=[
 ## Dataset
 Download the following datasets and put them in the `data` folder
 
-CIFAR-100: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+CIFAR-100(Canadian Institute for Advanced Research): https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 
 Caltech-UCSD Birds-200-2011: https://data.caltech.edu/records/65de6-vp158/files/CUB_200_2011.tgz
 
@@ -56,9 +56,10 @@ CIFAR-100: 60000 32x32 colour images in 100 classes, with 600 images per class
 CIFAR-100 source: https://www.cs.toronto.edu/~kriz/cifar.html
 
 
-### index list
-linux: mv complementary/index_list data/
-windows: move complementary\index_list data\
+### add index list
+linux: `cp -r complementary/index_list data/`
+
+windows: `xcopy complementary\index_list data\ /E /I`
 
 ## paper
 Yi Lu part: https://www.overleaf.com/read/rwkqmwqdgzxx#35c90c
