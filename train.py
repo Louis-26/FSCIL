@@ -3,6 +3,7 @@ DiffusionFSCIL Training Script
 简化的训练脚本 - 专注于扩散模型训练
 """
 import argparse
+import os
 import random
 
 import numpy as np
@@ -231,17 +232,34 @@ if __name__ == '__main__':
     display_device_info(PROJECT_NAME, DATASET, GPU_ID)
 
     change_para={}
-    change_para["num_diffusion_steps"] = [50, 200, 500]
-    change_para["ddim_steps"] = [10, 30, 100]
-    change_para["lr_diffusion"] = [2e-5, 5e-5, 2e-4]
+    change_para["-num_diffusion_steps"] = [50, 200, 500]
+    change_para["-ddim_steps"] = [10, 30, 100]
+    change_para["-lr_diffusion"] = [2e-5, 5e-5, 2e-4]
+    # find existing results
+    existing_results = list()
+    results_collected_path = "./complementary/results_collected"
+    for f in os.listdir(results_collected_path):
+        if f.startswith("res_diff"):
+            para = f.split("_")
+            existing_results.append((eval(para[3]), eval(para[5]), eval(para[7].replace(".txt", ""))))
+
     for k,v in change_para.items():
         for value in v:
             # find the corresponding argument in sys.argv
-
-            idx=sys.argv.index(f"-{k}")
+            idx = sys.argv.index(f"{k}")
             sys.argv[idx+1]=str(value)
             print(f"Set {k} to {value}")
-            main()
+            id_diff = sys.argv.index("-num_diffusion_steps") + 1
+            id_ddim = sys.argv.index("-ddim_steps") + 1
+            id_lr = sys.argv.index("-lr_diffusion") + 1
+            diff_steps = eval(sys.argv[id_diff])
+            id_ddim = eval(sys.argv[id_ddim])
+            lr_diffusion = eval(sys.argv[id_lr])
+            if (diff_steps, id_ddim, lr_diffusion) in existing_results:
+                print(f"Skipping existing result for {diff_steps}, {id_ddim}, {lr_diffusion}")
+                continue
+            else:
+                main()
     print("""
           ==================================================
             Training completed!
