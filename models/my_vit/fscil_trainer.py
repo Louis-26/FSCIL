@@ -222,10 +222,10 @@ class FSCILTrainer:
 
         # suffix
         file_suffix = "diff_step_" + str(self.args.num_diffusion_steps) + "_ddim_" + str(
-            self.args.ddim_steps) + "_lr_" + str(self.args.lr_diffusion)
+            self.args.ddim_steps) + "_lr_" + str(self.args.lr_diffusion)+".txt"
 
         # 保存最终结果
-        result_file = os.path.join(self.save_path, "res_diff", file_suffix, ".txt")
+        result_file = os.path.join(self.save_path,"res_"+file_suffix)
         with open(result_file, 'w') as f:
             f.write(f"FSCIL Results with diffusion- {self.args.dataset}\n")
 
@@ -236,7 +236,7 @@ class FSCILTrainer:
             f.write(f"Diffusion steps: {self.args.num_diffusion_steps}\n")
             f.write(f"DDIM steps: {self.args.ddim_steps}\n")
             f.write(f"Learning Rate: {self.args.lr_diffusion}\n")
-            f.write(f"Diffusion Batch Size: {self.args.diffusion_batch_size}\n")
+            f.write(f"Diffusion Batch Size: {self.args.batch_size_diffusion}\n")
             f.write("=" * 60 + "\n")
 
             f.write("=" * 60 + "\n")
