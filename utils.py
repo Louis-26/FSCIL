@@ -6,6 +6,8 @@ import time
 import numpy as np
 import pprint as pprint
 
+import shutil
+
 _utils_pp = pprint.PrettyPrinter()
 
 
@@ -159,3 +161,17 @@ def accuracy_per_task(ypreds, ytrue, init_task_size=0, task_size=10, topk=1):
         all_acc['gAcc'] = all_acc['total'] * 100
 
     return all_acc, all_acc_list
+
+
+def copy_text_file(src_path: str, dst_folder: str, preserve_metadata: bool = False) -> str:
+    """
+    Copy a text file from `src_path` into `dst_folder`.
+    Returns the path to the copied file.
+    """
+    os.makedirs(dst_folder, exist_ok=True)
+    dst_path = os.path.join(dst_folder, os.path.basename(src_path))
+    if preserve_metadata:
+        shutil.copy2(src_path, dst_path)  # preserves metadata
+    else:
+        shutil.copy(src_path, dst_path)   # copies file contents + permissions
+    return dst_path

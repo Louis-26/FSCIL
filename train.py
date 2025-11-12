@@ -3,11 +3,13 @@ DiffusionFSCIL Training Script
 简化的训练脚本 - 专注于扩散模型训练
 """
 import argparse
-import torch
-import numpy as np
 import random
-from models.my_vit.fscil_trainer import FSCILTrainer
+
+import numpy as np
+import torch
+
 from models.logger import LOGGER
+from models.my_vit.fscil_trainer import FSCILTrainer
 
 log = LOGGER.LOGGER
 
@@ -18,11 +20,11 @@ import sys
 
 sys.argv = [
     "program_name",
-    "-project", "diffusion_fscil",
+    "-project", PROJECT,
     "-dataset", "cifar100",
     "-gpu", "0",
     "-epochs_base", "200",
-    "-num_diffusion_steps", "1000",
+    "-num_diffusion_steps", "50",
     "-ddim_steps", "50",
     "-lr_diffusion", "1e-4",
     "-batch_size_diffusion", "256",
@@ -227,7 +229,19 @@ def main():
 if __name__ == '__main__':
     PROJECT_NAME, DATASET, GPU_ID = "diffusion_fscil_cifar100", "cifar100", "0"
     display_device_info(PROJECT_NAME, DATASET, GPU_ID)
-    main()
+
+    change_para={}
+    change_para["num_diffusion_steps"] = [50, 200, 500]
+    change_para["ddim_steps"] = [10, 30, 100]
+    change_para["lr_diffusion"] = [2e-5, 5e-5, 2e-4]
+    for k,v in change_para.items():
+        for value in v:
+            # find the corresponding argument in sys.argv
+
+            idx=sys.argv.index(f"-{k}")
+            sys.argv[idx+1]=str(value)
+            print(f"Set {k} to {value}")
+            main()
     print("""
           ==================================================
             Training completed!

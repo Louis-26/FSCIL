@@ -213,3 +213,5 @@ checkpoint/
 # pycharm idea
 .idea/
 
+# test
+test.py

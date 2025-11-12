@@ -2,17 +2,32 @@
 DiffusionFSCIL Trainer
 极简训练器 - Training-Free增量学习
 """
-import os
-import torch
-import torch.nn as nn
-from models.my_vit.Network import MYNET
-from models.my_vit import helper
-from utils import *
 from dataloader.data_utils import *
 from models.logger import LOGGER
+from models.my_vit import helper
+from models.my_vit.Network import MYNET
+from utils import *
 
 log = LOGGER.LOGGER
 
+import re
+
+def _format_lr_for_path(lr):
+    try:
+        f = float(lr)
+    except Exception:
+        return str(lr)
+    # use scientific notation for very small/large values, otherwise a concise decimal
+    if f != 0 and (abs(f) < 1e-2 or abs(f) >= 1e4):
+        s = "{:.0e}".format(f).replace('E', 'e')            # e.g. "1e-04"
+        s = re.sub(r'e([+-])0+(\d+)', r'e\1\2', s)          # remove leading zero in exponent -> "1e-4"
+        s = s.replace('e+', 'e')
+        return s
+    # concise decimal representation without trailing zeros
+    s = str(f)
+    if '.' in s:
+        s = s.rstrip('0').rstrip('.')
+    return s
 
 class FSCILTrainer:
     """DiffusionFSCIL训练器"""
@@ -23,7 +38,7 @@ class FSCILTrainer:
         # 设置保存路径
         self.save_path = os.path.join(
             'checkpoint',
-            f'{args.project}_{args.dataset}',
+            f'{args.project}_{args.dataset}_{args.num_diffusion_steps}_{args.ddim_steps}_{_format_lr_for_path(args.lr_diffusion)}',
         )
         ensure_path(self.save_path)
         
@@ -204,14 +219,40 @@ class FSCILTrainer:
         log.info("\nAccuracy Summary:")
         for i, (test_acc, gacc) in enumerate(zip(self.test_acc_curve, self.gAcc_curve)):
             log.info(f"Session {i}: Top1={test_acc[-1]:.2f}% | gAcc={gacc:.2f}%")
-        
+
+        # suffix
+        file_suffix = "diff_step_" + str(self.args.num_diffusion_steps) + "_ddim_" + str(
+            self.args.ddim_steps) + "_lr_" + str(self.args.lr_diffusion)
+
         # 保存最终结果
-        result_file = os.path.join(self.save_path, 'final_results_diffusion.txt')
+        result_file = os.path.join(self.save_path, "res_diff", file_suffix, ".txt")
         with open(result_file, 'w') as f:
             f.write(f"FSCIL Results with diffusion- {self.args.dataset}\n")
-            f.write("="*60 + "\n")
+
+            # write parameters
+            f.write(f"With the parameters: \n")
+            f.write("=" * 60 + "\n")
+            f.write(f"Diffusion model configuration")
+            f.write(f"Diffusion steps: {self.args.num_diffusion_steps}\n")
+            f.write(f"DDIM steps: {self.args.ddim_steps}\n")
+            f.write(f"Learning Rate: {self.args.lr_diffusion}\n")
+            f.write(f"Diffusion Batch Size: {self.args.diffusion_batch_size}\n")
+            f.write("=" * 60 + "\n")
+
+            f.write("=" * 60 + "\n")
+            f.write(f"Training Setting:\n")
+            f.write(f"Epochs: {self.args.epochs_base}\n")
+            f.write(f"Base batch size: {self.args.batch_size_base}\n")
+            f.write(f"Test batch size: {self.args.test_batch_size}\n")
+            f.write(f"Number of workers: {self.args.num_workers}\n")
+            f.write(f"Seed: {self.args.seed}\n")
+            f.write("=" * 60 + "\n")
+
             for i, (test_acc, gacc) in enumerate(zip(self.test_acc_curve, self.gAcc_curve)):
                 f.write(f"Session {i}: Top1={test_acc[-1]:.2f}% | gAcc={gacc:.2f}%\n")
-        
-        log.info(f"\n✅ Results saved to {result_file}")
+        src_path=result_file
+        relative_target_path = "../../complementary/results_collected/"
+        target_path = os.path.normpath(os.path.join(os.path.dirname(self.save_path), relative_target_path))
+        copy_text_file(src_path, target_path)
+        log.info(f"\n✅ Results saved to {result_file} and moved to {target_path}")
         log.info("="*60)
