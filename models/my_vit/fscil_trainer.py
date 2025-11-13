@@ -32,12 +32,14 @@ def _format_lr_for_path(lr):
 class FSCILTrainer:
     """DiffusionFSCIL训练器"""
     
-    def __init__(self, args):
+    def __init__(self, args, category=""):
         self.args = args
+        self.category = category
         
         # 设置保存路径
         self.save_path = os.path.join(
             'checkpoint',
+            category,
             f'{args.project}_{args.dataset}_{args.num_diffusion_steps}_{args.ddim_steps}_{_format_lr_for_path(args.lr_diffusion)}',
         )
         ensure_path(self.save_path)
@@ -250,7 +252,10 @@ class FSCILTrainer:
 
             for i, (test_acc, gacc) in enumerate(zip(self.test_acc_curve, self.gAcc_curve)):
                 f.write(f"Session {i}: Top1={test_acc[-1]:.2f}% | gAcc={gacc:.2f}%\n")
-        relative_target_path = "../../complementary/results_collected/"
+        if self.category == "":
+            relative_target_path = "../../complementary/results_collected"
+        else:
+            relative_target_path = "../../../complementary/results_collected"+"_"+self.category+"/"
         target_path = os.path.normpath(os.path.join(self.save_path, relative_target_path))
         copy_text_file(result_file, target_path)
         log.info(f"\n✅ Results saved to {result_file} and moved to {target_path}")

@@ -18,5 +18,14 @@ we will get in total 9 combinations(change one, get others fixed)
 
 3. when ddim steps is smaller, performance seems to be better
 
+## second stage hyperparameter tuning
+based on the discovery in the first stage, I further tune the hyperparameters
+
+combinations: 
+diffusion steps: one from [10, 50, 100, 200]
+ddim steps: [10, 30, 50]
+learning rate: [2e-4, 5e-4, 1e-3]
+
+
 
 

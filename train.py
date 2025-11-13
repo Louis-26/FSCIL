@@ -201,7 +201,8 @@ def main():
     log.info("=" * 60 + "\n")
 
     # 创建训练器
-    trainer = FSCILTrainer(args)
+    category = "tune_2"
+    trainer = FSCILTrainer(args, category)
 
     # 开始训练
     if args.start_session == 0:
@@ -235,12 +236,12 @@ if __name__ == '__main__':
 
     change_para = {}
     change_para["-num_diffusion_steps"] = [10, 50, 100, 200]
-    change_para["-ddim_steps"] = [10, 30, 100]
-    change_para["-lr_diffusion"] = [5e-5, 2e-4, 5e-4]
+    change_para["-ddim_steps"] = [10, 30, 50]
+    change_para["-lr_diffusion"] = [2e-4, 5e-4, 1e-3]
 
     # find existing results
     existing_results = list()
-    results_collected_path = "./complementary/results_collected"
+    results_collected_path = "complementary/results_collected_tune_1"
     for f in os.listdir(results_collected_path):
         if f.startswith("res_diff"):
             para = f.split("_")
