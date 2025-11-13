@@ -1,6 +1,6 @@
 Few-Shot Class-Incremental Learning
 
-please see [this file]() for modification
+please see [this file](https://github.com/Louis-26/FSCIL/blob/diffusion-modified-Yi/branch_modify.md) for modification
 
 ## documentation and background
 Yuque: https://www.yuque.com/kanghaidong/ctruy3/qski7fh1toekqqk7/edit
