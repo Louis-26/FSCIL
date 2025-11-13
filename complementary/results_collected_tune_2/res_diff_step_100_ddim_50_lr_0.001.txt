@@ -1,0 +1,25 @@
+FSCIL Results with diffusion- cifar100
+With the parameters: 
+============================================================
+Diffusion model configurationDiffusion steps: 100
+DDIM steps: 50
+Learning Rate: 0.001
+Diffusion Batch Size: 256
+============================================================
+============================================================
+Training Setting:
+Epochs: 200
+Base batch size: 128
+Test batch size: 100
+Number of workers: 8
+Seed: 1
+============================================================
+Session 0: Top1=15.40% | gAcc=15.40%
+Session 1: Top1=0.20% | gAcc=16.35%
+Session 2: Top1=0.00% | gAcc=11.43%
+Session 3: Top1=0.00% | gAcc=6.38%
+Session 4: Top1=0.00% | gAcc=6.02%
+Session 5: Top1=0.00% | gAcc=1.98%
+Session 6: Top1=0.00% | gAcc=4.51%
+Session 7: Top1=0.00% | gAcc=4.92%
+Session 8: Top1=0.00% | gAcc=3.30%
