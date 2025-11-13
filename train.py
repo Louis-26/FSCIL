@@ -232,7 +232,7 @@ if __name__ == '__main__':
     display_device_info(PROJECT_NAME, DATASET, GPU_ID)
 
     change_para={}
-    change_para["-num_diffusion_steps"] = [50, 200, 500]
+    change_para["-num_diffusion_steps"] = [10, 50, 200, 500]
     change_para["-ddim_steps"] = [10, 30, 100]
     change_para["-lr_diffusion"] = [2e-5, 5e-5, 2e-4]
     # find existing results

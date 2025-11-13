@@ -250,9 +250,8 @@ class FSCILTrainer:
 
             for i, (test_acc, gacc) in enumerate(zip(self.test_acc_curve, self.gAcc_curve)):
                 f.write(f"Session {i}: Top1={test_acc[-1]:.2f}% | gAcc={gacc:.2f}%\n")
-        src_path=result_file
         relative_target_path = "../../complementary/results_collected/"
-        target_path = os.path.normpath(os.path.join(os.path.dirname(self.save_path), relative_target_path))
-        copy_text_file(src_path, target_path)
+        target_path = os.path.normpath(os.path.join(self.save_path, relative_target_path))
+        copy_text_file(result_file, target_path)
         log.info(f"\n✅ Results saved to {result_file} and moved to {target_path}")
         log.info("="*60)
