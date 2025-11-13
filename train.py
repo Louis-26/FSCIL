@@ -231,10 +231,13 @@ if __name__ == '__main__':
     PROJECT_NAME, DATASET, GPU_ID = "diffusion_fscil_cifar100", "cifar100", "0"
     display_device_info(PROJECT_NAME, DATASET, GPU_ID)
 
-    change_para={}
-    change_para["-num_diffusion_steps"] = [10, 50, 200, 500]
+    import itertools
+
+    change_para = {}
+    change_para["-num_diffusion_steps"] = [10, 50, 100, 200]
     change_para["-ddim_steps"] = [10, 30, 100]
-    change_para["-lr_diffusion"] = [2e-5, 5e-5, 2e-4]
+    change_para["-lr_diffusion"] = [5e-5, 2e-4, 5e-4]
+
     # find existing results
     existing_results = list()
     results_collected_path = "./complementary/results_collected"
@@ -243,24 +246,39 @@ if __name__ == '__main__':
             para = f.split("_")
             existing_results.append((eval(para[3]), eval(para[5]), eval(para[7].replace(".txt", ""))))
 
-    for k,v in change_para.items():
-        for value in v:
-            # find the corresponding argument in sys.argv
-            idx = sys.argv.index(f"{k}")
-            sys.argv[idx+1]=str(value)
-            print(f"Set {k} to {value}")
-            id_diff = sys.argv.index("-num_diffusion_steps") + 1
-            id_ddim = sys.argv.index("-ddim_steps") + 1
-            id_lr = sys.argv.index("-lr_diffusion") + 1
-            diff_steps = eval(sys.argv[id_diff])
-            id_ddim = eval(sys.argv[id_ddim])
-            lr_diffusion = eval(sys.argv[id_lr])
-            if (diff_steps, id_ddim, lr_diffusion) in existing_results:
-                print(f"Skipping existing result for {diff_steps}, {id_ddim}, {lr_diffusion}")
-                continue
+    # iterate all combinations using itertools.product
+    keys = list(change_para.keys())
+    for combo in itertools.product(*(change_para[k] for k in keys)):
+        # set each argument in sys.argv (or append if missing)
+        for k, val in zip(keys, combo):
+            if k in sys.argv:
+                idx = sys.argv.index(k)
+                sys.argv[idx + 1] = str(val)
             else:
-                main()
-    print("""
+                sys.argv.extend([k, str(val)])
+
+        # read numeric values from sys.argv
+        try:
+            diff_steps = int(sys.argv[sys.argv.index("-num_diffusion_steps") + 1])
+            ddim = int(sys.argv[sys.argv.index("-ddim_steps") + 1])
+            lr_diffusion = float(sys.argv[sys.argv.index("-lr_diffusion") + 1])
+        except Exception:
+            print("Skipping combination due to invalid argument values:", combo)
+            continue
+
+        # basic validation
+        if diff_steps < ddim:
+            print(f"Skipping invalid config: diffusion steps {diff_steps} > ddim steps {ddim}")
+            continue
+
+        if (diff_steps, ddim, lr_diffusion) in existing_results:
+            print(f"Skipping existing result for {diff_steps}, {ddim}, {lr_diffusion}")
+            continue
+
+        print(f"Running config: {diff_steps}, {ddim}, {lr_diffusion}")
+        main()
+
+    print(r"""
           ==================================================
             Training completed!
           ==================================================
