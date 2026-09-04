@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "source": "arXiv:2511.18516v1, Table 1 (miniImageNet)",
+    "protocol": "60 base classes + 8 sessions x 5-way 5-shot; top-1 over all seen classes",
+    "note": "Transcribed verbatim from the PDF. The 'avg' field is the value PRINTED in the paper; cdfscil.report recomputes the mean of the nine session accuracies and flags rows where the two disagree."
+  },
+  "columns": ["s0","s1","s2","s3","s4","s5","s6","s7","s8"],
+  "methods": [
+    {"name":"iCaRL",     "venue":"CVPR 2017","acc":[61.31,46.32,42.94,37.63,30.49,24.00,20.89,18.80,17.20],"avg_printed":33.29},
+    {"name":"TOPIC",     "venue":"CVPR 2020","acc":[61.31,50.09,45.17,41.16,37.48,35.52,32.19,29.46,24.42],"avg_printed":39.64},
+    {"name":"ERL++",     "venue":"AAAI 2021","acc":[61.70,57.58,54.66,51.72,48.66,46.27,44.67,42.81,40.79],"avg_printed":49.87},
+    {"name":"IDLVQ",     "venue":"ICLR 2020","acc":[64.77,59.87,55.93,52.62,49.88,47.55,44.83,43.14,41.84],"avg_printed":51.16},
+    {"name":"CEC",       "venue":"CVPR 2021","acc":[72.00,66.83,62.97,59.43,56.70,53.73,51.19,49.24,47.63],"avg_printed":57.74},
+    {"name":"SynthFeat", "venue":"ICCV 2021","acc":[61.40,59.80,54.20,51.69,49.45,48.00,45.20,43.80,42.10],"avg_printed":50.63},
+    {"name":"MetaFSCIL", "venue":"CVPR 2022","acc":[72.04,67.94,63.77,60.29,57.58,55.16,52.90,50.79,49.19],"avg_printed":58.85},
+    {"name":"FACT",      "venue":"CVPR 2022","acc":[72.56,69.63,66.38,62.77,60.60,57.33,54.34,52.16,50.49],"avg_printed":60.70},
+    {"name":"Replay",    "venue":"ECCV 2022","acc":[71.84,67.12,63.21,59.77,57.01,53.95,51.55,49.52,48.21],"avg_printed":58.02},
+    {"name":"ALICE",     "venue":"ECCV 2022","acc":[80.60,70.60,67.40,64.50,62.50,60.00,57.80,56.80,55.70],"avg_printed":63.99},
+    {"name":"S3C",       "venue":"ECCV 2022","acc":[76.55,71.74,67.66,64.52,61.51,58.09,55.36,53.04,51.34],"avg_printed":62.20},
+    {"name":"WaRP",      "venue":"ICLR 2023","acc":[72.99,68.10,64.31,61.30,58.64,56.08,53.40,51.72,50.65],"avg_printed":59.69},
+    {"name":"SoftNet",   "venue":"ICLR 2023","acc":[76.63,70.13,65.92,62.52,59.49,56.56,53.71,51.72,50.48],"avg_printed":60.79},
+    {"name":"NC-FSCIL",  "venue":"ICLR 2023","acc":[84.02,76.80,72.00,67.83,66.35,64.04,61.46,59.54,58.31],"avg_printed":67.82},
+    {"name":"GKEAL",     "venue":"CVPR 2023","acc":[73.59,68.90,65.33,62.29,59.39,56.70,54.20,52.59,51.31],"avg_printed":60.48},
+    {"name":"BiDistill", "venue":"CVPR 2023","acc":[74.65,70.43,66.29,62.77,60.75,57.24,54.79,53.65,52.22],"avg_printed":61.42},
+    {"name":"SAVC",      "venue":"CVPR 2023","acc":[81.12,76.14,72.43,68.92,66.48,62.95,59.92,58.39,57.11],"avg_printed":67.05},
+    {"name":"OrCo",      "venue":"CVPR 2024","acc":[83.30,75.32,71.52,68.16,65.62,63.11,60.20,58.82,58.08],"avg_printed":67.12},
+    {"name":"CLOSER",    "venue":"ECCV 2024","acc":[76.02,71.61,67.99,64.69,61.70,58.94,56.23,54.52,53.33],"avg_printed":62.78},
+    {"name":"Tri-WE",    "venue":"CVPR 2025","acc":[84.13,81.41,76.65,73.59,70.10,65.13,63.42,61.02,60.13],"avg_printed":70.62},
+    {"name":"CD-FSCIL",  "venue":"this paper","acc":[84.85,82.05,77.18,74.05,70.58,65.54,63.79,61.49,60.13],"avg_printed":72.53}
+  ]
+}

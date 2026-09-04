@@ -1,0 +1,502 @@
+{
+  "n01532829": {
+    "clip_name": "house finch",
+    "imagenet_name": "house finch",
+    "imagenet_index": 12
+  },
+  "n01558993": {
+    "clip_name": "American robin",
+    "imagenet_name": "robin",
+    "imagenet_index": 15
+  },
+  "n01704323": {
+    "clip_name": "triceratops",
+    "imagenet_name": "triceratops",
+    "imagenet_index": 51
+  },
+  "n01749939": {
+    "clip_name": "green mamba",
+    "imagenet_name": "green mamba",
+    "imagenet_index": 64
+  },
+  "n01770081": {
+    "clip_name": "harvestman",
+    "imagenet_name": "harvestman",
+    "imagenet_index": 70
+  },
+  "n01843383": {
+    "clip_name": "toucan",
+    "imagenet_name": "toucan",
+    "imagenet_index": 96
+  },
+  "n01855672": {
+    "clip_name": "goose",
+    "imagenet_name": "goose",
+    "imagenet_index": 99
+  },
+  "n01910747": {
+    "clip_name": "jellyfish",
+    "imagenet_name": "jellyfish",
+    "imagenet_index": 107
+  },
+  "n01930112": {
+    "clip_name": "nematode",
+    "imagenet_name": "nematode",
+    "imagenet_index": 111
+  },
+  "n01981276": {
+    "clip_name": "red king crab",
+    "imagenet_name": "king crab",
+    "imagenet_index": 121
+  },
+  "n02074367": {
+    "clip_name": "dugong",
+    "imagenet_name": "dugong",
+    "imagenet_index": 149
+  },
+  "n02089867": {
+    "clip_name": "Treeing Walker Coonhound",
+    "imagenet_name": "Walker hound",
+    "imagenet_index": 166
+  },
+  "n02091244": {
+    "clip_name": "Ibizan Hound",
+    "imagenet_name": "Ibizan hound",
+    "imagenet_index": 173
+  },
+  "n02091831": {
+    "clip_name": "Saluki",
+    "imagenet_name": "Saluki",
+    "imagenet_index": 176
+  },
+  "n02099601": {
+    "clip_name": "Golden Retriever",
+    "imagenet_name": "golden retriever",
+    "imagenet_index": 207
+  },
+  "n02101006": {
+    "clip_name": "Gordon Setter",
+    "imagenet_name": "Gordon setter",
+    "imagenet_index": 214
+  },
+  "n02105505": {
+    "clip_name": "Komondor",
+    "imagenet_name": "komondor",
+    "imagenet_index": 228
+  },
+  "n02108089": {
+    "clip_name": "Boxer",
+    "imagenet_name": "boxer",
+    "imagenet_index": 242
+  },
+  "n02108551": {
+    "clip_name": "Tibetan Mastiff",
+    "imagenet_name": "Tibetan mastiff",
+    "imagenet_index": 244
+  },
+  "n02108915": {
+    "clip_name": "French Bulldog",
+    "imagenet_name": "French bulldog",
+    "imagenet_index": 245
+  },
+  "n02110063": {
+    "clip_name": "Alaskan Malamute",
+    "imagenet_name": "malamute",
+    "imagenet_index": 249
+  },
+  "n02110341": {
+    "clip_name": "Dalmatian",
+    "imagenet_name": "dalmatian",
+    "imagenet_index": 251
+  },
+  "n02111277": {
+    "clip_name": "Newfoundland dog",
+    "imagenet_name": "Newfoundland",
+    "imagenet_index": 256
+  },
+  "n02113712": {
+    "clip_name": "Miniature Poodle",
+    "imagenet_name": "miniature poodle",
+    "imagenet_index": 266
+  },
+  "n02114548": {
+    "clip_name": "Alaskan tundra wolf",
+    "imagenet_name": "white wolf",
+    "imagenet_index": 270
+  },
+  "n02116738": {
+    "clip_name": "African wild dog",
+    "imagenet_name": "African hunting dog",
+    "imagenet_index": 275
+  },
+  "n02120079": {
+    "clip_name": "Arctic fox",
+    "imagenet_name": "Arctic fox",
+    "imagenet_index": 279
+  },
+  "n02129165": {
+    "clip_name": "lion",
+    "imagenet_name": "lion",
+    "imagenet_index": 291
+  },
+  "n02138441": {
+    "clip_name": "meerkat",
+    "imagenet_name": "meerkat",
+    "imagenet_index": 299
+  },
+  "n02165456": {
+    "clip_name": "ladybug",
+    "imagenet_name": "ladybug",
+    "imagenet_index": 301
+  },
+  "n02174001": {
+    "clip_name": "rhinoceros beetle",
+    "imagenet_name": "rhinoceros beetle",
+    "imagenet_index": 306
+  },
+  "n02219486": {
+    "clip_name": "ant",
+    "imagenet_name": "ant",
+    "imagenet_index": 310
+  },
+  "n02443484": {
+    "clip_name": "black-footed ferret",
+    "imagenet_name": "black-footed ferret",
+    "imagenet_index": 359
+  },
+  "n02457408": {
+    "clip_name": "three-toed sloth",
+    "imagenet_name": "three-toed sloth",
+    "imagenet_index": 364
+  },
+  "n02606052": {
+    "clip_name": "rock beauty fish",
+    "imagenet_name": "rock beauty",
+    "imagenet_index": 392
+  },
+  "n02687172": {
+    "clip_name": "aircraft carrier",
+    "imagenet_name": "aircraft carrier",
+    "imagenet_index": 403
+  },
+  "n02747177": {
+    "clip_name": "trash can",
+    "imagenet_name": "ashcan",
+    "imagenet_index": 412
+  },
+  "n02795169": {
+    "clip_name": "barrel",
+    "imagenet_name": "barrel",
+    "imagenet_index": 427
+  },
+  "n02823428": {
+    "clip_name": "beer bottle",
+    "imagenet_name": "beer bottle",
+    "imagenet_index": 440
+  },
+  "n02871525": {
+    "clip_name": "bookstore",
+    "imagenet_name": "bookshop",
+    "imagenet_index": 454
+  },
+  "n02950826": {
+    "clip_name": "cannon",
+    "imagenet_name": "cannon",
+    "imagenet_index": 471
+  },
+  "n02966193": {
+    "clip_name": "carousel",
+    "imagenet_name": "carousel",
+    "imagenet_index": 476
+  },
+  "n02971356": {
+    "clip_name": "cardboard box / carton",
+    "imagenet_name": "carton",
+    "imagenet_index": 478
+  },
+  "n02981792": {
+    "clip_name": "catamaran",
+    "imagenet_name": "catamaran",
+    "imagenet_index": 484
+  },
+  "n03017168": {
+    "clip_name": "bell or wind chime",
+    "imagenet_name": "chime",
+    "imagenet_index": 494
+  },
+  "n03047690": {
+    "clip_name": "clogs",
+    "imagenet_name": "clog",
+    "imagenet_index": 502
+  },
+  "n03062245": {
+    "clip_name": "cocktail shaker",
+    "imagenet_name": "cocktail shaker",
+    "imagenet_index": 503
+  },
+  "n03075370": {
+    "clip_name": "combination lock",
+    "imagenet_name": "combination lock",
+    "imagenet_index": 507
+  },
+  "n03127925": {
+    "clip_name": "crate",
+    "imagenet_name": "crate",
+    "imagenet_index": 519
+  },
+  "n03146219": {
+    "clip_name": "cuirass",
+    "imagenet_name": "cuirass",
+    "imagenet_index": 524
+  },
+  "n03207743": {
+    "clip_name": "dishcloth",
+    "imagenet_name": "dishrag",
+    "imagenet_index": 533
+  },
+  "n03220513": {
+    "clip_name": "dome",
+    "imagenet_name": "dome",
+    "imagenet_index": 538
+  },
+  "n03272010": {
+    "clip_name": "electric guitar",
+    "imagenet_name": "electric guitar",
+    "imagenet_index": 546
+  },
+  "n03337140": {
+    "clip_name": "filing cabinet",
+    "imagenet_name": "file",
+    "imagenet_index": 553
+  },
+  "n03347037": {
+    "clip_name": "fire screen",
+    "imagenet_name": "fire screen",
+    "imagenet_index": 556
+  },
+  "n03400231": {
+    "clip_name": "frying pan",
+    "imagenet_name": "frying pan",
+    "imagenet_index": 567
+  },
+  "n03417042": {
+    "clip_name": "garbage truck",
+    "imagenet_name": "garbage truck",
+    "imagenet_index": 569
+  },
+  "n03476684": {
+    "clip_name": "hair clip",
+    "imagenet_name": "hair slide",
+    "imagenet_index": 584
+  },
+  "n03527444": {
+    "clip_name": "holster",
+    "imagenet_name": "holster",
+    "imagenet_index": 597
+  },
+  "n03535780": {
+    "clip_name": "gymnastic horizontal bar",
+    "imagenet_name": "horizontal bar",
+    "imagenet_index": 602
+  },
+  "n03544143": {
+    "clip_name": "hourglass",
+    "imagenet_name": "hourglass",
+    "imagenet_index": 604
+  },
+  "n03584254": {
+    "clip_name": "iPod",
+    "imagenet_name": "iPod",
+    "imagenet_index": 605
+  },
+  "n03676483": {
+    "clip_name": "lipstick",
+    "imagenet_name": "lipstick",
+    "imagenet_index": 629
+  },
+  "n03770439": {
+    "clip_name": "miniskirt",
+    "imagenet_name": "miniskirt",
+    "imagenet_index": 655
+  },
+  "n03773504": {
+    "clip_name": "missile",
+    "imagenet_name": "missile",
+    "imagenet_index": 657
+  },
+  "n03775546": {
+    "clip_name": "mixing bowl",
+    "imagenet_name": "mixing bowl",
+    "imagenet_index": 659
+  },
+  "n03838899": {
+    "clip_name": "oboe",
+    "imagenet_name": "oboe",
+    "imagenet_index": 683
+  },
+  "n03854065": {
+    "clip_name": "pipe organ",
+    "imagenet_name": "organ",
+    "imagenet_index": 687
+  },
+  "n03888605": {
+    "clip_name": "parallel bars",
+    "imagenet_name": "parallel bars",
+    "imagenet_index": 702
+  },
+  "n03908618": {
+    "clip_name": "pencil case",
+    "imagenet_name": "pencil box",
+    "imagenet_index": 709
+  },
+  "n03924679": {
+    "clip_name": "photocopier",
+    "imagenet_name": "photocopier",
+    "imagenet_index": 713
+  },
+  "n03980874": {
+    "clip_name": "poncho",
+    "imagenet_name": "poncho",
+    "imagenet_index": 735
+  },
+  "n03998194": {
+    "clip_name": "prayer rug",
+    "imagenet_name": "prayer rug",
+    "imagenet_index": 741
+  },
+  "n04067472": {
+    "clip_name": "fishing casting reel",
+    "imagenet_name": "reel",
+    "imagenet_index": 758
+  },
+  "n04146614": {
+    "clip_name": "school bus",
+    "imagenet_name": "school bus",
+    "imagenet_index": 779
+  },
+  "n04149813": {
+    "clip_name": "scoreboard",
+    "imagenet_name": "scoreboard",
+    "imagenet_index": 781
+  },
+  "n04243546": {
+    "clip_name": "slot machine",
+    "imagenet_name": "slot",
+    "imagenet_index": 800
+  },
+  "n04251144": {
+    "clip_name": "snorkel",
+    "imagenet_name": "snorkel",
+    "imagenet_index": 801
+  },
+  "n04258138": {
+    "clip_name": "solar thermal collector",
+    "imagenet_name": "solar dish",
+    "imagenet_index": 807
+  },
+  "n04275548": {
+    "clip_name": "spider web",
+    "imagenet_name": "spider web",
+    "imagenet_index": 815
+  },
+  "n04296562": {
+    "clip_name": "stage",
+    "imagenet_name": "stage",
+    "imagenet_index": 819
+  },
+  "n04389033": {
+    "clip_name": "tank",
+    "imagenet_name": "tank",
+    "imagenet_index": 847
+  },
+  "n04418357": {
+    "clip_name": "front curtain",
+    "imagenet_name": "theater curtain",
+    "imagenet_index": 854
+  },
+  "n04435653": {
+    "clip_name": "tile roof",
+    "imagenet_name": "tile roof",
+    "imagenet_index": 858
+  },
+  "n04443257": {
+    "clip_name": "tobacco shop",
+    "imagenet_name": "tobacco shop",
+    "imagenet_index": 860
+  },
+  "n04509417": {
+    "clip_name": "unicycle",
+    "imagenet_name": "unicycle",
+    "imagenet_index": 880
+  },
+  "n04515003": {
+    "clip_name": "upright piano",
+    "imagenet_name": "upright",
+    "imagenet_index": 881
+  },
+  "n04522168": {
+    "clip_name": "vase",
+    "imagenet_name": "vase",
+    "imagenet_index": 883
+  },
+  "n04596742": {
+    "clip_name": "wok",
+    "imagenet_name": "wok",
+    "imagenet_index": 909
+  },
+  "n04604644": {
+    "clip_name": "split-rail fence",
+    "imagenet_name": "worm fence",
+    "imagenet_index": 912
+  },
+  "n04612504": {
+    "clip_name": "sailboat",
+    "imagenet_name": "yawl",
+    "imagenet_index": 914
+  },
+  "n06794110": {
+    "clip_name": "traffic or street sign",
+    "imagenet_name": "street sign",
+    "imagenet_index": 919
+  },
+  "n07584110": {
+    "clip_name": "consomme",
+    "imagenet_name": "consomme",
+    "imagenet_index": 925
+  },
+  "n07613480": {
+    "clip_name": "trifle",
+    "imagenet_name": "trifle",
+    "imagenet_index": 927
+  },
+  "n07697537": {
+    "clip_name": "hot dog",
+    "imagenet_name": "hotdog",
+    "imagenet_index": 934
+  },
+  "n07747607": {
+    "clip_name": "orange",
+    "imagenet_name": "orange",
+    "imagenet_index": 950
+  },
+  "n09246464": {
+    "clip_name": "cliff",
+    "imagenet_name": "cliff",
+    "imagenet_index": 972
+  },
+  "n09256479": {
+    "clip_name": "coral reef",
+    "imagenet_name": "coral reef",
+    "imagenet_index": 973
+  },
+  "n13054560": {
+    "clip_name": "bolete",
+    "imagenet_name": "bolete",
+    "imagenet_index": 997
+  },
+  "n13133613": {
+    "clip_name": "corn cob",
+    "imagenet_name": "ear",
+    "imagenet_index": 998
+  }
+}

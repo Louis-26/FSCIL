@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "source": "arXiv:2511.18516v1, Table 2 (ablation on CUB200)",
+    "caption": "Ablation on contributions of Diffusion and CLIP modules. We report session-wise Acc (%) on CUB200.",
+    "note": "Transcribed verbatim. NB: the caption says CUB200 session-wise accuracy, but CUB200 under the paper's own protocol (100 base + ten 10-way sessions) has ELEVEN sessions, and this table has ten columns.",
+    "columns": ["0","1","2","3","4","5","6","7","8","9"]
+  },
+  "rows": [
+    {"name":"CLOSER",                     "acc":[78.98,78.84,78.67,78.49,78.21,77.97,77.86,77.65,77.58,77.41],"avg_printed":77.87},
+    {"name":"+ Diffusion",                "acc":[80.12,79.05,77.82,76.90,75.12,74.55,73.88,73.02,72.91,72.30],"avg_printed":75.77},
+    {"name":"+ LLMs",                     "acc":[80.45,78.92,77.35,76.48,75.33,74.98,73.92,73.11,72.67,72.05],"avg_printed":75.73},
+    {"name":"Diffusion + LLMs (CD-FSCIL)","acc":[82.39,82.31,82.19,82.02,81.85,81.67,81.56,81.38,81.31,81.18],"avg_printed":81.79}
+  ]
+}

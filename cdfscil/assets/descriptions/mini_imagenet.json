@@ -1,0 +1,814 @@
+{
+ "_meta": {
+  "dataset": "mini_imagenet",
+  "n_classes": 100,
+  "descriptions_per_class": 6,
+  "keyed_by": "wnid",
+  "generator": "Claude Opus 5 (claude-opus-5)",
+  "generated_on": "2026-09-01",
+  "generation_prompt": "You are helping build text conditions for a class-conditional image diffusion\nmodel and for CLIP text embeddings.\n\nFor the visual object category \"{classname}\", write exactly {k} short English\ndescriptions. Requirements:\n  * Each description must start with \"a photo of a {classname}\" or\n    \"a photo of the {classname}\" and then add concrete VISUAL attributes.\n  * Mention colour, shape, texture, material, typical parts and typical\n    surroundings - the things that make the category visually recognisable.\n  * Vary the descriptions: different viewpoints, contexts, colours, instances.\n  * One line each, no numbering, no extra commentary, max 25 words per line.\nReturn only the {k} lines.",
+  "note": "LLM-enhanced textual priors of Sec. 1.2 / 3.1, committed so a reproduction run needs no API key. Regenerate with: python -m cdfscil.generate_descriptions --dataset mini_imagenet"
+ },
+ "descriptions": {
+  "n01532829": [
+   "a photo of a house finch, a small brown streaked songbird with a rosy red head and breast",
+   "a photo of a house finch perched on a thin branch, showing streaked brown wings and a stubby conical beak",
+   "a photo of a house finch at a backyard feeder, brown and white barred underparts with red wash on the face",
+   "a photo of a house finch, a sparrow sized bird with blurry brown streaks along its flanks",
+   "a photo of a female house finch, plain grey brown with heavy streaking and no red colour",
+   "a close-up photo of a house finch showing its short thick seed cracking bill and dark eye"
+  ],
+  "n01558993": [
+   "a photo of an American robin, a grey brown thrush with a bright orange red breast and yellow bill",
+   "a photo of an American robin standing on green grass, head tilted, listening for worms",
+   "a photo of an American robin perched on a branch showing a dark grey head and white eye ring",
+   "a photo of an American robin with a worm in its yellow beak on a suburban lawn",
+   "a photo of an American robin, plump bodied with a long tail and rust orange underparts",
+   "a close-up photo of an American robin's white streaked throat and dark rounded head"
+  ],
+  "n01704323": [
+   "a photo of a triceratops, a grey green dinosaur with three horns and a large bony neck frill",
+   "a photo of a triceratops model, four legged with a beaked mouth and thick scaly hide",
+   "a photo of a triceratops skeleton in a museum showing the huge frilled skull and horn cores",
+   "a photo of a triceratops toy figure, brown body with a cream coloured frill and two long brow horns",
+   "a photo of a triceratops illustration standing in a prehistoric fern landscape",
+   "a close-up photo of a triceratops head with a parrot like beak and a jagged frill"
+  ],
+  "n01749939": [
+   "a photo of a green mamba, a slender bright green snake coiled on a branch",
+   "a photo of a green mamba with smooth glossy emerald scales and a narrow coffin shaped head",
+   "a photo of a green mamba draped through green foliage, nearly invisible against the leaves",
+   "a photo of a green mamba with large dark round eyes and a long tapering tail",
+   "a photo of a green mamba on a grey branch, its yellow green body forming loose curves",
+   "a close-up photo of a green mamba's head showing smooth scales and a dark forked tongue"
+  ],
+  "n01770081": [
+   "a photo of a harvestman, a daddy longlegs with a tiny oval body and eight extremely thin legs",
+   "a photo of a harvestman walking on a mossy log, its small brown body raised high on stilt legs",
+   "a photo of a harvestman on a pale wall, spindly legs splayed in all directions",
+   "a photo of a harvestman with a single compact grey body segment and no visible waist",
+   "a photo of a harvestman on a green leaf, thread like legs casting fine shadows",
+   "a close-up photo of a harvestman showing a pair of tiny eyes on a turret above its body"
+  ],
+  "n01843383": [
+   "a photo of a toucan, a black bird with a huge brightly coloured orange and yellow bill",
+   "a photo of a toucan perched on a branch showing a white throat and a massive rainbow beak",
+   "a photo of a toucan in a rainforest canopy, glossy black plumage against green leaves",
+   "a photo of a toucan with a red and green banded bill and pale blue skin around its eye",
+   "a photo of a toucan hopping along a limb, its oversized bill tilted upward",
+   "a close-up photo of a toucan's serrated bill edge and bright yellow chest feathers"
+  ],
+  "n01855672": [
+   "a photo of a goose, a large white waterbird with an orange bill and webbed orange feet",
+   "a photo of a goose standing on green grass with a long curved neck and plump white body",
+   "a photo of a goose swimming on calm water, its reflection rippling below",
+   "a photo of a flock of geese grazing in a field, white and grey bodies close together",
+   "a photo of a goose with grey brown wings, a white belly and a black tipped bill",
+   "a close-up photo of a goose's head showing a rounded orange bill and small dark eye"
+  ],
+  "n01910747": [
+   "a photo of a jellyfish, a translucent bell shaped animal trailing long thin tentacles",
+   "a photo of a jellyfish drifting in dark blue water, glowing pale white and violet",
+   "a photo of a jellyfish in an aquarium tank lit from behind, its gelatinous bell nearly transparent",
+   "a photo of a moon jellyfish with four pale horseshoe shaped rings inside its clear bell",
+   "a photo of an orange jellyfish with frilly oral arms pulsing through green water",
+   "a close-up photo of a jellyfish's smooth domed bell and fine trailing stinging threads"
+  ],
+  "n01930112": [
+   "a photo of a nematode, a tiny translucent unsegmented roundworm under a microscope",
+   "a photo of a nematode, a slender pale thread like worm curled on a dark background",
+   "a microscope photo of a nematode showing a smooth cylindrical body tapering at both ends",
+   "a photo of nematodes in a petri dish, thin colourless worms against a grey agar surface",
+   "a photo of a nematode with a visible internal gut line running the length of its body",
+   "a close-up microscope photo of a nematode's rounded head and pointed tail"
+  ],
+  "n01981276": [
+   "a photo of a red king crab, a large spiny crustacean with a bright red orange shell",
+   "a photo of a red king crab with long thick spiny legs spread wide on a wet deck",
+   "a photo of a red king crab underwater, its knobby carapace covered in sharp points",
+   "a photo of a red king crab held up by a fisherman, showing pale underside and heavy claws",
+   "a photo of a red king crab on ice at a seafood market, deep red and spiky",
+   "a close-up photo of a red king crab's armoured claw and jointed spiny leg"
+  ],
+  "n02074367": [
+   "a photo of a dugong, a large grey marine mammal with a rounded body and a broad snout",
+   "a photo of a dugong grazing on seagrass in shallow clear blue water",
+   "a photo of a dugong swimming slowly, its whale like fluked tail trailing behind",
+   "a photo of a dugong with smooth thick grey skin and small paddle shaped flippers",
+   "a photo of a dugong surfacing to breathe, nostrils on top of a blunt downturned muzzle",
+   "a close-up photo of a dugong's bristly snout and tiny eye set far back on its head"
+  ],
+  "n02089867": [
+   "a photo of a Treeing Walker Coonhound, a lean white hound with large black and tan patches",
+   "a photo of a Treeing Walker Coonhound with long drooping ears and a deep chest standing in grass",
+   "a photo of a Treeing Walker Coonhound running through a field, tricolour coat and long legs",
+   "a photo of a Treeing Walker Coonhound with a tan face mask, white blaze and black saddle",
+   "a photo of a Treeing Walker Coonhound sitting, short glossy coat and a long thin tail held high",
+   "a close-up photo of a Treeing Walker Coonhound's head with soft folded ears and brown eyes"
+  ],
+  "n02091244": [
+   "a photo of an Ibizan Hound, a tall slender dog with huge erect ears and a red and white coat",
+   "a photo of an Ibizan Hound standing alert, narrow head, amber eyes and a pink nose",
+   "a photo of an Ibizan Hound running, its lean deep chested body and long thin legs extended",
+   "a photo of an Ibizan Hound with a short tan coat and white markings on chest and feet",
+   "a photo of an Ibizan Hound in profile showing an elegant arched neck and long muzzle",
+   "a close-up photo of an Ibizan Hound's enormous upright triangular ears"
+  ],
+  "n02091831": [
+   "a photo of a Saluki, a slim graceful sighthound with silky feathered ears and a narrow waist",
+   "a photo of a Saluki standing in profile, long legs, deep chest and a tucked up belly",
+   "a photo of a cream coloured Saluki with long feathering on its ears, tail and legs",
+   "a photo of a Saluki running across sand, its slender body stretched in full stride",
+   "a photo of a Saluki with a long narrow head, dark almond eyes and a smooth golden coat",
+   "a close-up photo of a Saluki's silky drooping ear fringe and refined muzzle"
+  ],
+  "n02099601": [
+   "a photo of a Golden Retriever, a large friendly dog with a dense wavy golden coat",
+   "a photo of a Golden Retriever sitting on grass with a broad head and dark friendly eyes",
+   "a photo of a Golden Retriever with feathered tail and legs, cream to rich gold fur",
+   "a photo of a Golden Retriever carrying a ball, mouth open in a happy expression",
+   "a photo of a Golden Retriever puppy, fluffy pale gold with a black button nose",
+   "a close-up photo of a Golden Retriever's face with folded ears and a black nose"
+  ],
+  "n02101006": [
+   "a photo of a Gordon Setter, a black dog with rich tan markings on its face, chest and legs",
+   "a photo of a Gordon Setter standing in a field, long silky black coat with feathering",
+   "a photo of a Gordon Setter with a long muzzle, drooping ears and tan eyebrow spots",
+   "a photo of a Gordon Setter in profile, deep glossy black fur and a level topline",
+   "a photo of a Gordon Setter running through tall grass, feathered tail streaming",
+   "a close-up photo of a Gordon Setter's head with tan cheeks and dark brown eyes"
+  ],
+  "n02105505": [
+   "a photo of a Komondor, a white dog completely covered in long thick corded dreadlocks",
+   "a photo of a Komondor standing on grass, its heavy white cords hanging to the ground",
+   "a photo of a Komondor whose face is hidden behind ropes of matted white cord",
+   "a photo of a Komondor walking, the corded coat swinging like a mop",
+   "a photo of a Komondor, a large livestock guardian dog resembling a white mop",
+   "a close-up photo of a Komondor's thick white felted cords"
+  ],
+  "n02108089": [
+   "a photo of a Boxer, a muscular short haired dog with a square blunt muzzle and dark mask",
+   "a photo of a Boxer standing alert, fawn coloured with a white chest blaze",
+   "a photo of a Boxer with a broad wrinkled forehead, undershot jaw and cropped or floppy ears",
+   "a photo of a brindle Boxer showing dark stripes over a fawn coat",
+   "a photo of a Boxer sitting, deep chest, tucked waist and a sleek tight coat",
+   "a close-up photo of a Boxer's flat wrinkled face and black muzzle"
+  ],
+  "n02108551": [
+   "a photo of a Tibetan Mastiff, a massive dog with a thick mane of long fur around its neck",
+   "a photo of a Tibetan Mastiff with a heavy black and tan double coat and a bushy curled tail",
+   "a photo of a Tibetan Mastiff standing in snow, lion like ruff framing a broad head",
+   "a photo of a red Tibetan Mastiff, enormous and shaggy with drooping triangular ears",
+   "a photo of a Tibetan Mastiff sitting, its dense coat making the shoulders look huge",
+   "a close-up photo of a Tibetan Mastiff's broad muzzle and deep set dark eyes"
+  ],
+  "n02108915": [
+   "a photo of a French Bulldog, a small stocky dog with large upright bat ears and a flat face",
+   "a photo of a French Bulldog sitting, brindle coat, wrinkled short muzzle and round dark eyes",
+   "a photo of a fawn French Bulldog with a black mask and a compact muscular body",
+   "a photo of a French Bulldog with a smooth short coat and a tiny screw tail",
+   "a photo of a French Bulldog lying on a floor, wide chest and short bowed front legs",
+   "a close-up photo of a French Bulldog's squashed nose and huge rounded ears"
+  ],
+  "n02110063": [
+   "a photo of an Alaskan Malamute, a large sled dog with a thick grey and white double coat",
+   "a photo of an Alaskan Malamute in snow, plumed tail curled over its back",
+   "a photo of an Alaskan Malamute with a white face mask, dark cap and brown almond eyes",
+   "a photo of an Alaskan Malamute standing, heavy boned with erect triangular ears",
+   "a photo of an Alaskan Malamute pulling a sled, dense fur ruffled by wind",
+   "a close-up photo of an Alaskan Malamute's broad head and thick neck fur"
+  ],
+  "n02110341": [
+   "a photo of a Dalmatian, a white dog covered in distinct round black spots",
+   "a photo of a Dalmatian standing on grass, sleek short coat with even spotting",
+   "a photo of a Dalmatian running, long legs and a spotted whip like tail",
+   "a photo of a Dalmatian with black spots on a white face and dark rimmed eyes",
+   "a photo of a Dalmatian puppy, mostly white with faint emerging spots",
+   "a close-up photo of a Dalmatian's spotted muzzle and folded ears"
+  ],
+  "n02111277": [
+   "a photo of a Newfoundland dog, a giant black dog with a thick shaggy water resistant coat",
+   "a photo of a Newfoundland dog sitting, massive head, broad muzzle and drooping ears",
+   "a photo of a Newfoundland dog by water, heavy black fur and webbed paws",
+   "a photo of a black and white Landseer Newfoundland with a huge sturdy frame",
+   "a photo of a Newfoundland dog standing, deep chest and a long bushy tail",
+   "a close-up photo of a Newfoundland dog's gentle dark eyes and thick neck ruff"
+  ],
+  "n02113712": [
+   "a photo of a Miniature Poodle, a small dog with dense curly clipped fur",
+   "a photo of an apricot Miniature Poodle with a rounded topknot and pompom tail",
+   "a photo of a black Miniature Poodle standing, long legs and a fine narrow muzzle",
+   "a photo of a white Miniature Poodle groomed with fluffy leg cuffs",
+   "a photo of a Miniature Poodle sitting on a couch, curly coat and floppy fringed ears",
+   "a close-up photo of a Miniature Poodle's curly head fur and dark round eyes"
+  ],
+  "n02114548": [
+   "a photo of an Alaskan tundra wolf, a large white wolf with thick fur and yellow eyes",
+   "a photo of a white wolf standing in snow, long legs and a bushy tail",
+   "a photo of an Arctic white wolf with a broad head, erect ears and a dense pale ruff",
+   "a photo of a white wolf walking across a snowy plain, coat tinged cream",
+   "a photo of a white wolf howling, muzzle raised against a pale sky",
+   "a close-up photo of a white wolf's amber eyes and thick winter coat"
+  ],
+  "n02116738": [
+   "a photo of an African wild dog with a mottled patchwork coat of tan, black and white",
+   "a photo of an African wild dog standing in dry grass, huge rounded ears and a lean body",
+   "a photo of a pack of African wild dogs, irregular blotched coats and white tipped tails",
+   "a photo of an African wild dog with a dark face, tan legs and long slender limbs",
+   "a photo of an African wild dog running across savanna, painted looking fur",
+   "a close-up photo of an African wild dog's enormous bat like ears and dark muzzle"
+  ],
+  "n02120079": [
+   "a photo of an Arctic fox, a small fox with thick pure white winter fur",
+   "a photo of an Arctic fox curled in snow, rounded ears and a bushy white tail",
+   "a photo of an Arctic fox with a short muzzle, black nose and dark eyes",
+   "a photo of a summer Arctic fox with brown grey fur and a paler belly",
+   "a photo of an Arctic fox standing on snow, compact body and short legs",
+   "a close-up photo of an Arctic fox's fluffy white face and small dark nose"
+  ],
+  "n02129165": [
+   "a photo of a lion, a large tawny cat with a thick brown mane around its head",
+   "a photo of a male lion resting in golden grass, powerful shoulders and a tufted tail",
+   "a photo of a lioness, sandy coloured and maneless with a lean muscular body",
+   "a photo of a lion roaring, mouth open showing long canine teeth",
+   "a photo of a lion walking across savanna, dark mane framing an amber eyed face",
+   "a close-up photo of a lion's face with a broad nose and heavy whiskers"
+  ],
+  "n02138441": [
+   "a photo of a meerkat standing upright on its hind legs with a slim tan body",
+   "a photo of a meerkat with dark eye patches, a pointed snout and a thin tapering tail",
+   "a photo of a group of meerkats standing sentry on desert sand",
+   "a photo of a meerkat with faint dark bands across its light brown back",
+   "a photo of a meerkat digging in sand with long dark claws",
+   "a close-up photo of a meerkat's face showing black eye rings and small round ears"
+  ],
+  "n02165456": [
+   "a photo of a ladybug, a small round beetle with a glossy red shell and black spots",
+   "a photo of a ladybug on a green leaf, domed red wing covers and a black and white head",
+   "a photo of a ladybug with orange elytra and evenly spaced black dots",
+   "a photo of a ladybug crawling on a stem, tiny black legs and short antennae",
+   "a photo of a ladybug with wings half opened showing thin black underwings",
+   "a close-up photo of a ladybug's shiny spotted dome and black pronotum"
+  ],
+  "n02174001": [
+   "a photo of a rhinoceros beetle, a large glossy dark beetle with a curved horn on its head",
+   "a photo of a rhinoceros beetle on a log, thick armoured brown black body",
+   "a photo of a rhinoceros beetle with a forked thoracic horn and spiny legs",
+   "a photo of a rhinoceros beetle held on a hand, showing its heavy shiny carapace",
+   "a photo of a rhinoceros beetle climbing bark, long clawed legs gripping the surface",
+   "a close-up photo of a rhinoceros beetle's upward curving horn and ridged shell"
+  ],
+  "n02219486": [
+   "a photo of an ant, a small black insect with a narrow waist, six legs and bent antennae",
+   "a photo of an ant carrying a leaf fragment along a twig",
+   "a photo of a red ant on soil, segmented body and thin jointed legs",
+   "a photo of a line of ants marching across a pale surface",
+   "a photo of an ant with large mandibles and a shiny bulbous abdomen",
+   "a close-up macro photo of an ant's head showing compound eyes and elbowed antennae"
+  ],
+  "n02443484": [
+   "a photo of a black-footed ferret, a slender tan weasel with a black face mask and black feet",
+   "a photo of a black-footed ferret peering out of a burrow in short grass",
+   "a photo of a black-footed ferret with a long tube shaped body and a black tipped tail",
+   "a photo of a black-footed ferret standing upright, pale buff fur and small rounded ears",
+   "a photo of a black-footed ferret on prairie soil, dark bandit mask across its eyes",
+   "a close-up photo of a black-footed ferret's masked face and short pointed muzzle"
+  ],
+  "n02457408": [
+   "a photo of a three-toed sloth hanging upside down from a branch with long curved claws",
+   "a photo of a three-toed sloth with shaggy grey brown fur and a small round face",
+   "a photo of a three-toed sloth climbing slowly, long arms wrapped around a limb",
+   "a photo of a three-toed sloth with dark eye stripes and a permanent faint smile",
+   "a photo of a three-toed sloth in a rainforest canopy, greenish algae tinted fur",
+   "a close-up photo of a three-toed sloth's flat face and long hooked claws"
+  ],
+  "n02606052": [
+   "a photo of a rock beauty fish, a bright yellow reef fish with a large black body patch",
+   "a photo of a rock beauty angelfish swimming over coral, yellow head and tail",
+   "a photo of a rock beauty fish with a laterally flattened disc shaped body",
+   "a photo of a rock beauty fish near a reef ledge in clear blue water",
+   "a photo of a juvenile rock beauty, mostly yellow with a small dark spot",
+   "a close-up photo of a rock beauty fish's yellow face and small pointed mouth"
+  ],
+  "n02687172": [
+   "a photo of an aircraft carrier, a huge grey warship with a flat flight deck covered in jets",
+   "a photo of an aircraft carrier at sea from above, angled deck and a tall island tower",
+   "a photo of an aircraft carrier with fighter jets parked in rows on the deck",
+   "a photo of an aircraft carrier cutting through blue ocean leaving a white wake",
+   "a photo of an aircraft carrier docked at a naval pier, immense grey hull",
+   "a close-up photo of an aircraft carrier's island superstructure bristling with radar masts"
+  ],
+  "n02747177": [
+   "a photo of a trash can, a cylindrical metal bin with a lid standing on a sidewalk",
+   "a photo of a green plastic trash can with a hinged lid and wheels",
+   "a photo of a public park trash can made of dark perforated metal",
+   "a photo of a trash can overflowing with bags and paper waste",
+   "a photo of a stainless steel kitchen trash can with a foot pedal",
+   "a close-up photo of a trash can's rim and dented galvanised metal side"
+  ],
+  "n02795169": [
+   "a photo of a barrel, a rounded wooden cask bound with metal hoops",
+   "a photo of oak barrels stacked in a dim wine cellar",
+   "a photo of a wooden barrel standing upright with visible curved staves",
+   "a photo of a blue plastic barrel used as a storage drum",
+   "a photo of a rusty metal barrel outdoors on gravel",
+   "a close-up photo of a barrel's wooden staves and riveted iron hoop"
+  ],
+  "n02823428": [
+   "a photo of a beer bottle, a brown glass bottle with a long neck and a paper label",
+   "a photo of a green beer bottle beaded with condensation on a bar top",
+   "a photo of several beer bottles standing together, amber glass and metal caps",
+   "a photo of a beer bottle being poured into a glass with white foam",
+   "a photo of a beer bottle with a crown cap and a colourful brewery label",
+   "a close-up photo of a beer bottle's neck and embossed glass shoulder"
+  ],
+  "n02871525": [
+   "a photo of a bookstore interior with tall wooden shelves packed with colourful books",
+   "a photo of a bookstore aisle, rows of spines receding into the distance",
+   "a photo of a bookstore with display tables stacked high with new hardcovers",
+   "a photo of a cosy bookshop with warm lighting and floor to ceiling shelving",
+   "a photo of a bookstore window full of book covers facing the street",
+   "a close-up photo of a bookstore shelf crowded with paperback spines"
+  ],
+  "n02950826": [
+   "a photo of a cannon, a heavy black iron gun barrel mounted on a wooden carriage",
+   "a photo of an antique cannon on a stone fort wall pointing out to sea",
+   "a photo of a cannon with large spoked wooden wheels on a grassy battlefield park",
+   "a photo of a bronze cannon with a decorated muzzle and a long tapering barrel",
+   "a photo of a row of cannons lined up at a historic monument",
+   "a close-up photo of a cannon's dark muzzle opening and reinforcing rings"
+  ],
+  "n02966193": [
+   "a photo of a carousel, a merry go round with painted horses and bright lights",
+   "a photo of a carousel at night glowing with hundreds of small bulbs",
+   "a photo of a carousel with a striped conical canopy and ornate mirrors",
+   "a photo of carousel horses on brass poles, colourfully painted with saddles",
+   "a photo of a carousel spinning in a fairground, motion blurred lights",
+   "a close-up photo of a carousel horse's painted head and gilded pole"
+  ],
+  "n02971356": [
+   "a photo of a cardboard carton, a plain brown corrugated box with folded flaps",
+   "a photo of stacked cardboard boxes in a warehouse",
+   "a photo of an open cardboard carton with packing tape along the seam",
+   "a photo of a cardboard box with printed shipping labels on its side",
+   "a photo of a milk carton, a waxed paper container with a folded gable top",
+   "a close-up photo of a cardboard carton's corrugated edge and taped flap"
+  ],
+  "n02981792": [
+   "a photo of a catamaran, a sailboat with two parallel hulls and a white sail",
+   "a photo of a catamaran gliding on turquoise water with a taut mainsail",
+   "a photo of a small beach catamaran with a trampoline deck between twin hulls",
+   "a photo of a catamaran under sail, heeling slightly with one hull lifting",
+   "a photo of a large cruising catamaran anchored in a calm bay",
+   "a close-up photo of a catamaran's twin bows cutting through blue water"
+  ],
+  "n03017168": [
+   "a photo of a wind chime, hanging metal tubes of different lengths on strings",
+   "a photo of a wind chime on a porch, silver tubes catching sunlight",
+   "a photo of a bronze bell hanging from a wooden beam",
+   "a photo of a bamboo wind chime with hollow tubes and a wooden clapper",
+   "a photo of a large temple bell with an ornate cast surface",
+   "a close-up photo of a wind chime's suspended tubes and knotted cords"
+  ],
+  "n03047690": [
+   "a photo of clogs, chunky wooden shoes with thick carved soles",
+   "a photo of a pair of painted Dutch clogs, yellow with floral decoration",
+   "a photo of leather clogs with an open back and a solid wooden heel",
+   "a photo of wooden clogs standing on a doorstep",
+   "a photo of clogs with a rounded upturned toe carved from pale wood",
+   "a close-up photo of a clog's thick wooden sole and smooth grain"
+  ],
+  "n03062245": [
+   "a photo of a cocktail shaker, a polished stainless steel container with a fitted cap",
+   "a photo of a cocktail shaker on a bar counter beside a strainer and glasses",
+   "a photo of a three piece cocktail shaker with a tapered cylindrical body",
+   "a photo of a chrome cocktail shaker reflecting warm bar lights",
+   "a photo of a bartender holding a frosted metal cocktail shaker",
+   "a close-up photo of a cocktail shaker's ribbed lid and mirror finish"
+  ],
+  "n03075370": [
+   "a photo of a combination lock, a round metal dial padlock with numbers around its face",
+   "a photo of a combination lock hanging on a locker door",
+   "a photo of a black and silver combination lock with a hardened steel shackle",
+   "a photo of a combination lock with four rotating numbered barrels on a cable",
+   "a photo of a combination lock clipped through a hasp on a metal gate",
+   "a close-up photo of a combination lock's numbered dial and knurled rim"
+  ],
+  "n03127925": [
+   "a photo of a crate, an open wooden box built from rough slats",
+   "a photo of wooden crates stacked in a market stall",
+   "a photo of a plastic crate with a lattice of ventilation holes",
+   "a photo of a wooden shipping crate stencilled with black lettering",
+   "a photo of a crate filled with fresh produce at a farm stand",
+   "a close-up photo of a crate's slatted side and nailed corner joint"
+  ],
+  "n03146219": [
+   "a photo of a cuirass, a metal breastplate armour covering the chest and back",
+   "a photo of a polished steel cuirass on a museum display stand",
+   "a photo of a cuirass worn over a uniform with brass shoulder scales",
+   "a photo of an antique cuirass with a ridged centre and riveted edges",
+   "a photo of a cuirass among a suit of plate armour in a hall",
+   "a close-up photo of a cuirass's curved steel surface and embossed rim"
+  ],
+  "n03207743": [
+   "a photo of a dishcloth, a folded woven cotton cloth used for drying dishes",
+   "a photo of a checked dishcloth hanging on an oven handle",
+   "a photo of a striped dish towel folded on a kitchen counter",
+   "a photo of a crumpled damp dishcloth beside a sink",
+   "a photo of a stack of clean folded dishcloths in blue and white",
+   "a close-up photo of a dishcloth's woven cotton texture and hemmed edge"
+  ],
+  "n03220513": [
+   "a photo of a dome, a large rounded roof crowning a stone building",
+   "a photo of a golden dome gleaming above a mosque against a blue sky",
+   "a photo of a capitol dome, white and ribbed with a lantern on top",
+   "a photo of a cathedral dome seen from below showing painted panels inside",
+   "a photo of a green copper dome with tall arched windows around its base",
+   "a close-up photo of a dome's curved ribbed surface and crowning finial"
+  ],
+  "n03272010": [
+   "a photo of an electric guitar with a solid glossy body, six strings and metal pickups",
+   "a photo of a sunburst electric guitar leaning against an amplifier",
+   "a photo of a red electric guitar with a long fretted maple neck and chrome tuners",
+   "a photo of a musician playing a black electric guitar on a lit stage",
+   "a photo of an electric guitar showing its whammy bar, knobs and pickguard",
+   "a close-up photo of an electric guitar's pickups, bridge and steel strings"
+  ],
+  "n03337140": [
+   "a photo of a filing cabinet, a tall grey metal cabinet with several deep drawers",
+   "a photo of a filing cabinet in an office with one drawer pulled open showing folders",
+   "a photo of a beige four drawer filing cabinet with chrome handles and label holders",
+   "a photo of a wooden filing cabinet beside a desk",
+   "a photo of a row of filing cabinets along an office wall",
+   "a close-up photo of a filing cabinet's drawer front, handle and small label slot"
+  ],
+  "n03347037": [
+   "a photo of a fire screen, a decorative metal mesh panel standing in front of a fireplace",
+   "a photo of a black wrought iron fire screen with folding hinged panels",
+   "a photo of a fire screen with an ornate scrolled frame before glowing logs",
+   "a photo of a brass fire screen in front of a brick hearth",
+   "a photo of a fire screen with fine wire mesh and short curved feet",
+   "a close-up photo of a fire screen's mesh weave and decorative iron scrollwork"
+  ],
+  "n03400231": [
+   "a photo of a frying pan, a shallow round metal pan with a long handle",
+   "a photo of a black cast iron frying pan on a gas stove burner",
+   "a photo of a stainless steel frying pan with food cooking inside",
+   "a photo of a nonstick frying pan seen from above, empty and dark",
+   "a photo of a frying pan hanging on a kitchen rack",
+   "a close-up photo of a frying pan's sloped rim and riveted handle"
+  ],
+  "n03417042": [
+   "a photo of a garbage truck, a large white and green truck with a rear loading hopper",
+   "a photo of a garbage truck on a city street lifting a wheeled bin",
+   "a photo of a garbage truck with a hydraulic arm and a boxy compactor body",
+   "a photo of a front loader garbage truck with heavy steel forks",
+   "a photo of a garbage truck parked at a depot, dented and grimy",
+   "a close-up photo of a garbage truck's compactor blade and hopper opening"
+  ],
+  "n03476684": [
+   "a photo of a hair clip, a small metal barrette used to hold hair",
+   "a photo of a decorative hair clip with rhinestones on a dressing table",
+   "a photo of a plastic claw hair clip with interlocking teeth",
+   "a photo of a hair clip fastened in long brown hair",
+   "a photo of several colourful hair clips arranged on a white surface",
+   "a close-up photo of a hair clip's sprung metal clasp and patterned front"
+  ],
+  "n03527444": [
+   "a photo of a holster, a moulded leather case for carrying a handgun on a belt",
+   "a photo of a brown leather holster with stitched edges and a snap strap",
+   "a photo of a black nylon holster attached to a duty belt",
+   "a photo of a tooled western holster with decorative patterns",
+   "a photo of a shoulder holster rig with straps",
+   "a close-up photo of a holster's stitched leather seam and retaining strap"
+  ],
+  "n03535780": [
+   "a photo of a horizontal bar, a polished steel gymnastics bar between two tall uprights",
+   "a photo of a gymnast swinging around a horizontal bar in an arena",
+   "a photo of a horizontal bar with tensioning cables anchored to the floor",
+   "a photo of an outdoor horizontal pull up bar in a park",
+   "a photo of a horizontal bar apparatus above a blue landing mat",
+   "a close-up photo of a horizontal bar's chalk dusted steel rod and metal fitting"
+  ],
+  "n03544143": [
+   "a photo of an hourglass, a glass timer with two bulbs joined by a narrow neck and sand inside",
+   "a photo of an hourglass in a wooden frame with fine sand streaming down",
+   "a photo of an hourglass on a desk, half of its white sand fallen",
+   "a photo of a brass framed hourglass with clear glass bulbs",
+   "a photo of an hourglass backlit so the falling sand glows",
+   "a close-up photo of an hourglass's narrow waist with sand trickling through"
+  ],
+  "n03584254": [
+   "a photo of an iPod, a small rectangular portable music player with a click wheel",
+   "a photo of a white iPod with a screen above a circular control wheel",
+   "a photo of an iPod held in a hand showing a glossy front and chrome back",
+   "a photo of an iPod with white earbud headphones coiled beside it",
+   "a photo of a coloured iPod nano, a thin anodised metal music player",
+   "a close-up photo of an iPod's click wheel and small bright display"
+  ],
+  "n03676483": [
+   "a photo of a lipstick, a cylindrical tube with a slanted stick of red colour extended",
+   "a photo of an open gold lipstick tube showing a bright red bullet",
+   "a photo of several lipsticks in pink and red shades standing upright",
+   "a photo of a lipstick beside its cap on a white surface",
+   "a photo of a lipstick with a black case and a deep burgundy stick",
+   "a close-up photo of a lipstick's angled tip and glossy metallic case"
+  ],
+  "n03770439": [
+   "a photo of a miniskirt, a short skirt ending well above the knee",
+   "a photo of a denim miniskirt worn with boots",
+   "a photo of a pleated plaid miniskirt on a model",
+   "a photo of a black leather miniskirt on a hanger",
+   "a photo of a woman wearing a short patterned miniskirt on a street",
+   "a close-up photo of a miniskirt's hem and pleated fabric"
+  ],
+  "n03773504": [
+   "a photo of a missile, a long slender rocket with pointed nose and tail fins",
+   "a photo of a white missile on a launch trailer",
+   "a photo of a missile mounted on a mobile launcher against a blue sky",
+   "a photo of a missile launching with a bright exhaust plume",
+   "a photo of a museum missile displayed upright, painted with markings",
+   "a close-up photo of a missile's conical nose cone and swept fins"
+  ],
+  "n03775546": [
+   "a photo of a mixing bowl, a wide rounded bowl used for stirring ingredients",
+   "a photo of a stainless steel mixing bowl on a kitchen counter",
+   "a photo of a ceramic mixing bowl filled with pale batter and a whisk",
+   "a photo of nested coloured plastic mixing bowls",
+   "a photo of a glass mixing bowl with flour and eggs inside",
+   "a close-up photo of a mixing bowl's flared rim and smooth curved interior"
+  ],
+  "n03838899": [
+   "a photo of an oboe, a slender black wooden woodwind with silver keys",
+   "a photo of an oboe lying on sheet music, its conical bore and double reed visible",
+   "a photo of a musician playing an oboe in an orchestra",
+   "a photo of an oboe disassembled in its velvet lined case",
+   "a photo of an oboe held upright showing a flared bell and many key rods",
+   "a close-up photo of an oboe's silver keywork against dark grenadilla wood"
+  ],
+  "n03854065": [
+   "a photo of a pipe organ, a wall of tall metal pipes above a keyboard console",
+   "a photo of a cathedral pipe organ with ornate carved wooden casing",
+   "a photo of a pipe organ console with several keyboards and rows of stop knobs",
+   "a photo of a pipe organ's gleaming vertical pipes of graduated length",
+   "a photo of an organist seated at a pipe organ in a church",
+   "a close-up photo of a pipe organ's polished tin pipes and decorated mouths"
+  ],
+  "n03888605": [
+   "a photo of parallel bars, two long horizontal wooden rails on adjustable metal uprights",
+   "a photo of a gymnast performing between parallel bars in a gym",
+   "a photo of parallel bars standing on a mat in an empty gymnasium",
+   "a photo of parallel bars seen end on, two rails at equal height",
+   "a photo of outdoor parallel bars in a fitness park",
+   "a close-up photo of a parallel bar rail and its clamped metal support"
+  ],
+  "n03908618": [
+   "a photo of a pencil case, a zippered fabric pouch holding pens and pencils",
+   "a photo of an open pencil case with coloured pencils spilling out",
+   "a photo of a tin pencil box with a sliding lid",
+   "a photo of a patterned canvas pencil case on a school desk",
+   "a photo of a clear plastic pencil case showing stationery inside",
+   "a close-up photo of a pencil case's zipper pull and stitched fabric"
+  ],
+  "n03924679": [
+   "a photo of a photocopier, a large office machine with a lid, glass platen and paper trays",
+   "a photo of a photocopier in an office corridor with a control panel",
+   "a photo of a photocopier printing pages into an output tray",
+   "a photo of a grey and white multifunction photocopier with open drawers",
+   "a photo of a photocopier with its lid raised showing the glass scanning bed",
+   "a close-up photo of a photocopier's button panel and small display screen"
+  ],
+  "n03980874": [
+   "a photo of a poncho, a loose sleeveless cloak with an opening for the head",
+   "a photo of a colourful woven poncho with fringed edges",
+   "a photo of a person wearing a knitted wool poncho",
+   "a photo of a transparent plastic rain poncho with a hood",
+   "a photo of a striped poncho draped over a chair",
+   "a close-up photo of a poncho's woven pattern and fringe"
+  ],
+  "n03998194": [
+   "a photo of a prayer rug, a small ornate carpet with an arched mihrab design",
+   "a photo of a prayer rug with intricate geometric borders in red and blue",
+   "a photo of a prayer rug spread on a tiled floor",
+   "a photo of a fringed prayer rug with a pointed arch motif at one end",
+   "a photo of a folded prayer rug with fine woven detail",
+   "a close-up photo of a prayer rug's knotted pile and patterned border"
+  ],
+  "n04067472": [
+   "a photo of a fishing casting reel, a metal spool mechanism mounted on a fishing rod",
+   "a photo of a spinning reel with a curved bail arm and a line spool",
+   "a photo of a baitcasting reel with a knurled handle and star drag",
+   "a photo of a fishing reel attached to a rod on a boat deck",
+   "a photo of a fly fishing reel with a wide exposed spool of line",
+   "a close-up photo of a fishing reel's crank handle and coiled monofilament line"
+  ],
+  "n04146614": [
+   "a photo of a school bus, a long yellow bus with black trim and many windows",
+   "a photo of a yellow school bus parked in front of a school",
+   "a photo of a school bus with its stop sign arm extended and red lights on",
+   "a photo of a row of yellow school buses in a depot lot",
+   "a photo of a school bus driving down a suburban road",
+   "a close-up photo of a school bus's yellow panel, black lettering and rear lights"
+  ],
+  "n04149813": [
+   "a photo of a scoreboard, a large electronic display showing team names and numbers",
+   "a photo of a stadium scoreboard lit with bright orange digits",
+   "a photo of a basketball arena scoreboard hanging above the court",
+   "a photo of an old manual scoreboard with hung number plates",
+   "a photo of a scoreboard showing period, time remaining and scores",
+   "a close-up photo of a scoreboard's dot matrix digits and dark panel"
+  ],
+  "n04243546": [
+   "a photo of a slot machine, a tall casino cabinet with spinning reels and a lever",
+   "a photo of a row of brightly lit slot machines in a casino",
+   "a photo of a slot machine with colourful fruit symbols on its reels",
+   "a photo of a vintage slot machine with a chrome arm and a coin slot",
+   "a photo of a slot machine screen glowing in a dim casino aisle",
+   "a close-up photo of a slot machine's reel window and illuminated buttons"
+  ],
+  "n04251144": [
+   "a photo of a snorkel, a curved breathing tube attached to a diving mask",
+   "a photo of a snorkel and mask lying on a sandy beach",
+   "a photo of a swimmer wearing a snorkel at the surface of clear water",
+   "a photo of a bright blue snorkel with a soft silicone mouthpiece",
+   "a photo of a snorkel clipped to the strap of a dive mask",
+   "a close-up photo of a snorkel's ribbed tube and mouthpiece"
+  ],
+  "n04258138": [
+   "a photo of a solar thermal collector, a large curved parabolic dish of mirrored panels",
+   "a photo of a solar dish array in a desert reflecting sunlight",
+   "a photo of a solar collector dish on a steel frame with a central receiver",
+   "a photo of a parabolic solar concentrator angled toward the sun",
+   "a photo of a field of solar dishes under a bright blue sky",
+   "a close-up photo of a solar dish's mirrored facets and support struts"
+  ],
+  "n04275548": [
+   "a photo of a spider web, a delicate radial silk net strung between branches",
+   "a photo of a dew covered spider web sparkling in morning light",
+   "a photo of an orb spider web with concentric silk rings and radiating spokes",
+   "a photo of a spider web against a dark background with a spider at its centre",
+   "a photo of a spider web stretched across a window frame",
+   "a close-up photo of a spider web's fine silk threads beaded with water"
+  ],
+  "n04296562": [
+   "a photo of a stage, a raised performance platform lit by coloured spotlights",
+   "a photo of an empty theatre stage with a wooden floor and hanging lights",
+   "a photo of a concert stage with instruments, speakers and truss lighting",
+   "a photo of a stage seen from the audience with a band performing",
+   "a photo of a stage framed by heavy curtains and footlights",
+   "a close-up photo of a stage floor with spotlights and cable runs"
+  ],
+  "n04389033": [
+   "a photo of a tank, a heavy armoured military vehicle with a long gun turret and tracks",
+   "a photo of a camouflaged tank driving across a dirt field",
+   "a photo of a tank on display at a museum, olive green with a turret cannon",
+   "a photo of a tank with thick sloped armour and wide steel treads",
+   "a photo of a tank crossing rough terrain kicking up dust",
+   "a close-up photo of a tank's track links, road wheels and armoured hull"
+  ],
+  "n04418357": [
+   "a photo of a theater curtain, heavy red velvet drapes framing a stage",
+   "a photo of closed theatre curtains with deep vertical folds",
+   "a photo of a stage curtain drawn back with a gold fringe and tassels",
+   "a photo of a dark red theatre curtain lit by warm footlights",
+   "a photo of a theatre proscenium with a curtain partly raised",
+   "a close-up photo of a theatre curtain's velvet folds and gold trim"
+  ],
+  "n04435653": [
+   "a photo of a tile roof, overlapping curved terracotta tiles on a building",
+   "a photo of a red clay tile roof under a blue sky",
+   "a photo of a Mediterranean tile roof seen from above in neat rows",
+   "a photo of an old tile roof with weathered mossy tiles",
+   "a photo of tile roofs across a hillside village",
+   "a close-up photo of a tile roof's overlapping barrel tiles and ridge line"
+  ],
+  "n04443257": [
+   "a photo of a tobacco shop, a store front displaying pipes, cigars and tobacco tins",
+   "a photo of a tobacconist interior with shelves of cigar boxes",
+   "a photo of a tobacco shop counter with glass humidor cases",
+   "a photo of a tobacco shop window with a wooden sign above",
+   "a photo of a cigar store with rows of labelled boxes on wooden shelving",
+   "a close-up photo of a tobacco shop shelf lined with cigar boxes and pipes"
+  ],
+  "n04509417": [
+   "a photo of a unicycle, a one wheeled cycle with a seat post and pedals",
+   "a photo of a person riding a unicycle along a paved path",
+   "a photo of a unicycle standing against a wall, single spoked wheel and saddle",
+   "a photo of a bright red unicycle with a chrome frame",
+   "a photo of a performer balancing on a tall unicycle",
+   "a close-up photo of a unicycle's hub, crank and pedal"
+  ],
+  "n04515003": [
+   "a photo of an upright piano, a tall wooden piano with a vertical back and a keyboard",
+   "a photo of a brown upright piano against a living room wall",
+   "a photo of an upright piano with the lid open showing black and white keys",
+   "a photo of a black lacquered upright piano with a matching bench",
+   "a photo of an old upright piano with candle holders and carved panels",
+   "a close-up photo of an upright piano's keyboard and music desk"
+  ],
+  "n04522168": [
+   "a photo of a vase, a tall ceramic vessel with a narrow neck holding flowers",
+   "a photo of a blue and white porcelain vase on a table",
+   "a photo of a clear glass vase with fresh cut flowers and water",
+   "a photo of an ornate decorated vase on a shelf",
+   "a photo of an empty ceramic vase with a rounded body and flared lip",
+   "a close-up photo of a vase's glazed surface and curved neck"
+  ],
+  "n04596742": [
+   "a photo of a wok, a deep round bottomed steel pan used for stir frying",
+   "a photo of a wok on a high flame with vegetables tossing inside",
+   "a photo of a carbon steel wok with a long wooden handle",
+   "a photo of a wok hanging in a kitchen, blackened from use",
+   "a photo of a wok seen from above, wide sloping sides and a small base",
+   "a close-up photo of a wok's seasoned dark interior and rolled rim"
+  ],
+  "n04604644": [
+   "a photo of a split-rail fence, a rustic zigzag fence of stacked wooden rails",
+   "a photo of a worm fence crossing a green meadow",
+   "a photo of a weathered split-rail fence beside a country road",
+   "a photo of a split-rail fence in snow with grey timber rails",
+   "a photo of a zigzag wooden rail fence bordering a farm field",
+   "a close-up photo of a split-rail fence's rough hewn overlapping timbers"
+  ],
+  "n04612504": [
+   "a photo of a yawl, a two masted sailboat with a small mast behind the helm",
+   "a photo of a yawl under full sail on open blue water",
+   "a photo of a wooden yawl moored in a harbour with furled sails",
+   "a photo of a yawl heeling in a breeze with white canvas sails",
+   "a photo of a classic yawl with a long bowsprit and varnished hull",
+   "a close-up photo of a yawl's mizzen mast and rigging over the stern"
+  ],
+  "n06794110": [
+   "a photo of a street sign, a metal traffic sign mounted on a pole",
+   "a photo of a red octagonal stop sign at an intersection",
+   "a photo of a green street name sign against a blue sky",
+   "a photo of a yellow diamond warning sign beside a road",
+   "a photo of several traffic signs stacked on a single pole",
+   "a close-up photo of a street sign's reflective face and bolted bracket"
+  ],
+  "n07584110": [
+   "a photo of consomme, a clear golden brown broth served in a white bowl",
+   "a photo of a shallow bowl of consomme garnished with herbs",
+   "a photo of clear soup in a fine china cup on a saucer",
+   "a photo of consomme with a few floating vegetable pieces",
+   "a photo of a bowl of amber clear broth with a spoon beside it",
+   "a close-up photo of consomme's transparent surface with small fat droplets"
+  ],
+  "n07613480": [
+   "a photo of a trifle, a layered dessert in a glass bowl with cream, fruit and sponge",
+   "a photo of a trifle showing red jelly, yellow custard and whipped cream layers",
+   "a photo of a trifle topped with berries and toasted almonds",
+   "a photo of individual trifles served in tall glasses",
+   "a photo of a large glass trifle bowl with visible sponge and cream stripes",
+   "a close-up photo of a trifle's cream topping and fruit garnish"
+  ],
+  "n07697537": [
+   "a photo of a hot dog, a sausage in a sliced bun with mustard and ketchup",
+   "a photo of a hot dog topped with onions and relish on a paper tray",
+   "a photo of a grilled hot dog in a soft white bun",
+   "a photo of a hot dog held in a hand at a ballpark",
+   "a photo of two hot dogs with yellow mustard stripes",
+   "a close-up photo of a hot dog's browned sausage and toasted bun"
+  ],
+  "n07747607": [
+   "a photo of an orange, a round citrus fruit with bright orange dimpled peel",
+   "a photo of oranges piled in a market crate",
+   "a photo of an orange cut in half showing juicy segments",
+   "a photo of an orange with a green leaf still attached to its stem",
+   "a photo of a whole orange on a white surface with soft shadow",
+   "a close-up photo of an orange's pitted rind texture"
+  ],
+  "n09246464": [
+   "a photo of a cliff, a steep rock face dropping to the sea",
+   "a photo of tall white chalk cliffs above a beach",
+   "a photo of a rugged brown cliff with layered rock strata",
+   "a photo of a cliff edge with green grass on top and a sheer drop",
+   "a photo of a canyon cliff wall glowing red in evening light",
+   "a close-up photo of a cliff face's cracked stratified rock"
+  ],
+  "n09256479": [
+   "a photo of a coral reef, colourful corals and small fish in clear blue water",
+   "a photo of a coral reef with branching staghorn coral and yellow fish",
+   "a photo of an underwater coral reef teeming with tropical fish",
+   "a photo of a coral reef with brain corals and purple sea fans",
+   "a photo of a shallow coral reef seen from just below the surface",
+   "a close-up photo of coral polyps with textured branching structures"
+  ],
+  "n13054560": [
+   "a photo of a bolete, a mushroom with a thick stem and a rounded brown cap",
+   "a photo of a bolete mushroom growing on the forest floor among leaves",
+   "a photo of a bolete showing spongy yellow pores beneath its cap",
+   "a photo of a picked bolete with a bulbous pale stalk",
+   "a photo of several boletes in moss under trees",
+   "a close-up photo of a bolete's velvety brown cap and thick netted stem"
+  ],
+  "n13133613": [
+   "a photo of a corn cob, a yellow ear of maize with rows of kernels",
+   "a photo of a corn cob with its green husk partly peeled back",
+   "a photo of grilled corn cobs on a barbecue",
+   "a photo of several corn cobs stacked at a market",
+   "a photo of a corn cob with neat rows of glossy yellow kernels and pale silk",
+   "a close-up photo of a corn cob's tightly packed kernels"
+  ]
+ }
+}

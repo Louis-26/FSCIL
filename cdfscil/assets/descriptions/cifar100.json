@@ -1,0 +1,814 @@
+{
+ "_meta": {
+  "dataset": "cifar100",
+  "n_classes": 100,
+  "descriptions_per_class": 6,
+  "keyed_by": "classname",
+  "generator": "Claude Opus 5 (claude-opus-5)",
+  "generated_on": "2026-09-01",
+  "generation_prompt": "You are helping build text conditions for a class-conditional image diffusion\nmodel and for CLIP text embeddings.\n\nFor the visual object category \"{classname}\", write exactly {k} short English\ndescriptions. Requirements:\n  * Each description must start with \"a photo of a {classname}\" or\n    \"a photo of the {classname}\" and then add concrete VISUAL attributes.\n  * Mention colour, shape, texture, material, typical parts and typical\n    surroundings - the things that make the category visually recognisable.\n  * Vary the descriptions: different viewpoints, contexts, colours, instances.\n  * One line each, no numbering, no extra commentary, max 25 words per line.\nReturn only the {k} lines.",
+  "note": "LLM-enhanced textual priors of Sec. 1.2 / 3.1, committed so a reproduction run needs no API key."
+ },
+ "descriptions": {
+  "apple": [
+   "a photo of an apple, a round red fruit with smooth glossy skin and a short stem",
+   "a photo of a green apple resting on a wooden table",
+   "a photo of a red apple with a small brown stem and a leaf",
+   "a photo of apples piled in a basket at a market",
+   "a photo of a yellow apple with faint red streaks on its skin",
+   "a close-up photo of an apple's shiny waxy surface"
+  ],
+  "aquarium fish": [
+   "a photo of an aquarium fish, a small brightly coloured fish with flowing fins",
+   "a photo of an orange and white striped aquarium fish among green plants",
+   "a photo of a tropical aquarium fish swimming behind glass",
+   "a photo of a goldfish with fan shaped tail fins in clear water",
+   "a photo of several small colourful aquarium fish in a tank",
+   "a close-up photo of an aquarium fish's scales and translucent fins"
+  ],
+  "baby": [
+   "a photo of a baby, a small human infant with a round face and chubby cheeks",
+   "a photo of a baby lying on a soft blanket wearing a onesie",
+   "a photo of a smiling baby with wispy hair and big eyes",
+   "a photo of a baby sitting up and reaching with tiny hands",
+   "a photo of a sleeping baby wrapped in a white cloth",
+   "a close-up photo of a baby's face with smooth skin and small features"
+  ],
+  "bear": [
+   "a photo of a bear, a large heavy furred mammal with a broad head and small round ears",
+   "a photo of a brown bear standing in a forest clearing",
+   "a photo of a black bear walking on all fours across grass",
+   "a photo of a bear with thick shaggy fur and a long snout",
+   "a photo of a bear cub climbing over a fallen log",
+   "a close-up photo of a bear's face with a dark nose and small eyes"
+  ],
+  "beaver": [
+   "a photo of a beaver, a stocky brown rodent with a flat paddle shaped tail",
+   "a photo of a beaver gnawing a branch beside a stream",
+   "a photo of a beaver swimming with only its head above the water",
+   "a photo of a beaver with dense wet fur and large orange front teeth",
+   "a photo of a beaver dragging a stick toward its dam",
+   "a close-up photo of a beaver's blunt muzzle and small rounded ears"
+  ],
+  "bed": [
+   "a photo of a bed, a rectangular mattress with pillows and folded blankets",
+   "a photo of a neatly made bed with white sheets in a bright bedroom",
+   "a photo of a wooden bed frame with a padded headboard",
+   "a photo of a bed covered in a patterned quilt",
+   "a photo of a bunk bed with a metal ladder",
+   "a close-up photo of a bed's pillows and turned down sheet"
+  ],
+  "bee": [
+   "a photo of a bee, a small insect with yellow and black stripes and translucent wings",
+   "a photo of a bee hovering over a bright flower collecting pollen",
+   "a photo of a fuzzy bumblebee on a purple blossom",
+   "a photo of a honey bee with pollen sacs on its hind legs",
+   "a photo of a bee crawling across yellow petals",
+   "a close-up macro photo of a bee's compound eyes and hairy thorax"
+  ],
+  "beetle": [
+   "a photo of a beetle, a hard shelled insect with glossy wing covers and six legs",
+   "a photo of a shiny black beetle walking on soil",
+   "a photo of an iridescent green beetle on a leaf",
+   "a photo of a beetle with long antennae and a rounded domed back",
+   "a photo of a beetle climbing a piece of bark",
+   "a close-up photo of a beetle's segmented armoured shell"
+  ],
+  "bicycle": [
+   "a photo of a bicycle, a two wheeled vehicle with a metal frame, handlebars and pedals",
+   "a photo of a bicycle leaning against a brick wall",
+   "a photo of a red bicycle with thin tyres and a leather saddle",
+   "a photo of a bicycle parked at a rack on a street",
+   "a photo of a mountain bicycle with knobbly tyres on a dirt path",
+   "a close-up photo of a bicycle's spoked wheel and chain"
+  ],
+  "bottle": [
+   "a photo of a bottle, a tall narrow necked container made of glass or plastic",
+   "a photo of a clear glass bottle with a screw cap",
+   "a photo of a green wine bottle standing on a table",
+   "a photo of a plastic water bottle with a printed label",
+   "a photo of several bottles lined up on a shelf",
+   "a close-up photo of a bottle's neck and cap"
+  ],
+  "bowl": [
+   "a photo of a bowl, a round open dish with curved sides",
+   "a photo of a white ceramic bowl filled with soup",
+   "a photo of a wooden bowl holding fruit",
+   "a photo of a blue patterned bowl on a table",
+   "a photo of stacked bowls in a kitchen cupboard",
+   "a close-up photo of a bowl's smooth glazed rim"
+  ],
+  "boy": [
+   "a photo of a boy, a young male child with short hair",
+   "a photo of a boy in a t-shirt smiling at the camera",
+   "a photo of a boy playing outdoors in a park",
+   "a photo of a boy sitting at a table with a book",
+   "a photo of a boy wearing a cap and jacket",
+   "a close-up photo of a boy's face with bright eyes"
+  ],
+  "bridge": [
+   "a photo of a bridge, a long structure spanning a river with supporting arches",
+   "a photo of a steel suspension bridge with tall towers and cables",
+   "a photo of a stone arch bridge over a stream",
+   "a photo of a bridge carrying a road across a wide valley",
+   "a photo of a bridge reflected in still water at dusk",
+   "a close-up photo of a bridge's girders and railings"
+  ],
+  "bus": [
+   "a photo of a bus, a long boxy vehicle with many windows and a wide windscreen",
+   "a photo of a red double decker bus on a city street",
+   "a photo of a yellow school bus parked outside",
+   "a photo of a bus at a stop with passengers boarding",
+   "a photo of a blue city bus driving past buildings",
+   "a close-up photo of a bus's front grille and destination sign"
+  ],
+  "butterfly": [
+   "a photo of a butterfly, an insect with large brightly patterned wings",
+   "a photo of an orange and black monarch butterfly on a flower",
+   "a photo of a blue butterfly with wings spread open",
+   "a photo of a butterfly resting on a green leaf with wings closed",
+   "a photo of a butterfly feeding on nectar from a purple bloom",
+   "a close-up photo of a butterfly's patterned wing scales and thin antennae"
+  ],
+  "camel": [
+   "a photo of a camel, a tall desert mammal with one or two humps and a long neck",
+   "a photo of a camel standing on golden sand dunes",
+   "a photo of a camel with shaggy tan fur and long legs",
+   "a photo of a camel walking in a caravan across the desert",
+   "a photo of a camel with a saddle and colourful blanket",
+   "a close-up photo of a camel's face with long lashes and a soft muzzle"
+  ],
+  "can": [
+   "a photo of a can, a cylindrical metal container with a pull tab lid",
+   "a photo of an aluminium drink can with a colourful printed label",
+   "a photo of a tin can of food with a paper wrapper",
+   "a photo of several cans stacked on a supermarket shelf",
+   "a photo of a dented steel can on a table",
+   "a close-up photo of a can's ribbed rim and pull tab"
+  ],
+  "castle": [
+   "a photo of a castle, a large stone fortress with towers and battlements",
+   "a photo of a medieval castle on a hilltop against a blue sky",
+   "a photo of a castle with round turrets and a drawbridge",
+   "a photo of castle walls with narrow slit windows",
+   "a photo of a fairytale castle with pointed spires",
+   "a close-up photo of a castle's stone wall and crenellated parapet"
+  ],
+  "caterpillar": [
+   "a photo of a caterpillar, a long segmented larva with many small legs",
+   "a photo of a green caterpillar crawling along a leaf edge",
+   "a photo of a fuzzy striped caterpillar on a twig",
+   "a photo of a caterpillar with bright yellow and black bands",
+   "a photo of a caterpillar arching its body as it moves",
+   "a close-up photo of a caterpillar's segmented body and tiny prolegs"
+  ],
+  "cattle": [
+   "a photo of cattle, large hoofed farm animals with broad bodies and short horns",
+   "a photo of a black and white dairy cow standing in a green field",
+   "a photo of a brown cow grazing on grass",
+   "a photo of a herd of cattle in a pasture",
+   "a photo of a cow with a tagged ear and a heavy neck",
+   "a close-up photo of a cow's face with a broad wet nose"
+  ],
+  "chair": [
+   "a photo of a chair, a seat with four legs and an upright back",
+   "a photo of a wooden dining chair beside a table",
+   "a photo of an upholstered armchair in a living room",
+   "a photo of a plastic chair on a patio",
+   "a photo of a chair with a woven cane seat",
+   "a close-up photo of a chair's backrest and joined legs"
+  ],
+  "chimpanzee": [
+   "a photo of a chimpanzee, a dark furred ape with a bare face and large ears",
+   "a photo of a chimpanzee sitting and looking directly ahead",
+   "a photo of a chimpanzee climbing among branches",
+   "a photo of a chimpanzee with long arms and black hair",
+   "a photo of a young chimpanzee clinging to an adult",
+   "a close-up photo of a chimpanzee's expressive face and brow ridge"
+  ],
+  "clock": [
+   "a photo of a clock, a round face with numbered markings and moving hands",
+   "a photo of a wall clock with black hands on a white dial",
+   "a photo of an antique clock in a wooden case",
+   "a photo of an alarm clock on a bedside table",
+   "a photo of a large clock on a tower facade",
+   "a close-up photo of a clock's dial, numerals and hands"
+  ],
+  "cloud": [
+   "a photo of a cloud, a white billowing mass of vapour in a blue sky",
+   "a photo of fluffy white clouds scattered across a bright sky",
+   "a photo of dark storm clouds gathering above a horizon",
+   "a photo of thin wispy clouds streaking the sky",
+   "a photo of clouds lit orange by a setting sun",
+   "a close-up photo of a cloud's soft billowing edges"
+  ],
+  "cockroach": [
+   "a photo of a cockroach, a flat brown insect with long antennae and six spiny legs",
+   "a photo of a cockroach scurrying across a tiled floor",
+   "a photo of a glossy dark cockroach on a kitchen surface",
+   "a photo of a cockroach with flat oval wing covers",
+   "a photo of a cockroach on wood with its antennae extended",
+   "a close-up photo of a cockroach's shiny shield shaped thorax"
+  ],
+  "couch": [
+   "a photo of a couch, a long upholstered seat with armrests and cushions",
+   "a photo of a grey fabric couch in a living room",
+   "a photo of a brown leather couch with throw pillows",
+   "a photo of a couch against a wall beside a lamp",
+   "a photo of a sectional couch with soft cushions",
+   "a close-up photo of a couch's arm and stitched upholstery"
+  ],
+  "crab": [
+   "a photo of a crab, a flat bodied crustacean with a hard shell and two large claws",
+   "a photo of a red crab walking sideways across wet sand",
+   "a photo of a crab with stalked eyes and eight jointed legs",
+   "a photo of a crab in a shallow rock pool",
+   "a photo of a crab holding its claws raised",
+   "a close-up photo of a crab's textured carapace and pincers"
+  ],
+  "crocodile": [
+   "a photo of a crocodile, a long scaly reptile with a broad snout and many teeth",
+   "a photo of a crocodile basking on a muddy riverbank",
+   "a photo of a crocodile floating with only its eyes above water",
+   "a photo of a crocodile with armoured ridged skin and short legs",
+   "a photo of a crocodile with its jaws open showing teeth",
+   "a close-up photo of a crocodile's scaly snout and slit eye"
+  ],
+  "cup": [
+   "a photo of a cup, a small round vessel with a handle for drinking",
+   "a photo of a white ceramic cup of coffee on a saucer",
+   "a photo of a patterned teacup on a table",
+   "a photo of a paper cup with a plastic lid",
+   "a photo of several cups stacked together",
+   "a close-up photo of a cup's handle and rim"
+  ],
+  "dinosaur": [
+   "a photo of a dinosaur, a large prehistoric reptile with scaly skin and a long tail",
+   "a photo of a dinosaur model standing among ferns",
+   "a photo of a dinosaur skeleton mounted in a museum hall",
+   "a photo of a green toy dinosaur with a spiked back",
+   "a photo of a long necked dinosaur illustration",
+   "a close-up photo of a dinosaur's head with sharp teeth"
+  ],
+  "dolphin": [
+   "a photo of a dolphin, a sleek grey marine mammal with a curved dorsal fin",
+   "a photo of a dolphin leaping out of blue water",
+   "a photo of a dolphin swimming just below the surface",
+   "a photo of a dolphin with a long beaked snout and smooth skin",
+   "a photo of two dolphins swimming side by side",
+   "a close-up photo of a dolphin's face with a curved smiling mouth"
+  ],
+  "elephant": [
+   "a photo of an elephant, a huge grey mammal with a long trunk and large flapping ears",
+   "a photo of an elephant walking across a dry savanna",
+   "a photo of an elephant spraying water with its trunk",
+   "a photo of an elephant with curved ivory tusks",
+   "a photo of a baby elephant beside an adult",
+   "a close-up photo of an elephant's wrinkled grey skin and trunk"
+  ],
+  "flatfish": [
+   "a photo of a flatfish, an oval fish with both eyes on one flattened side",
+   "a photo of a flatfish lying camouflaged on the sandy sea floor",
+   "a photo of a mottled brown flounder resting on sand",
+   "a photo of a flatfish with a fringe of fins around its flat body",
+   "a photo of a flatfish held up showing its pale underside",
+   "a close-up photo of a flatfish's speckled skin and two upward facing eyes"
+  ],
+  "forest": [
+   "a photo of a forest, dense trees with tall trunks and a leafy canopy",
+   "a photo of a green forest with sunlight filtering through leaves",
+   "a photo of a pine forest with straight dark trunks",
+   "a photo of a forest path covered in fallen leaves",
+   "a photo of a misty forest in early morning",
+   "a close-up photo of forest trees and undergrowth"
+  ],
+  "fox": [
+   "a photo of a fox, a slender wild canid with reddish fur and a bushy tail",
+   "a photo of a red fox standing alert in a grassy field",
+   "a photo of a fox with pointed ears and a white tipped tail",
+   "a photo of a fox trotting through snow",
+   "a photo of a fox curled up resting",
+   "a close-up photo of a fox's narrow muzzle and amber eyes"
+  ],
+  "girl": [
+   "a photo of a girl, a young female child with long hair",
+   "a photo of a girl smiling in a colourful dress",
+   "a photo of a girl playing outdoors in a garden",
+   "a photo of a girl sitting and holding a toy",
+   "a photo of a girl with braided hair and a bright shirt",
+   "a close-up photo of a girl's face with a wide smile"
+  ],
+  "hamster": [
+   "a photo of a hamster, a small round rodent with soft fur and tiny ears",
+   "a photo of a golden hamster sitting on wood shavings",
+   "a photo of a hamster with stuffed cheek pouches",
+   "a photo of a hamster held gently in a hand",
+   "a photo of a hamster running in a wheel",
+   "a close-up photo of a hamster's whiskered face and beady black eyes"
+  ],
+  "house": [
+   "a photo of a house, a building with walls, windows and a pitched roof",
+   "a photo of a suburban house with a front lawn and driveway",
+   "a photo of a white wooden house with a porch",
+   "a photo of a brick house with a chimney",
+   "a photo of a small cottage with a garden gate",
+   "a close-up photo of a house's front door and windows"
+  ],
+  "kangaroo": [
+   "a photo of a kangaroo, a marsupial with powerful hind legs and a thick tail",
+   "a photo of a kangaroo standing upright in dry grassland",
+   "a photo of a kangaroo hopping across open ground",
+   "a photo of a kangaroo with a joey in its pouch",
+   "a photo of a kangaroo with tall ears and short forelimbs",
+   "a close-up photo of a kangaroo's face with a long muzzle"
+  ],
+  "keyboard": [
+   "a photo of a keyboard, a flat panel covered in rows of labelled keys",
+   "a photo of a black computer keyboard on a desk",
+   "a photo of a white keyboard beside a mouse",
+   "a photo of a backlit mechanical keyboard glowing",
+   "a photo of a keyboard seen from directly above",
+   "a close-up photo of a keyboard's square keycaps"
+  ],
+  "lamp": [
+   "a photo of a lamp, a light fixture with a shade on a stand or base",
+   "a photo of a table lamp with a fabric shade glowing warmly",
+   "a photo of a tall floor lamp beside a chair",
+   "a photo of a bedside lamp on a nightstand",
+   "a photo of a desk lamp with an adjustable arm",
+   "a close-up photo of a lamp's shade and base"
+  ],
+  "lawn mower": [
+   "a photo of a lawn mower, a wheeled machine with a cutting deck and a push handle",
+   "a photo of a green lawn mower on freshly cut grass",
+   "a photo of a red lawn mower with a grass catcher bag",
+   "a photo of a ride-on lawn mower with a seat and steering wheel",
+   "a photo of a lawn mower parked in a garden shed",
+   "a close-up photo of a lawn mower's wheels and engine housing"
+  ],
+  "leopard": [
+   "a photo of a leopard, a large spotted cat with golden fur and dark rosettes",
+   "a photo of a leopard resting on a tree branch",
+   "a photo of a leopard stalking through tall dry grass",
+   "a photo of a leopard with a long tail and muscular shoulders",
+   "a photo of a leopard staring directly ahead",
+   "a close-up photo of a leopard's rosette patterned coat"
+  ],
+  "lion": [
+   "a photo of a lion, a large tawny cat with a thick brown mane",
+   "a photo of a male lion lying in golden grass",
+   "a photo of a lioness walking across a savanna",
+   "a photo of a lion roaring with its mouth open",
+   "a photo of a lion with a tufted tail and powerful shoulders",
+   "a close-up photo of a lion's face framed by its mane"
+  ],
+  "lizard": [
+   "a photo of a lizard, a small scaly reptile with four legs and a long tail",
+   "a photo of a green lizard basking on a warm rock",
+   "a photo of a brown lizard clinging to a tree trunk",
+   "a photo of a lizard with a ridged back and clawed toes",
+   "a photo of a lizard darting across sand",
+   "a close-up photo of a lizard's scaly head and round eye"
+  ],
+  "lobster": [
+   "a photo of a lobster, a large crustacean with a segmented shell and two big claws",
+   "a photo of a red cooked lobster on a plate",
+   "a photo of a dark blue lobster on the sea floor",
+   "a photo of a lobster with long antennae and a fanned tail",
+   "a photo of lobsters packed on ice at a market",
+   "a close-up photo of a lobster's heavy pincer claw"
+  ],
+  "man": [
+   "a photo of a man, an adult male person with short hair",
+   "a photo of a man wearing a shirt looking at the camera",
+   "a photo of a man standing outdoors in a jacket",
+   "a photo of a bearded man in a casual sweater",
+   "a photo of a man sitting at a desk",
+   "a close-up photo of a man's face"
+  ],
+  "maple tree": [
+   "a photo of a maple tree, a broad tree with lobed leaves and a spreading crown",
+   "a photo of a maple tree with bright red autumn foliage",
+   "a photo of a green maple tree in summer",
+   "a photo of a maple tree lining a quiet street",
+   "a photo of a maple tree with a thick grey trunk",
+   "a close-up photo of a maple tree's five lobed leaves"
+  ],
+  "motorcycle": [
+   "a photo of a motorcycle, a two wheeled motor vehicle with handlebars and an exposed engine",
+   "a photo of a black motorcycle parked at a kerb",
+   "a photo of a rider on a motorcycle on an open road",
+   "a photo of a red sport motorcycle with a fairing",
+   "a photo of a motorcycle with chrome exhaust pipes",
+   "a close-up photo of a motorcycle's engine and front wheel"
+  ],
+  "mountain": [
+   "a photo of a mountain, a tall rocky peak rising above the surrounding land",
+   "a photo of a snow capped mountain against a blue sky",
+   "a photo of a rugged mountain range at sunrise",
+   "a photo of a mountain with steep grey cliffs and green slopes",
+   "a photo of a mountain reflected in a still lake",
+   "a close-up photo of a mountain's rocky ridge line"
+  ],
+  "mouse": [
+   "a photo of a mouse, a tiny grey rodent with round ears and a long thin tail",
+   "a photo of a small brown mouse on a wooden floor",
+   "a photo of a mouse nibbling a seed with its front paws",
+   "a photo of a white mouse with pink ears and eyes",
+   "a photo of a mouse peeking out from behind an object",
+   "a close-up photo of a mouse's whiskered snout and dark eyes"
+  ],
+  "mushroom": [
+   "a photo of a mushroom, a fungus with a rounded cap on a pale stalk",
+   "a photo of a brown capped mushroom growing in moss",
+   "a photo of a red and white spotted toadstool",
+   "a photo of a cluster of mushrooms on a forest floor",
+   "a photo of a mushroom showing the gills beneath its cap",
+   "a close-up photo of a mushroom's smooth cap and thick stem"
+  ],
+  "oak tree": [
+   "a photo of an oak tree, a broad heavy tree with a thick trunk and spreading branches",
+   "a photo of a large oak tree standing alone in a field",
+   "a photo of an oak tree with dense green summer foliage",
+   "a photo of an old oak tree with gnarled rough bark",
+   "a photo of an oak tree with brown autumn leaves",
+   "a close-up photo of an oak tree's lobed leaves and acorns"
+  ],
+  "orange": [
+   "a photo of an orange, a round citrus fruit with bright orange dimpled peel",
+   "a photo of oranges piled together in a crate",
+   "a photo of an orange cut in half showing juicy segments",
+   "a photo of an orange with a green leaf on its stem",
+   "a photo of a single orange on a white surface",
+   "a close-up photo of an orange's pitted rind"
+  ],
+  "orchid": [
+   "a photo of an orchid, an elegant flower with broad petals and a patterned lip",
+   "a photo of a white orchid with a purple centre on an arching stem",
+   "a photo of a pink orchid in a small pot",
+   "a photo of several orchid blooms along a slender stalk",
+   "a photo of a spotted orchid flower against green leaves",
+   "a close-up photo of an orchid's petals and central column"
+  ],
+  "otter": [
+   "a photo of an otter, a sleek brown mammal with a long body and thick tail",
+   "a photo of an otter floating on its back in water",
+   "a photo of an otter with wet glossy fur on a river bank",
+   "a photo of an otter holding food in its small front paws",
+   "a photo of an otter swimming with its head above the surface",
+   "a close-up photo of an otter's whiskered face and small ears"
+  ],
+  "palm tree": [
+   "a photo of a palm tree, a tall slender trunk topped with long fan shaped fronds",
+   "a photo of palm trees along a sandy beach",
+   "a photo of a palm tree against a bright blue sky",
+   "a photo of a palm tree with coconuts among its fronds",
+   "a photo of a row of palm trees lining a road",
+   "a close-up photo of a palm tree's crown of feathery fronds"
+  ],
+  "pear": [
+   "a photo of a pear, a fruit with a narrow top and a rounded base",
+   "a photo of a green pear with a short brown stem",
+   "a photo of yellow pears in a bowl",
+   "a photo of a pear resting on a wooden table",
+   "a photo of a ripe pear with a faint red blush",
+   "a close-up photo of a pear's speckled skin"
+  ],
+  "pickup truck": [
+   "a photo of a pickup truck, a vehicle with a cab and an open rear cargo bed",
+   "a photo of a red pickup truck parked on gravel",
+   "a photo of a pickup truck carrying cargo in its bed",
+   "a photo of a large pickup truck with big wheels",
+   "a photo of an old pickup truck in a field",
+   "a close-up photo of a pickup truck's cab and open bed"
+  ],
+  "pine tree": [
+   "a photo of a pine tree, a tall conifer with needle leaves and a conical shape",
+   "a photo of pine trees in a dense evergreen forest",
+   "a photo of a pine tree covered in snow",
+   "a photo of a pine tree with cones hanging from its branches",
+   "a photo of a tall pine against a clear sky",
+   "a close-up photo of a pine tree's needle clusters and cones"
+  ],
+  "plain": [
+   "a photo of a plain, a wide flat expanse of open grassland to the horizon",
+   "a photo of a grassy plain under a big open sky",
+   "a photo of a dry golden plain stretching into the distance",
+   "a photo of a flat green plain with distant hills",
+   "a photo of an empty plain with scattered low vegetation",
+   "a close-up photo of a plain's flat grassy ground"
+  ],
+  "plate": [
+   "a photo of a plate, a flat round dish with a shallow rim",
+   "a photo of a white ceramic plate on a table",
+   "a photo of a patterned blue plate with a decorated edge",
+   "a photo of a stack of clean plates",
+   "a photo of a plate holding a served meal",
+   "a close-up photo of a plate's smooth glazed rim"
+  ],
+  "poppy": [
+   "a photo of a poppy, a flower with delicate bright red petals and a dark centre",
+   "a photo of red poppies growing in a green field",
+   "a photo of a single poppy on a slender hairy stem",
+   "a photo of an orange poppy with crinkled petals",
+   "a photo of poppies swaying among grass",
+   "a close-up photo of a poppy's dark seed head and thin petals"
+  ],
+  "porcupine": [
+   "a photo of a porcupine, a stocky rodent covered in long sharp quills",
+   "a photo of a porcupine with black and white banded spines",
+   "a photo of a porcupine walking on a forest floor",
+   "a photo of a porcupine with its quills raised",
+   "a photo of a porcupine climbing a tree branch",
+   "a close-up photo of a porcupine's quills and blunt snout"
+  ],
+  "possum": [
+   "a photo of a possum, a grey furred marsupial with a pointed snout and a bare tail",
+   "a photo of an opossum with white face fur and pink nose",
+   "a photo of a possum climbing along a branch at night",
+   "a photo of a possum with small rounded ears and dark eyes",
+   "a photo of a possum on a fence in the dark",
+   "a close-up photo of a possum's pointed face and whiskers"
+  ],
+  "rabbit": [
+   "a photo of a rabbit, a small furry animal with long ears and a fluffy tail",
+   "a photo of a brown rabbit sitting on green grass",
+   "a photo of a white rabbit with pink ears",
+   "a photo of a rabbit with its ears upright and alert",
+   "a photo of a rabbit nibbling a leaf",
+   "a close-up photo of a rabbit's face with twitching whiskers"
+  ],
+  "raccoon": [
+   "a photo of a raccoon, a grey furred animal with a black mask and a ringed tail",
+   "a photo of a raccoon peering out from behind a log",
+   "a photo of a raccoon standing on its hind legs",
+   "a photo of a raccoon with dexterous black paws",
+   "a photo of a raccoon climbing a tree trunk",
+   "a close-up photo of a raccoon's masked face and pointed snout"
+  ],
+  "ray": [
+   "a photo of a ray, a flat diamond shaped fish with broad wing like fins",
+   "a photo of a stingray gliding over a sandy sea floor",
+   "a photo of a ray with a long whip like tail",
+   "a photo of a ray swimming with its fins rippling",
+   "a photo of a ray half buried in sand",
+   "a close-up photo of a ray's pale underside and mouth"
+  ],
+  "road": [
+   "a photo of a road, a paved strip with painted lane markings running into the distance",
+   "a photo of an empty asphalt road through open countryside",
+   "a photo of a winding road with a dashed centre line",
+   "a photo of a wet road reflecting light",
+   "a photo of a road bordered by trees on both sides",
+   "a close-up photo of a road's asphalt surface and white line"
+  ],
+  "rocket": [
+   "a photo of a rocket, a tall cylindrical spacecraft with fins and a pointed nose",
+   "a photo of a white rocket standing on a launch pad",
+   "a photo of a rocket lifting off with a bright flame and smoke",
+   "a photo of a rocket with black and white markings",
+   "a photo of a model rocket against a blue sky",
+   "a close-up photo of a rocket's nose cone and body"
+  ],
+  "rose": [
+   "a photo of a rose, a flower with many layered petals on a thorny stem",
+   "a photo of a red rose in full bloom",
+   "a photo of a pink rose with dew on its petals",
+   "a photo of a white rose against dark green leaves",
+   "a photo of a bouquet of roses",
+   "a close-up photo of a rose's tightly furled inner petals"
+  ],
+  "sea": [
+   "a photo of the sea, a vast expanse of blue water meeting the sky",
+   "a photo of the sea with gentle waves and white foam",
+   "a photo of a calm turquoise sea near a shore",
+   "a photo of a rough grey sea under a cloudy sky",
+   "a photo of the sea at sunset with orange reflections",
+   "a close-up photo of the sea's rippling water surface"
+  ],
+  "seal": [
+   "a photo of a seal, a smooth bodied marine mammal with flippers and large dark eyes",
+   "a photo of a grey seal resting on a rocky shore",
+   "a photo of a seal swimming with its head above water",
+   "a photo of a seal with sleek wet fur and short whiskers",
+   "a photo of a seal pup lying on a beach",
+   "a close-up photo of a seal's rounded face and dark eyes"
+  ],
+  "shark": [
+   "a photo of a shark, a large grey fish with a triangular dorsal fin and pointed snout",
+   "a photo of a shark swimming through deep blue water",
+   "a photo of a shark with rows of sharp teeth",
+   "a photo of a shark with a streamlined body and crescent tail",
+   "a photo of a shark seen from below against light",
+   "a close-up photo of a shark's head and gill slits"
+  ],
+  "shrew": [
+   "a photo of a shrew, a tiny mouse like mammal with a long pointed snout",
+   "a photo of a small brown shrew among leaf litter",
+   "a photo of a shrew with velvety dark fur and tiny eyes",
+   "a photo of a shrew foraging on the ground",
+   "a photo of a shrew with a slender tail and small ears",
+   "a close-up photo of a shrew's elongated whiskered nose"
+  ],
+  "skunk": [
+   "a photo of a skunk, a black animal with bold white stripes down its back",
+   "a photo of a skunk with a bushy black and white tail",
+   "a photo of a skunk walking across grass at dusk",
+   "a photo of a skunk with a small pointed head",
+   "a photo of a skunk foraging near a log",
+   "a close-up photo of a skunk's striped fur and dark face"
+  ],
+  "skyscraper": [
+   "a photo of a skyscraper, a very tall building with many rows of windows",
+   "a photo of a glass skyscraper reflecting the sky",
+   "a photo of a skyscraper photographed from street level looking up",
+   "a photo of skyscrapers forming a city skyline",
+   "a photo of a skyscraper with a tapering spire",
+   "a close-up photo of a skyscraper's glass and steel facade"
+  ],
+  "snail": [
+   "a photo of a snail, a soft bodied mollusc carrying a coiled spiral shell",
+   "a photo of a garden snail crawling on a wet leaf",
+   "a photo of a snail with its eye stalks extended",
+   "a photo of a brown striped snail shell",
+   "a photo of a snail leaving a glistening trail",
+   "a close-up photo of a snail's spiral shell and tentacles"
+  ],
+  "snake": [
+   "a photo of a snake, a long limbless reptile covered in smooth scales",
+   "a photo of a coiled snake on warm ground",
+   "a photo of a green snake draped over a branch",
+   "a photo of a patterned snake with dark bands",
+   "a photo of a snake with its forked tongue extended",
+   "a close-up photo of a snake's scaled head and lidless eye"
+  ],
+  "spider": [
+   "a photo of a spider, an eight legged arachnid with a rounded body",
+   "a photo of a spider sitting at the centre of its web",
+   "a photo of a large hairy spider on a wall",
+   "a photo of a spider with long thin legs on a leaf",
+   "a photo of a black spider with a patterned abdomen",
+   "a close-up photo of a spider's multiple eyes and jointed legs"
+  ],
+  "squirrel": [
+   "a photo of a squirrel, a small rodent with a bushy tail and large dark eyes",
+   "a photo of a grey squirrel sitting upright holding a nut",
+   "a photo of a red squirrel on a tree branch",
+   "a photo of a squirrel with its tail curled over its back",
+   "a photo of a squirrel running across grass",
+   "a close-up photo of a squirrel's face and tufted ears"
+  ],
+  "streetcar": [
+   "a photo of a streetcar, a long rail vehicle running on tracks in a city street",
+   "a photo of a red streetcar with overhead electric wires",
+   "a photo of a vintage tram on cobbled rails",
+   "a photo of a streetcar stopped at a platform",
+   "a photo of a yellow streetcar with many windows",
+   "a close-up photo of a streetcar's front and destination sign"
+  ],
+  "sunflower": [
+   "a photo of a sunflower, a large yellow flower with a dark round centre",
+   "a photo of a sunflower on a tall thick green stem",
+   "a photo of a field of sunflowers facing the sun",
+   "a photo of a sunflower with broad golden petals",
+   "a photo of a sunflower head full of dark seeds",
+   "a close-up photo of a sunflower's centre and radiating petals"
+  ],
+  "sweet pepper": [
+   "a photo of a sweet pepper, a glossy bell shaped vegetable with a green stem",
+   "a photo of a red bell pepper on a wooden board",
+   "a photo of yellow and green sweet peppers together",
+   "a photo of a sweet pepper cut open showing hollow inside",
+   "a photo of sweet peppers in a market basket",
+   "a close-up photo of a sweet pepper's shiny lobed skin"
+  ],
+  "table": [
+   "a photo of a table, a flat top surface supported on four legs",
+   "a photo of a wooden dining table with chairs around it",
+   "a photo of a round table with a cloth",
+   "a photo of a small side table beside a sofa",
+   "a photo of a table set with plates and glasses",
+   "a close-up photo of a table's wooden top and leg"
+  ],
+  "tank": [
+   "a photo of a tank, an armoured military vehicle with a gun turret and steel tracks",
+   "a photo of a camouflaged tank on rough ground",
+   "a photo of a green tank in a museum display",
+   "a photo of a tank with a long barrel and sloped armour",
+   "a photo of a tank driving and raising dust",
+   "a close-up photo of a tank's tracks and road wheels"
+  ],
+  "telephone": [
+   "a photo of a telephone, a handset and base with a dial or buttons",
+   "a photo of an old rotary telephone with a circular dial",
+   "a photo of a black corded telephone on a desk",
+   "a photo of a red telephone with a coiled cord",
+   "a photo of a wall mounted telephone",
+   "a close-up photo of a telephone's keypad and handset"
+  ],
+  "television": [
+   "a photo of a television, a rectangular screen in a dark frame",
+   "a photo of a flat screen television on a stand",
+   "a photo of an old boxy television with knobs",
+   "a photo of a television mounted on a wall",
+   "a photo of a television displaying a bright picture",
+   "a close-up photo of a television's screen and bezel"
+  ],
+  "tiger": [
+   "a photo of a tiger, a large orange cat with bold black stripes",
+   "a photo of a tiger walking through tall grass",
+   "a photo of a tiger resting with its paws stretched forward",
+   "a photo of a tiger with a white chest and striped face",
+   "a photo of a tiger staring intently ahead",
+   "a close-up photo of a tiger's striped face and amber eyes"
+  ],
+  "tractor": [
+   "a photo of a tractor, a farm vehicle with huge rear wheels and a raised cab",
+   "a photo of a green tractor working in a ploughed field",
+   "a photo of a red tractor parked beside a barn",
+   "a photo of a tractor pulling farm equipment",
+   "a photo of an old tractor with an exposed engine",
+   "a close-up photo of a tractor's large treaded rear wheel"
+  ],
+  "train": [
+   "a photo of a train, a long line of connected carriages running on rails",
+   "a photo of a train travelling along a railway track",
+   "a photo of a steam train with smoke rising from its funnel",
+   "a photo of a modern passenger train at a platform",
+   "a photo of a freight train with many wagons",
+   "a close-up photo of a train's locomotive front"
+  ],
+  "trout": [
+   "a photo of a trout, a streamlined freshwater fish with a speckled body",
+   "a photo of a trout held above a river",
+   "a photo of a rainbow trout with a pink stripe along its side",
+   "a photo of a trout swimming over gravel in clear water",
+   "a photo of a spotted brown trout",
+   "a close-up photo of a trout's speckled scales and fins"
+  ],
+  "tulip": [
+   "a photo of a tulip, a cup shaped flower on a smooth green stem",
+   "a photo of red tulips in a garden bed",
+   "a photo of a yellow tulip with closed pointed petals",
+   "a photo of a field of colourful tulips in rows",
+   "a photo of a pink tulip with broad green leaves",
+   "a close-up photo of a tulip's smooth curved petals"
+  ],
+  "turtle": [
+   "a photo of a turtle, a reptile with a hard domed shell and short scaly legs",
+   "a photo of a turtle walking slowly on grass",
+   "a photo of a sea turtle swimming with broad flippers",
+   "a photo of a turtle basking on a log by water",
+   "a photo of a turtle with a patterned shell and wrinkled neck",
+   "a close-up photo of a turtle's head and segmented shell"
+  ],
+  "wardrobe": [
+   "a photo of a wardrobe, a tall wooden cabinet with hinged doors for clothes",
+   "a photo of a dark wooden wardrobe against a bedroom wall",
+   "a photo of a wardrobe with a mirrored door",
+   "a photo of an open wardrobe showing hanging clothes",
+   "a photo of a white wardrobe with brass handles",
+   "a close-up photo of a wardrobe's door panel and handle"
+  ],
+  "whale": [
+   "a photo of a whale, an enormous marine mammal with a broad tail fluke",
+   "a photo of a whale breaching out of the ocean",
+   "a photo of a whale's tail rising above the water",
+   "a photo of a whale swimming just under the surface",
+   "a photo of a whale spouting a plume of water",
+   "a close-up photo of a whale's dark ridged skin and blowhole"
+  ],
+  "willow tree": [
+   "a photo of a willow tree, a tree with long slender drooping branches",
+   "a photo of a weeping willow beside a pond",
+   "a photo of a willow tree with trailing leaves touching the water",
+   "a photo of a willow tree with a short thick trunk",
+   "a photo of a willow tree swaying in the wind",
+   "a close-up photo of a willow tree's narrow hanging leaves"
+  ],
+  "wolf": [
+   "a photo of a wolf, a large wild canid with thick grey fur and erect ears",
+   "a photo of a wolf standing in a snowy forest",
+   "a photo of a wolf with a bushy tail and yellow eyes",
+   "a photo of a wolf howling with its muzzle raised",
+   "a photo of a wolf pack moving through open ground",
+   "a close-up photo of a wolf's face and dense neck fur"
+  ],
+  "woman": [
+   "a photo of a woman, an adult female person",
+   "a photo of a woman smiling at the camera",
+   "a photo of a woman with long hair wearing a jacket",
+   "a photo of a woman standing outdoors",
+   "a photo of a woman sitting and reading",
+   "a close-up photo of a woman's face"
+  ],
+  "worm": [
+   "a photo of a worm, a long soft segmented body with no legs",
+   "a photo of an earthworm on dark damp soil",
+   "a photo of a pink worm curled on the ground",
+   "a photo of a worm partly emerging from earth",
+   "a photo of a worm stretched across a wet surface",
+   "a close-up photo of a worm's ringed segmented body"
+  ]
+ }
+}
