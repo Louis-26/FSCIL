@@ -360,3 +360,5 @@ logs/
 *.pt
 *.pth
 # keep the small result tables and figures under results/
+
+tmp_*/

@@ -1,6 +1,5 @@
 """
 DiffusionFSCIL Training Script
-简化的训练脚本 - 专注于扩散模型训练
 """
 import argparse
 import torch
@@ -32,6 +31,7 @@ sys.argv = [
     "-seed", "1"
 ]
 
+
 def display_device_info(PROJECT_NAME, DATASET, GPU_ID):
     # Get the number of available CUDA devices
     num_cuda_devices = torch.cuda.device_count()
@@ -55,23 +55,24 @@ def display_device_info(PROJECT_NAME, DATASET, GPU_ID):
         """
           )
 
+
 def get_command_line_parser():
     parser = argparse.ArgumentParser(description='DiffusionFSCIL Training')
 
-    # ========== 基础设置 ==========
+    # ========== basic setting ==========
     parser.add_argument('-project', type=str, default=PROJECT, help='Project name')
     parser.add_argument('-dataset', type=str, default='cifar100',
                         choices=['cifar100', 'mini_imagenet', 'cub200'],
                         help='Dataset name')
     parser.add_argument('-dataroot', type=str, default=DATA_DIR, help='Data root directory')
 
-    # ========== FSCIL设置 ==========
+    # ========== FSCIL setting ==========
     parser.add_argument('-way', type=int, default=5, help='Classes per incremental session')
     parser.add_argument('-shot', type=int, default=5, help='Shots per class')
     parser.add_argument('-sessions', type=int, default=9, help='Total number of sessions')
     parser.add_argument('-base_class', type=int, default=60, help='Number of base classes')
 
-    # ========== 扩散模型设置 ==========
+    # ========== diffusion model setting ==========
     parser.add_argument('-num_diffusion_steps', type=int, default=1000,
                         help='Number of diffusion timesteps (default: 1000)')
     parser.add_argument('-ddim_steps', type=int, default=50,
@@ -81,7 +82,7 @@ def get_command_line_parser():
     parser.add_argument('-batch_size_diffusion', type=int, default=256,
                         help='Batch size for diffusion training')
 
-    # ========== 训练设置 ==========
+    # ========== training setting ==========
     parser.add_argument('-epochs_base', type=int, default=100,
                         help='Training epochs for base session')
     parser.add_argument('-batch_size_base', type=int, default=128,
@@ -89,39 +90,42 @@ def get_command_line_parser():
     parser.add_argument('-test_batch_size', type=int, default=100,
                         help='Batch size for testing')
 
-    # ========== 环境设置 ==========
+    # ========== environment setting ==========
     parser.add_argument('-gpu', type=str, default='0', help='GPU device ID')
     parser.add_argument('-num_workers', type=int, default=8,
                         help='Number of workers for data loading')
     parser.add_argument('-seed', type=int, default=1, help='Random seed')
 
-    # ========== 其他设置 ==========
+    # ========== other setting ==========
     parser.add_argument('-debug', action='store_true', help='Debug mode')
     parser.add_argument('-start_session', type=int, default=0,
                         help='Starting session (0=from scratch)')
     parser.add_argument('-resume', type=str, default=None,
                         help='Resume from checkpoint')
 
-    # ========== 数据集特定参数（自动设置） ==========
+    # ========== dataset-specific parameters (automatically configured) ==========
     parser.add_argument('-image_size', type=int, default=224,
                         help='Input image size')
     parser.add_argument('-num_classes', type=int, default=None,
                         help='Total number of classes (auto-set)')
 
-    # ========== PKSampler参数 ==========
+    # ========== PKSampler ==========
     parser.add_argument('-p', type=int, default=64, help='P for PKSampler')
     parser.add_argument('-k', type=int, default=8, help='K for PKSampler')
 
-    # ========== 数据集特定参数（增量） ==========
-    parser.add_argument('-dataset_seed', type=int, default=None, help='Dataset seed for reproducibility')
-    parser.add_argument('-num_workers_new', type=int, default=0, help='Workers for incremental data loading')
-    parser.add_argument('-batch_size_new', type=int, default=0, help='Batch size for incremental sessions (0=use all)')
+    # ========== dataset-specific parameters (incremental sessions) ==========
+    parser.add_argument('-dataset_seed', type=int, default=None,
+                        help='Dataset seed for reproducibility')
+    parser.add_argument('-num_workers_new', type=int, default=0,
+                        help='Workers for incremental data loading')
+    parser.add_argument('-batch_size_new', type=int, default=0,
+                        help='Batch size for incremental sessions (0=use all)')
 
     return parser
 
 
 def set_seed(seed):
-    """设置随机种子"""
+    """Set the random seed."""
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
@@ -132,7 +136,7 @@ def set_seed(seed):
 
 
 def auto_config_dataset(args):
-    """自动配置数据集参数"""
+    """Automatically configure dataset-specific parameters."""
     # way: number of different classes in each session
     # shot: number of additional samples in each session
     if args.dataset == 'cifar100':
@@ -169,27 +173,27 @@ def auto_config_dataset(args):
 
 
 def main():
-    """主函数"""
-    # 解析参数
+    """Main function."""
+    # Parse arguments
     parser = get_command_line_parser()
     args = parser.parse_args()
 
-    # 设置GPU
+    # Set GPU
     import os
     os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
 
-    # 设置随机种子
+    # Set random seed
     set_seed(args.seed)
     log.info(f"Random seed set to {args.seed}")
 
-    # 自动配置数据集
+    # Automatically configure dataset-specific parameters
     auto_config_dataset(args)
 
-    # 设置数据集加载器（导入Dataset模块）
+    # Set up the dataset loader (import the Dataset module)
     from dataloader.data_utils import set_up_datasets
     args = set_up_datasets(args)
 
-    # 打印配置
+    # Print configuration
     log.info("\n" + "=" * 60)
     log.info("DiffusionFSCIL Configuration")
     log.info("=" * 60)
@@ -197,26 +201,26 @@ def main():
         log.info(f"{key:30s}: {value}")
     log.info("=" * 60 + "\n")
 
-    # 创建训练器
+    # Create the trainer
     trainer = FSCILTrainer(args)
 
-    # 开始训练
+    # Start training
     if args.start_session == 0:
-        # 从头开始
+        # Start from scratch
         trainer.run()
     else:
-        # 从某个session恢复
+        # Resume from a specific session
         log.info(f"Resuming from session {args.start_session}...")
 
-        # 加载之前的checkpoint
+        # Load the previous checkpoint
         if args.resume:
             trainer.load_checkpoint(args.resume)
         else:
-            # 尝试自动加载
+            # Attempt to load the checkpoint automatically
             prev_session = args.start_session - 1
             trainer.load_checkpoint(f'session{prev_session}_diffusion.pth')
 
-        # 继续训练
+        # Continue training
         for session in range(args.start_session, args.sessions):
             if session == 0:
                 trainer.train_base()
